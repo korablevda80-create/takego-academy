@@ -1,8 +1,8 @@
-(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,27250,t=>{"use strict";let e=[{id:1,title:"Стажёр",color:"pink",bgClass:"bg-pink-100",textClass:"text-pink-700",borderClass:"border-pink-300",minScore:70,minWeeks:0},{id:2,title:"Продавец-кассир",color:"blue",bgClass:"bg-blue-100",textClass:"text-blue-700",borderClass:"border-blue-300",minScore:75,minWeeks:4},{id:3,title:"Старший смены",color:"purple",bgClass:"bg-purple-100",textClass:"text-purple-700",borderClass:"border-purple-300",minScore:80,minWeeks:12},{id:4,title:"Старший продавец",color:"amber",bgClass:"bg-amber-100",textClass:"text-amber-700",borderClass:"border-amber-300",minScore:85,minWeeks:24}],d=[{id:1,grade:1,title:"Велком-бук",description:"Знакомство с компанией, командой и ценностями Take&Go.",lessonCount:4,duration:"15 мин",icon:"store",track:"onboarding",status:"done"},{id:3,grade:1,title:"Касса",description:"Работа с кассовым оборудованием, оплата, возврат.",lessonCount:15,duration:"20 мин",icon:"cash",track:"functional",status:"done"},{id:4,grade:1,title:"Открытие и закрытие",description:"Процедуры открытия и закрытия магазина.",lessonCount:13,duration:"15 мин",icon:"key",track:"functional",status:"done"},{id:5,grade:1,title:"Работа на ТСД",description:"Терминал сбора данных: печать ценников, приёмка алкоголя.",lessonCount:14,duration:"14 мин",icon:"scan",track:"functional",status:"done"},{id:6,grade:1,title:"Чистота и порядок",description:"Стандарты уборки зала, складских зон и кассовой зоны.",lessonCount:12,duration:"12 мин",icon:"sparkles",track:"functional",status:"done"},{id:8,grade:1,title:"Приёмка товара",description:"Как принимать товар: документы, проверка, размещение.",lessonCount:16,duration:"16 мин",icon:"box",track:"functional",status:"done"},{id:9,grade:1,title:"Выкладка и мерчандайзинг",description:"Правила выкладки, зонирование, ротация.",lessonCount:14,duration:"14 мин",icon:"grid",track:"functional",status:"done"},{id:10,grade:1,title:"Экстренные ситуации",description:"Пожар, кража, конфликт — алгоритм действий.",lessonCount:16,duration:"16 мин",icon:"alert",track:"functional",status:"done"},{id:20,grade:1,title:"Стандарты внешнего вида",description:"Форма, бейдж, обувь, гигиена — как должен выглядеть сотрудник.",lessonCount:11,duration:"11 мин",icon:"check",track:"functional",status:"done"},{id:11,grade:1,title:"Ассортимент магазина",description:"Формат convenience store, 5 групп товаров, наша фишка.",lessonCount:7,duration:"7 мин",icon:"store",track:"merch",status:"done"},{id:12,grade:1,title:"Табак",description:"Категории, хранение, Morrison — собственный бренд Take&Go.",lessonCount:15,duration:"15 мин",icon:"smoke",track:"merch",status:"done"},{id:13,grade:1,title:"Алкоголь",description:"Категории, ЕГАИС, часы продажи, лимитки и Jägermeister.",lessonCount:13,duration:"13 мин",icon:"wine",track:"merch",status:"done"},{id:14,grade:1,title:"Напитки безалкогольные",description:"Энергетики, HQD и Monster — наша экспертиза, Честный знак.",lessonCount:15,duration:"15 мин",icon:"cup",track:"merch",status:"done"},{id:15,grade:1,title:"Продукты",description:"Сладкое, снеки, зона лапши, мороженое — ассортимент и хранение.",lessonCount:10,duration:"10 мин",icon:"food",track:"merch",status:"done"},{id:16,grade:1,title:"Прочие товары",description:"Стакан со льдом — товар №1, пакеты, «Бери заряд», сезонка.",lessonCount:10,duration:"10 мин",icon:"bag",track:"merch",status:"done"},{id:17,grade:1,title:"Коктейльные наборы",description:"5 полок, крепость, топы, секретка — как собирать и продавать.",lessonCount:15,duration:"15 мин",icon:"cocktail",track:"merch",status:"done"},{id:18,grade:1,title:"Регуляторика 18+ и маркировка",description:"Три категории 18+, акциз vs Честный знак, ЕГАИС и УТМ.",lessonCount:14,duration:"14 мин",icon:"shield",track:"merch",status:"done"},{id:19,grade:1,title:"Итоговая аттестация G1",description:"Чек-лист, 6 сценариев смены и финальный тест — 10 вопросов.",lessonCount:8,duration:"20 мин",icon:"award",track:"attestation",status:"done",quizSize:10},{id:21,grade:2,title:"Табак — углублённо",description:"Критерии выбора, 21 бренд, контракты производителей и зажигалки.",lessonCount:142,duration:"150 мин",icon:"smoke",track:"merch",status:"done",quizSize:15},{id:22,grade:2,title:"Крепкий алкоголь",description:"Водка, виски, ром, джин — продуктовая экспертиза.",lessonCount:8,duration:"20 мин",icon:"wine",track:"merch",status:"pending"},{id:23,grade:2,title:"Вино",description:"Тихие, игристые, розовые — базовая сомелье-программа.",lessonCount:8,duration:"20 мин",icon:"wine",track:"merch",status:"pending"},{id:24,grade:2,title:"Коктейли — углублённо",description:"Расширенное меню, кастомизация, работа с гостем.",lessonCount:10,duration:"25 мин",icon:"cocktail",track:"merch",status:"pending"},{id:25,grade:2,title:"Напитки — углублённо",description:"Состав, вкусовой профиль, рекомендации к продуктам.",lessonCount:8,duration:"20 мин",icon:"cup",track:"merch",status:"pending"},{id:34,grade:2,title:"Альтернативный табак и ЭСДН",description:"Сигариллы, сигары, кретек, кальян, самокрутки, стики и электронные сигареты.",lessonCount:42,duration:"45 мин",icon:"smoke",track:"merch",status:"done",quizSize:10},{id:27,grade:2,title:"СТМ",description:"Собственная торговая марка Take&Go — продукты и продажи.",lessonCount:6,duration:"15 мин",icon:"tag",track:"merch",status:"pending"},{id:28,grade:2,title:"Как начать разговор с гостем",description:"Первый контакт, приветствие, открытые вопросы.",lessonCount:6,duration:"15 мин",icon:"users",track:"sales",status:"pending"},{id:29,grade:2,title:"Выявление потребности",description:"Техники вопросов, активное слушание, уточнение.",lessonCount:6,duration:"15 мин",icon:"search",track:"sales",status:"pending"},{id:30,grade:2,title:"Рекомендация и консультирование",description:"Как советовать уверенно и попасть в потребность гостя.",lessonCount:7,duration:"18 мин",icon:"star",track:"sales",status:"pending"},{id:31,grade:2,title:"Допродажи и апсейл",description:"Предложение сопутствующих товаров без давления.",lessonCount:6,duration:"15 мин",icon:"plus",track:"sales",status:"pending"},{id:32,grade:2,title:"Работа с жалобами",description:"Алгоритм разрешения конфликтов, возвраты, эскалация.",lessonCount:7,duration:"18 мин",icon:"chat",track:"sales",status:"pending"},{id:33,grade:2,title:"Аттестация G2",description:"Итоговый тест G2 — продуктовая экспертиза и продажи.",lessonCount:15,duration:"20 мин",icon:"award",track:"attestation",status:"pending"},{id:41,grade:3,title:"Работа с возражениями",description:"Техники работы с «дорого», «не нужно», «подумаю».",lessonCount:7,duration:"18 мин",icon:"shield",track:"sales",status:"pending"},{id:42,grade:3,title:"Техника речи и коммуникация",description:"Голос, темп, формулировки — профессиональная речь.",lessonCount:6,duration:"15 мин",icon:"mic",track:"sales",status:"pending"},{id:43,grade:3,title:"Постановка задач смене",description:"Как ставить задачи чётко и проверять выполнение.",lessonCount:6,duration:"15 мин",icon:"list",track:"management",status:"pending"},{id:44,grade:3,title:"Контроль стандартов",description:"Чек-листы, обходы, мгновенная обратная связь.",lessonCount:6,duration:"15 мин",icon:"check",track:"management",status:"pending"},{id:45,grade:3,title:"Введение новичка в смену",description:"Как встретить нового сотрудника и ввести в работу.",lessonCount:5,duration:"12 мин",icon:"user-plus",track:"management",status:"pending"},{id:46,grade:3,title:"Обратная связь 1:1",description:"Конструктивная обратная связь без демотивации.",lessonCount:6,duration:"15 мин",icon:"chat",track:"management",status:"pending"},{id:47,grade:3,title:"Управление очередью",description:"Распределение задач при пиковой нагрузке.",lessonCount:5,duration:"12 мин",icon:"users",track:"management",status:"pending"},{id:48,grade:3,title:"Показатели смены",description:"Выручка, средний чек, конверсия — чтение и реакция.",lessonCount:6,duration:"15 мин",icon:"chart",track:"management",status:"pending"},{id:49,grade:3,title:"Аттестация G3",description:"Итоговый тест G3 — управление и лидерство.",lessonCount:15,duration:"20 мин",icon:"award",track:"attestation",status:"pending"},{id:61,grade:4,title:"Наставничество и адаптация",description:"Система адаптации новых сотрудников через наставника.",lessonCount:8,duration:"20 мин",icon:"user-plus",track:"management",status:"pending"},{id:62,grade:4,title:"Оценка качества работы",description:"Как оценивать сотрудников объективно и справедливо.",lessonCount:7,duration:"18 мин",icon:"star",track:"management",status:"pending"},{id:63,grade:4,title:"Мотивация команды",description:"Инструменты нематериальной мотивации.",lessonCount:7,duration:"18 мин",icon:"heart",track:"management",status:"pending"},{id:64,grade:4,title:"Проведение планёрок",description:"Структура планёрки, повестка, фиксация договорённостей.",lessonCount:6,duration:"15 мин",icon:"calendar",track:"management",status:"pending"},{id:65,grade:4,title:"Управление показателями смены",description:"Влияние на KPI через ежедневные действия команды.",lessonCount:7,duration:"18 мин",icon:"chart",track:"management",status:"pending"},{id:66,grade:4,title:"График работы",description:"Составление, корректировка, учёт пожеланий.",lessonCount:5,duration:"12 мин",icon:"calendar",track:"management",status:"pending"},{id:67,grade:4,title:"Эскалация проблем",description:"Когда и как поднимать вопросы руководству.",lessonCount:5,duration:"12 мин",icon:"alert",track:"management",status:"pending"},{id:68,grade:4,title:"Заказ товара",description:"Анализ остатков, формирование заказа, работа с поставщиками.",lessonCount:6,duration:"15 мин",icon:"box",track:"functional",status:"pending"},{id:69,grade:4,title:"Инвентаризация",description:"Порядок проведения, документация, разбор расхождений.",lessonCount:6,duration:"15 мин",icon:"scan",track:"functional",status:"pending"},{id:70,grade:4,title:"Создание атмосферы в команде",description:"Культура Take&Go через ежедневные практики лидера.",lessonCount:6,duration:"15 мин",icon:"heart",track:"leadership",status:"pending"},{id:71,grade:4,title:"Развитие сотрудников",description:"Индивидуальные планы развития, карьерные беседы.",lessonCount:7,duration:"18 мин",icon:"trending-up",track:"leadership",status:"pending"},{id:72,grade:4,title:"Стандарты как культура",description:"Как превратить стандарты из обязаловки в ценность.",lessonCount:6,duration:"15 мин",icon:"flag",track:"leadership",status:"pending"},{id:73,grade:4,title:"Аттестация G4",description:"Итоговый тест G4 — лидерство и стратегия.",lessonCount:15,duration:"20 мин",icon:"award",track:"attestation",status:"pending"}],o=d.filter(t=>1!==t.id),i=[{id:101,moduleId:1,title:"История и концепция Take&Go",type:"text",duration:"6 мин",content:`**Take&Go** — это convenience store: удобный магазин для быстрой покупки.
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,27250,t=>{"use strict";let e=[{id:1,title:"Стажёр",color:"pink",bgClass:"bg-pink-100",textClass:"text-pink-700",borderClass:"border-pink-300",minScore:70,minWeeks:0},{id:2,title:"Продавец-кассир",color:"blue",bgClass:"bg-blue-100",textClass:"text-blue-700",borderClass:"border-blue-300",minScore:75,minWeeks:4},{id:3,title:"Старший смены",color:"purple",bgClass:"bg-purple-100",textClass:"text-purple-700",borderClass:"border-purple-300",minScore:80,minWeeks:12},{id:4,title:"Старший продавец",color:"amber",bgClass:"bg-amber-100",textClass:"text-amber-700",borderClass:"border-amber-300",minScore:85,minWeeks:24}],o=[{id:1,grade:1,title:"Велком-бук",description:"Знакомство с компанией, командой и ценностями Take&Go.",lessonCount:4,duration:"15 мин",icon:"store",track:"onboarding",status:"done"},{id:3,grade:1,title:"Касса",description:"Работа с кассовым оборудованием, оплата, возврат.",lessonCount:15,duration:"20 мин",icon:"cash",track:"functional",status:"done"},{id:4,grade:1,title:"Открытие и закрытие",description:"Процедуры открытия и закрытия магазина.",lessonCount:13,duration:"15 мин",icon:"key",track:"functional",status:"done"},{id:5,grade:1,title:"Работа на ТСД",description:"Терминал сбора данных: печать ценников, приёмка алкоголя.",lessonCount:14,duration:"14 мин",icon:"scan",track:"functional",status:"done"},{id:6,grade:1,title:"Чистота и порядок",description:"Стандарты уборки зала, складских зон и кассовой зоны.",lessonCount:12,duration:"12 мин",icon:"sparkles",track:"functional",status:"done"},{id:8,grade:1,title:"Приёмка товара",description:"Как принимать товар: документы, проверка, размещение.",lessonCount:16,duration:"16 мин",icon:"box",track:"functional",status:"done"},{id:9,grade:1,title:"Выкладка и мерчандайзинг",description:"Правила выкладки, зонирование, ротация.",lessonCount:14,duration:"14 мин",icon:"grid",track:"functional",status:"done"},{id:10,grade:1,title:"Экстренные ситуации",description:"Пожар, кража, конфликт — алгоритм действий.",lessonCount:16,duration:"16 мин",icon:"alert",track:"functional",status:"done"},{id:20,grade:1,title:"Стандарты внешнего вида",description:"Форма, бейдж, обувь, гигиена — как должен выглядеть сотрудник.",lessonCount:11,duration:"11 мин",icon:"check",track:"functional",status:"done"},{id:11,grade:1,title:"Ассортимент магазина",description:"Формат convenience store, 5 групп товаров, наша фишка.",lessonCount:7,duration:"7 мин",icon:"store",track:"merch",status:"done"},{id:12,grade:1,title:"Табак",description:"Категории, хранение, Morrison — собственный бренд Take&Go.",lessonCount:15,duration:"15 мин",icon:"smoke",track:"merch",status:"done"},{id:13,grade:1,title:"Алкоголь",description:"Категории, ЕГАИС, часы продажи, лимитки и Jägermeister.",lessonCount:13,duration:"13 мин",icon:"wine",track:"merch",status:"done"},{id:14,grade:1,title:"Напитки безалкогольные",description:"Энергетики, HQD и Monster — наша экспертиза, Честный знак.",lessonCount:15,duration:"15 мин",icon:"cup",track:"merch",status:"done"},{id:15,grade:1,title:"Продукты",description:"Сладкое, снеки, готовые завтраки, мороженое — ассортимент и хранение.",lessonCount:9,duration:"10 мин",icon:"food",track:"merch",status:"done"},{id:16,grade:1,title:"Прочие товары",description:"Стакан со льдом — товар №1, пакеты, «Бери заряд», сезонка.",lessonCount:10,duration:"10 мин",icon:"bag",track:"merch",status:"done"},{id:17,grade:1,title:"Коктейльные наборы",description:"5 полок, крепость, топы, секретка — как собирать и продавать.",lessonCount:15,duration:"15 мин",icon:"cocktail",track:"merch",status:"done"},{id:18,grade:1,title:"Регуляторика 18+ и маркировка",description:"Три категории 18+, акциз vs Честный знак, ЕГАИС и УТМ.",lessonCount:14,duration:"14 мин",icon:"shield",track:"merch",status:"done"},{id:19,grade:1,title:"Итоговая аттестация G1",description:"Чек-лист, 6 сценариев смены и финальный тест — 10 вопросов.",lessonCount:8,duration:"20 мин",icon:"award",track:"attestation",status:"done",quizSize:10},{id:21,grade:2,title:"Табак — углублённо",description:"Критерии выбора, 21 бренд, контракты производителей и зажигалки.",lessonCount:142,duration:"150 мин",icon:"smoke",track:"merch",status:"done",quizSize:15},{id:22,grade:2,title:"Крепкий алкоголь",description:"Водка, виски, ром, джин — продуктовая экспертиза.",lessonCount:8,duration:"20 мин",icon:"wine",track:"merch",status:"pending"},{id:23,grade:2,title:"Вино",description:"Тихие, игристые, розовые — базовая сомелье-программа.",lessonCount:8,duration:"20 мин",icon:"wine",track:"merch",status:"pending"},{id:24,grade:2,title:"Коктейли — углублённо",description:"Расширенное меню, кастомизация, работа с гостем.",lessonCount:10,duration:"25 мин",icon:"cocktail",track:"merch",status:"pending"},{id:25,grade:2,title:"Напитки — углублённо",description:"Состав, вкусовой профиль, рекомендации к продуктам.",lessonCount:8,duration:"20 мин",icon:"cup",track:"merch",status:"pending"},{id:34,grade:2,title:"Альтернативный табак и ЭСДН",description:"Сигариллы, сигары, кретек, кальян, самокрутки, стики и электронные сигареты.",lessonCount:42,duration:"45 мин",icon:"smoke",track:"merch",status:"done",quizSize:10},{id:27,grade:2,title:"СТМ",description:"Собственная торговая марка Take&Go — продукты и продажи.",lessonCount:6,duration:"15 мин",icon:"tag",track:"merch",status:"pending"},{id:28,grade:2,title:"Как начать разговор с гостем",description:"Первый контакт, приветствие, открытые вопросы.",lessonCount:6,duration:"15 мин",icon:"users",track:"sales",status:"pending"},{id:29,grade:2,title:"Выявление потребности",description:"Техники вопросов, активное слушание, уточнение.",lessonCount:6,duration:"15 мин",icon:"search",track:"sales",status:"pending"},{id:30,grade:2,title:"Рекомендация и консультирование",description:"Как советовать уверенно и попасть в потребность гостя.",lessonCount:7,duration:"18 мин",icon:"star",track:"sales",status:"pending"},{id:31,grade:2,title:"Допродажи и апсейл",description:"Предложение сопутствующих товаров без давления.",lessonCount:6,duration:"15 мин",icon:"plus",track:"sales",status:"pending"},{id:32,grade:2,title:"Работа с жалобами",description:"Алгоритм разрешения конфликтов, возвраты, эскалация.",lessonCount:7,duration:"18 мин",icon:"chat",track:"sales",status:"pending"},{id:33,grade:2,title:"Аттестация G2",description:"Итоговый тест G2 — продуктовая экспертиза и продажи.",lessonCount:15,duration:"20 мин",icon:"award",track:"attestation",status:"pending"},{id:41,grade:3,title:"Работа с возражениями",description:"Техники работы с «дорого», «не нужно», «подумаю».",lessonCount:7,duration:"18 мин",icon:"shield",track:"sales",status:"pending"},{id:42,grade:3,title:"Техника речи и коммуникация",description:"Голос, темп, формулировки — профессиональная речь.",lessonCount:6,duration:"15 мин",icon:"mic",track:"sales",status:"pending"},{id:43,grade:3,title:"Постановка задач смене",description:"Как ставить задачи чётко и проверять выполнение.",lessonCount:6,duration:"15 мин",icon:"list",track:"management",status:"pending"},{id:44,grade:3,title:"Контроль стандартов",description:"Чек-листы, обходы, мгновенная обратная связь.",lessonCount:6,duration:"15 мин",icon:"check",track:"management",status:"pending"},{id:45,grade:3,title:"Введение новичка в смену",description:"Как встретить нового сотрудника и ввести в работу.",lessonCount:5,duration:"12 мин",icon:"user-plus",track:"management",status:"pending"},{id:46,grade:3,title:"Обратная связь 1:1",description:"Конструктивная обратная связь без демотивации.",lessonCount:6,duration:"15 мин",icon:"chat",track:"management",status:"pending"},{id:47,grade:3,title:"Управление очередью",description:"Распределение задач при пиковой нагрузке.",lessonCount:5,duration:"12 мин",icon:"users",track:"management",status:"pending"},{id:48,grade:3,title:"Показатели смены",description:"Выручка, средний чек, конверсия — чтение и реакция.",lessonCount:6,duration:"15 мин",icon:"chart",track:"management",status:"pending"},{id:49,grade:3,title:"Аттестация G3",description:"Итоговый тест G3 — управление и лидерство.",lessonCount:15,duration:"20 мин",icon:"award",track:"attestation",status:"pending"},{id:61,grade:4,title:"Наставничество и адаптация",description:"Система адаптации новых сотрудников через наставника.",lessonCount:8,duration:"20 мин",icon:"user-plus",track:"management",status:"pending"},{id:62,grade:4,title:"Оценка качества работы",description:"Как оценивать сотрудников объективно и справедливо.",lessonCount:7,duration:"18 мин",icon:"star",track:"management",status:"pending"},{id:63,grade:4,title:"Мотивация команды",description:"Инструменты нематериальной мотивации.",lessonCount:7,duration:"18 мин",icon:"heart",track:"management",status:"pending"},{id:64,grade:4,title:"Проведение планёрок",description:"Структура планёрки, повестка, фиксация договорённостей.",lessonCount:6,duration:"15 мин",icon:"calendar",track:"management",status:"pending"},{id:65,grade:4,title:"Управление показателями смены",description:"Влияние на KPI через ежедневные действия команды.",lessonCount:7,duration:"18 мин",icon:"chart",track:"management",status:"pending"},{id:66,grade:4,title:"График работы",description:"Составление, корректировка, учёт пожеланий.",lessonCount:5,duration:"12 мин",icon:"calendar",track:"management",status:"pending"},{id:67,grade:4,title:"Эскалация проблем",description:"Когда и как поднимать вопросы руководству.",lessonCount:5,duration:"12 мин",icon:"alert",track:"management",status:"pending"},{id:68,grade:4,title:"Заказ товара",description:"Анализ остатков, формирование заказа, работа с поставщиками.",lessonCount:6,duration:"15 мин",icon:"box",track:"functional",status:"pending"},{id:69,grade:4,title:"Инвентаризация",description:"Порядок проведения, документация, разбор расхождений.",lessonCount:6,duration:"15 мин",icon:"scan",track:"functional",status:"pending"},{id:70,grade:4,title:"Создание атмосферы в команде",description:"Культура Take&Go через ежедневные практики лидера.",lessonCount:6,duration:"15 мин",icon:"heart",track:"leadership",status:"pending"},{id:71,grade:4,title:"Развитие сотрудников",description:"Индивидуальные планы развития, карьерные беседы.",lessonCount:7,duration:"18 мин",icon:"trending-up",track:"leadership",status:"pending"},{id:72,grade:4,title:"Стандарты как культура",description:"Как превратить стандарты из обязаловки в ценность.",lessonCount:6,duration:"15 мин",icon:"flag",track:"leadership",status:"pending"},{id:73,grade:4,title:"Аттестация G4",description:"Итоговый тест G4 — лидерство и стратегия.",lessonCount:15,duration:"20 мин",icon:"award",track:"attestation",status:"pending"}],d=o.filter(t=>1!==t.id),i=[{id:101,moduleId:1,title:"История и концепция Take&Go",type:"text",duration:"6 мин",content:`**Take&Go** — это convenience store: удобный магазин для быстрой покупки.
 
 Всё начиналось с идеи, а не с оптового бизнеса. Основатели много лет привозили в Россию лучшие товары — и в апреле **2024 года** открыли первую точку на **Маросейке**, в центре Москвы.
 
-В августе 2024 появились коктейльные наборы и стаканы со льдом — с них мы начали выделяться на фоне обычных магазинов. В июне **2025** открылся второй магазин — на **Новослободской**, уже с кафетерием и раменоваркой.
+В августе 2024 появились коктейльные наборы и стаканы со льдом — с них мы начали выделяться на фоне обычных магазинов. В июне **2025** открылся второй магазин — на **Новослободской**, уже с коктейльными наборами и стаканами со льдом.
 
 Сегодня у нас:
 - 2 магазина в Москве
@@ -17,11 +17,9 @@
 
 **КОКТЕЙЛЬНАЯ ЗОНА** — полки с готовыми наборами: мини-алкоголь + напиток + мармелад + стакан со льдом. Такого нет у соседних магазинов.
 
-**КАФЕТЕРИЙ** — кофемашина Dr.Coffee и раменоварка EZ Cook. Кофе готовит сотрудник по заказу, лапшу покупатель заваривает сам.
+**СКЛАД** — только для команды. Здесь хранится товарный запас и расходники.`},{id:103,moduleId:1,title:"Ценности Take&Go",type:"text",duration:"5 мин",content:`Товар есть в любом магазине. Возвращаются за ощущением.
 
-**СКЛАД** — только для команды. Здесь хранится товарный запас и расходники.`},{id:103,moduleId:1,title:"Ценности Take&Go",type:"text",duration:"5 мин",content:`Покупатели возвращаются не за товаром — за ощущением.
-
-**Удивляй гостя**
+**Удивляй гостя!**
 Каждый покупатель должен уйти с чем-то своим — новым вкусом, находкой или просто хорошим разговором.
 
 **Будь лицом бренда**
@@ -50,23 +48,27 @@
 
 🍹 **Август 2024** — появились коктейльные наборы и стаканы со льдом. Первые ролики в соцсетях взорвали интернет. Так у нас появилась своя фишка.
 
-🍜 **Июнь 2025** — второй магазин на Новослободской. Уже с кафетерием и раменоваркой.
+🏪 **Июнь 2025** — второй магазин на Новослободской. Уже с коктейльными наборами и стаканами со льдом.
 
 Развитие продолжается.
 
 ---`},{id:11003,moduleId:11,title:"Пять групп товаров",type:"text",duration:"1 мин",content:`Весь ассортимент Take&Go — 5 групп:
 
-🚬 **Табак** — сигареты, стики, вейпы, кальянный табак
-🍷 **Алкоголь** — крепкий, вино, пиво, слабоалкогольные
-🥤 **Безалкогольные напитки** — вода, газировка, энергетики, соки
-🍫 **Продукты** — снеки, шоколад, мороженое, лапша
-📦 **Прочие товары** — стакан со льдом, пакеты, батарейки и др.
+:::signs
+🚬 | **Табак** — сигареты, стики, вейпы, кальянный табак
+🍷 | **Алкоголь** — крепкий, вино, пиво, слабоалкогольные
+🥤 | **Безалкогольные напитки** — вода, газировка, энергетики, соки
+🍫 | **Продукты** — снеки, шоколад, мороженое
+📦 | **Прочие товары** — стакан со льдом, пакеты, батарейки и др.
+:::
 
 ---`},{id:11004,moduleId:11,title:"Алкоголь: три формата",type:"text",duration:"1 мин",content:`Алкоголь у нас в трёх форматах по размеру:
 
-🍾 **Большой** — более 500 мл. Своя полка.
-🥃 **Средний** — от 100 до 500 мл. Своя полка.
-🔹 **Мини** — от 40 до 100 мл. Входят в **коктейльные наборы**.
+:::signs
+🍾 | **Большой** — более 500 мл. Своя полка.
+🥃 | **Средний** — от 100 до 500 мл. Своя полка.
+🔹 | **Мини** — от 40 до 100 мл. Входят в **коктейльные наборы**.
+:::
 
 Мини — это основа коктейльных наборов, главного продукта магазина.
 
@@ -79,30 +81,28 @@
 
 ⚡ Охлаждённые напитки — наш приоритет. Холодильники должны быть заполнены всегда.
 
-**Продукты — шире чем кажется:** шоколад, мармелад, конфеты, жвачка, чипсы, снеки, протеиновые батончики, печенье, вафли, лапша и готовая еда для раменоварки, мороженое.
+**Продукты — шире чем кажется:** шоколад, мармелад, конфеты, жвачка, чипсы, снеки, протеиновые батончики, печенье, вафли, мороженое.
 
 ---`},{id:11006,moduleId:11,title:"Три вещи, которых нет у конкурентов",type:"text",duration:"1 мин",content:`Вот за чем к нам приходят:
 
 🍹 **Коктейльные наборы + стакан со льдом**
 Мини-бутылки алкоголя + напитки + стакан. Готовый коктейль за секунды.
 
-🍜 **Раменоварка**
-Лапша прямо в магазине — быстро, горячо, своими руками.
+🍜 **Огромный выбор энергетиков**
+60 видов Монстра и других функциональных напитков со всего мира.
 
-☕ **Кафетерий**
-Кофе и напитки которые готовит сотрудник по заказу.
+** 🧊 **Стакан со льдом**
+топовая позиция, должен быть в наличии всегда.
 
-**Прочие товары — тоже не второстепенные:** 🧊 стакан со льдом — топовая позиция, должен быть в наличии всегда. Плюс пакеты, влажные салфетки, батарейки, пластыри, бальзам для губ.
-
----`},{id:11007,moduleId:11,title:"Проверь себя",type:"text",duration:"1 мин",content:`Покупатель спрашивает: \xabУ вас есть что-нибудь чтобы быстро перекусить и взять кофе?\xbb
+---`},{id:11007,moduleId:11,title:"Проверь себя",type:"text",duration:"1 мин",content:`Покупатель спрашивает: \xabХочу перекусить и что-нибудь попить. Что есть?\xbb
 
 **Что предложишь?**
 
 А) \xabПосмотрите на полках\xbb
-Б) \xabСнеки вон там, кофе я сделаю — какой будете?\xbb
+Б) \xabСнеки вон там, напитки в холодильнике — возьмите холодный. Стакан со льдом нужен?\xbb
 В) \xabУ нас нет готовой еды\xbb
 
-**Правильно: Б** — ты знаешь ассортимент и предлагаешь конкретно. Снеки + кофе из кафетерия = две продажи вместо одной.
+**Правильно: Б** — ты знаешь ассортимент и ведёшь покупателя: снек, охлаждённый напиток и стакан со льдом. Три позиции вместо одной.
 
 ---`},{id:301,moduleId:3,title:"Касса за 12 минут",type:"text",duration:"1–2 мин",content:`Ты знаешь зал и ассортимент. Последний шаг — провести покупателя через кассу уверенно.
 
@@ -119,8 +119,10 @@
 ---`},{id:303,moduleId:3,title:"Пробитие товара",type:"text",duration:"1–2 мин",content:`Основной способ: **сканер штрихкода**
 
 Если сканер не читает:
-- **\xabШтрихкод\xbb** → ввести код вручную
-- **\xabКод\xbb** → если штрихкода нет совсем
+- **\xabКод\xbb** → ввести четырёхзначный код товара с ценника
+- **\xabШтрихкод\xbb** → ввести цифры штрихкода вручную, если штрихкод просто повреждён или загрязнён
+
+Если товар не находится ни по коду, ни по штрихкоду → чат: \xabдобавить штрихкод\xbb.
 
 ![Главный экран кассы и пробитие товара](/lessons/kassa/02-probitie-tovara.jpg)
 
@@ -131,8 +133,9 @@
 
 ![Выбор оплаты картой и соединение с платёжной системой](/lessons/kassa/03-oplata-kartoy.jpg)
 
----`},{id:305,moduleId:3,title:"Оплата наличными",type:"text",duration:"1–2 мин",content:`> ⚠️ **Участились случаи мошенничества.**
-> Правило одно: **сначала берёшь деньги — потом отдаёшь сдачу.** Никогда наоборот.
+---`},{id:305,moduleId:3,title:"Оплата наличными",type:"text",duration:"1–2 мин",content:`:::note Правило
+⚠️ **Участились случаи мошенничества.** Правило одно: **сначала берёшь деньги — потом отдаёшь сдачу.** Никогда наоборот.
+:::
 
 1. Взять купюры у покупателя
 2. Ввести сумму → **\xabНаличные\xbb**
@@ -149,20 +152,13 @@
 4. Выбрать **второй способ**
 5. Закрыть документ → чек
 
----`},{id:307,moduleId:3,title:"Смешанная оплата: пример + удаление",type:"text",duration:"1–2 мин",content:`**Товар 120 руб.** Покупатель даёт 70 наличными и карту:
+---`},{id:307,moduleId:3,title:"Смешанная оплата: пример",type:"text",duration:"1–2 мин",content:`**Товар 120 руб.** Покупатель даёт 70 наличными и картой:
 
-> 70 руб. → Наличные → Карта → Чек ✓
+:::note Правило
+70 руб. → Наличные → Карта → Чек ✓
+:::
 
-Систему не обманешь — она сама считает остаток.
-
-**Удалить позицию из чека:**
-- Нажать **крестик** (нижний левый угол)
-- Сканировать штрихкод или код маркировки (\xabЧестный знак\xbb) товара
-- Строка зачёркнется — товар удалён
-
-![Удаление позиции из чека](/lessons/kassa/05-udalenie-pozitsii.jpg)
-
----`},{id:308,moduleId:3,title:"Частые проблемы",type:"text",duration:"1–2 мин",content:`| Проблема | Действие |
+Систему не обманешь — она сама считает остаток.`},{id:308,moduleId:3,title:"Частые проблемы",type:"text",duration:"1–2 мин",content:`| Проблема | Действие |
 |---|---|
 | **Товар не найден** | Внести по коду с ценника → чат: \xabдобавить штрихкод\xbb |
 | **Ошибка Честного знака** (\xabпродан в ГИС МТ\xbb, \xabистёк срок годности\xbb, \xabзапрещён к продаже\xbb) | Приостановить продажу → чат: \xabне бьётся\xbb |
@@ -175,8 +171,9 @@
 
 ---`},{id:309,moduleId:3,title:"Возврат: один принцип",type:"text",duration:"1–2 мин",content:`Покупатель хочет вернуть товар? Есть простой алгоритм, который решает это за пару минут.
 
-> **Возврат всегда делается на основании оригинального чека.**
-> И всегда тем же способом, которым покупатель платил.
+:::note Правило
+**Возврат всегда делается на основании оригинального чека.** И всегда тем же способом, которым покупатель платил.
+:::
 
 - **Полный возврат** → весь чек → нажать \xabДа\xbb
 - **Частичный возврат** → одна позиция → нажать **\xabНет\xbb**
@@ -198,7 +195,9 @@
    - Карта → деньги вернутся на карту
    - Наличные → выдать из ящика
 
-> ⚠️ Уточни у покупателя как он платил — **до** нажатия.
+:::note Правило
+⚠️ Уточни у покупателя как он платил — **до** нажатия.
+:::
 
 ![Список документов — выбрать по времени и сумме](/lessons/kassa/08-vozvrat-vybor-cheka.jpg)
 
@@ -215,7 +214,9 @@
 
 ![Диалог \xabВы хотите вернуть весь документ?\xbb](/lessons/kassa/08-vozvrat-vybor-cheka.jpg)
 
-> ⚠️ Нажал \xabДа\xbb случайно? Отмени и начни сначала.
+:::note Правило
+⚠️ Нажал \xabДа\xbb случайно? Отмени и начни сначала.
+:::
 
 ---`},{id:313,moduleId:3,title:"Частичный возврат: выбрать позицию",type:"text",duration:"1–2 мин",content:`После \xabНет\xbb откроется список товаров из чека.
 
@@ -233,14 +234,18 @@
 
 **Твои действия:**
 
-> меню → возврат → на основании → найти чек → **\xabНЕТ\xbb** → чипсы → возврат на карту ✓
+:::note Правило
+меню → возврат → на основании → найти чек → **\xabНЕТ\xbb** → чипсы → возврат на карту ✓
+:::
 
 Попроси наставника разыграть этот сценарий до конца смены.
 
 ---`},{id:401,moduleId:4,title:"Магазин живёт по ритму",type:"text",duration:"1 мин",content:`Каждый день — два момента, когда важно сделать всё правильно:
 
-🕗 **08:00** — открытие
-🕚 **23:00** — закрытие
+:::signs
+🕗 | **08:00** — открытие
+🕚 | **23:00** — закрытие
+:::
 
 От уборки зависит, как магазин встретит первого покупателя — и как закончит день без хаоса для следующей смены.
 
@@ -251,14 +256,17 @@
 - ☐ Включить свет во всех помещениях (через щиток)
 - ☐ Включить дополнительное освещение
 
-> Только после этого — следующий блок. Работать в тёмном зале не начинаем.
+:::note Правило
+Только после этого — следующий блок. Работать в тёмном зале не начинаем.
+:::
 
 **Оборудование:**
-- ☐ Оборудование блока кафе
 - ☐ Кондиционеры
 - ☐ Ароматизатор
 
-> Ароматизатор — не декор. Запах в зале работает раньше, чем покупатель видит товар. Включаем сразу.
+:::note Правило
+Ароматизатор — не декор. Запах в зале работает раньше, чем покупатель видит товар. Включаем сразу.
+:::
 
 ---`},{id:403,moduleId:4,title:"Открытие: уборка зала",type:"text",duration:"1 мин",content:`Уборка — до товара, не после.
 
@@ -266,11 +274,12 @@
 - ☐ Уборка входной группы (метла, крупный мусор)
 - ☐ Уборка рабочего места кассиров (порядок + влажная уборка)
 - ☐ Влажная уборка открытых поверхностей
-- ☐ Влажная уборка кофе-машины снаружи
 - ☐ Мойка стёкол морозильников
 - ☐ Заполнить температурный журнал
 
-> ⚠️ **Не начинай пополнять товар до уборки.** Грязный зал + новый товар = двойная работа.
+:::note Правило
+⚠️ **Не начинай пополнять товар до уборки.** Грязный зал + новый товар = двойная работа.
+:::
 
 ---`},{id:404,moduleId:4,title:"Открытие: расходники и товар",type:"text",duration:"1 мин",content:`**Расходники у стойки и кассы:**
 - ☐ Бумажные стаканы
@@ -281,46 +290,53 @@
 - ☐ Палочки
 - ☐ Влажные салфетки
 
-> Пустой диспенсер в 09:00 — это промах, который видит покупатель.
+:::note Правило
+Пустой диспенсер в 09:00 — это промах, который видит покупатель.
+:::
 
 **Товар (если пришла поставка):**
 - ☐ Пополнение по планограмме
 - ☐ Пополнение со склада
 - ☐ Пополнение сигаретных шкафов
 
-> Планограмма — это карта расстановки. Не знаешь где что стоит — спроси наставника до начала, не в процессе.
+:::note Правило
+Планограмма — это карта расстановки. Не знаешь где что стоит — спроси наставника до начала, не в процессе.
+:::
 
----`},{id:405,moduleId:4,title:"Открытие: фотоотчёт — последний шаг",type:"text",duration:"1 мин",content:`📸 Сфотографировать финальное состояние зала
-📤 Отправить в чат
+---`},{id:405,moduleId:4,title:"Открытие: фотоотчёт — последний шаг",type:"text",duration:"1 мин",content:`:::signs
+📸 | Сфотографировать финальное состояние зала
+📤 | Отправить в чат
+:::
 
-> ⚠️ **Фотографируем после уборки и пополнения — не до.**
-> Фото фиксирует финальное состояние, не процесс.
+:::note Правило
+⚠️ **Фотографируем после уборки и пополнения — не до.** Фото фиксирует финальное состояние, не процесс.
+:::
 
-Фото — это не формальность. Это подтверждение стандарта для всей команды Take&Go.
+Фото подтверждает стандарт для всей команды Take&Go — без него отчёт не считается закрытым.
 
 ---`},{id:406,moduleId:4,title:"Логика открытия: запомни порядок",type:"text",duration:"1 мин",content:`Список не надо заучивать — нужно понять логику:
 
 | # | Блок | Что делаем |
 |---|---|---|
 | 1 | 💡 Включить | свет, оборудование, ароматизатор |
-| 2 | 🧹 Убрать | пол, поверхности, кофе-машина снаружи |
+| 2 | 🧹 Убрать | пол, поверхности, открытые зоны |
 | 3 | 🛒 Пополнить | расходники, товар по планограмме |
 | 4 | 📸 Сфотографировать | финальное состояние → отправить в чат |
 
-> **Сначала включаем — потом убираем — потом товар — потом фото.**
-> Логика есть, список не надо заучивать.
+:::note Правило
+**Сначала включаем — потом убираем — потом товар — потом фото.** Логика есть, список не надо заучивать.
+:::
 
 ---`},{id:407,moduleId:4,title:"Закрытие: уборка",type:"text",duration:"1 мин",content:`23:00. Начинаем с уборки — пока касса ещё работает.
 
-- ☐ Мойка кофе-машины **внутри** всех отсеков
 - ☐ Вынос мусора, замена пакетов
 - ☐ Уборка барных стоек
 - ☐ Мойка полов
 - ☐ Уборка входной группы
 
-> Кофе-машина моется внутри только при закрытии — это полный цикл ухода.
-
-> ⚠️ **Выключить свет до закрытия кассы — нельзя.** Касса закрывается при работающей системе.
+:::note Правило
+⚠️ **Выключить свет до закрытия кассы — нельзя.** Касса закрывается при работающей системе.
+:::
 
 ---`},{id:408,moduleId:4,title:"Закрытие: касса и отчёт",type:"text",duration:"1 мин",content:`После уборки — закрываем кассу и фиксируем смену.
 
@@ -331,9 +347,13 @@
 - 💵 Наличные в кассах
 - 📋 Текущие активности
 
-> Только текст — без фото. Без отчёта смена считается незакрытой.
+:::note Правило
+Только текст — без фото. Без отчёта смена считается незакрытой.
+:::
 
-> ⚠️ **Касса закрывается до выключения оборудования. Не после.**
+:::note Правило
+⚠️ **Касса закрывается до выключения оборудования. Не после.**
+:::
 
 ---`},{id:409,moduleId:4,title:"Закрытие: выключаем магазин",type:"text",duration:"1 мин",content:`Финальный блок — только после уборки и закрытия кассы.
 
@@ -341,14 +361,16 @@
 - ☐ Выключить дополнительное освещение
 - ☐ Выключить свет
 
-> Порядок важен: сначала оборудование, потом свет. Не наоборот.
+:::note Правило
+Порядок важен: сначала оборудование, потом свет. Не наоборот.
+:::
 
 **Логика закрытия:**
 1. Уборка
 2. Касса + отчёт
 3. Выключить оборудование → свет
 
----`},{id:410,moduleId:4,title:"Почему это важно",type:"text",duration:"1 мин",content:`Чеклист — не список обязанностей. Это защита.
+---`},{id:410,moduleId:4,title:"Почему это важно",type:"text",duration:"1 мин",content:`Чеклист работает как защита — твоя и следующей смены.
 
 | Что сделал | Что получила смена |
 |---|---|
@@ -364,29 +386,31 @@
 | 📸 Сделал фото до влажной уборки | Фотоотчёт фиксирует финальное состояние, не процесс |
 | 💡 Выключил свет до закрытия кассы | Касса закрывается при работающей системе |
 
-> 💡 На ближайшей смене открытия: читай чеклист сверху вниз и отмечай каждый пункт **по факту** — не заранее.
+:::note Правило
+💡 На ближайшей смене открытия: читай чеклист сверху вниз и отмечай каждый пункт **по факту** — не заранее.
+:::
 
 ---`},{id:412,moduleId:4,title:"Проверь себя",type:"text",duration:"1 мин",content:`Ты пришёл на открытие раньше наставника. Расставь первые три блока в правильном порядке:
 
-🃏 Пополнить расходники
-🃏 Включить свет и оборудование
-🃏 Сделать влажную уборку зала
+:::signs
+🃏 | Пополнить расходники
+🃏 | Включить свет и оборудование
+🃏 | Сделать влажную уборку зала
+:::
 
 **Правильный порядок:** Включить → Убрать → Пополнить
 
-> Именно в этом порядке один шаг готовит следующий.
+:::note Правило
+Именно в этом порядке один шаг готовит следующий.
+:::
 
 ---`},{id:413,moduleId:4,title:"Пять правил на память",type:"text",duration:"1 мин",content:`1. **Уборка — всегда до товара.** Никогда наоборот.
 2. **Фото — только финальное состояние.** После уборки и пополнения.
 3. **Касса закрывается до выключения.** Не после.
 4. **Текстовый отчёт обязателен.** Без него смена не закрыта.
-5. **Не знаешь — спроси наставника до начала**, не в процессе.`},{id:18001,moduleId:18,title:"Почему это важно лично для тебя",type:"text",duration:"1 мин",content:`Ошибка при продаже 18+ или маркированного товара — это не абстрактный штраф на магазин.
+5. **Не знаешь — спроси наставника до начала**, не в процессе.`},{id:18001,moduleId:18,title:"Почему это важно лично для тебя",type:"text",duration:"1 мин",content:`Ошибка при продаже 18+ или маркированного товара — штраф лично на продавца, не абстрактный штраф на магазин.
 
-Это штраф **лично на продавца**.
-
-Одно правило защищает от всего: **Сомневаешься → останавливаешься.**
-
----`},{id:601,moduleId:32,title:"Типология конфликтов: откуда они берутся",type:"text",duration:"8 мин",content:`**Конфликт — это неоправданное ожидание покупателя, которое никто не исправил вовремя.**
+Одно правило защищает от всего: **Сомневаешься → останавливаешься.**`},{id:601,moduleId:32,title:"Типология конфликтов: откуда они берутся",type:"text",duration:"8 мин",content:`**Конфликт — это неоправданное ожидание покупателя, которое никто не исправил вовремя.**
 
 В Take&Go конфликты редки — рейтинг 5.0 это подтверждает. Но они случаются, и к ним нужно быть готовым.
 
@@ -807,16 +831,20 @@ Take&Go — небольшая команда. Каждый человек им�
 → Наставник в Take&Go — это не роль на один месяц. Это стиль работы.`},{id:5001,moduleId:5,title:"Что такое ТСД и зачем он нужен",type:"text",duration:"1 мин",content:`ТСД — терминал сбора данных. Выглядит как телефон, работает как рабочий инструмент.
 
 В Take&Go он нужен для двух задач:
-📋 Печать ценников
-🍾 Приёмка крепкого алкоголя
+:::signs
+📋 | Печать ценников
+🍾 | Приёмка крепкого алкоголя
+:::
 
 Оба маршрута — в приложении **\xabМагазин 15\xbb**.
 
 ---`},{id:5002,moduleId:5,title:"Приложение «Магазин 15»: ориентация",type:"text",duration:"1 мин",content:`Открываешь приложение — видишь список категорий.
 
 Нас интересуют две:
-→ **\xab7 Перемещение\xbb** — для печати ценников
-→ **\xabПоступление алкоголя\xbb** — для приёмки
+:::signs
+→ | **\xab7 Перемещение\xbb** — для печати ценников
+→ | **\xabПоступление алкоголя\xbb** — для приёмки
+:::
 
 Найди эти разделы до первой задачи — интерфейс знакомый, страх уходит.
 
@@ -837,7 +865,9 @@ Take&Go — небольшая команда. Каждый человек им�
 
 ---`},{id:5006,moduleId:5,title:"Приёмка алкоголя: кто даёт команду",type:"text",duration:"1 мин",content:`Приёмка крепкого алкоголя начинается только по команде **Полины** (товаровед).
 
-> Не пришло сообщение — не начинаем. Даже если поставка уже у входа.
+:::note Правило
+Не пришло сообщение — не начинаем. Даже если поставка уже у входа.
+:::
 
 Когда команда получена:
 ТСД → \xabМагазин 15\xbb → **\xabПоступление алкоголя\xbb** → найти документ по номеру накладной и дате → войти.
@@ -850,9 +880,11 @@ Take&Go — небольшая команда. Каждый человек им�
 
 ---`},{id:5008,moduleId:5,title:"Исключения: пикать поштучно",type:"text",duration:"1 мин",content:`Три позиции — исключение из правила малого объёма:
 
-⚠️ **Джин Друмшандо**
-⚠️ **Mare**
-⚠️ **Ликёр Blue Cura\xe7ao**
+:::signs
+⚠️ | **Джин Друмшандо**
+⚠️ | **Mare**
+⚠️ | **Ликёр Blue Cura\xe7ao**
+:::
 
 Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 штук → сканировать штрихкод на **внешней картонной коробке**.
 
@@ -881,40 +913,47 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 
 ---`},{id:5012,moduleId:5,title:"Завершение приёмки",type:"text",duration:"1 мин",content:`Система спросит: \xabДокумент собран полностью. Завершить?\xbb
 
-> ⚠️ Нажать **\xabНЕТ\xbb**
+:::note Правило
+⚠️ Нажать **\xabНЕТ\xbb**
+:::
 
 Затем:
-→ Стрелка \xd7 2 → **\xabЗавершить\xbb** → подтвердить
-→ **\xabОбмен с сервером\xbb**
-→ Сообщить Полине о завершении
-→ Ждать подтверждения в чате **\xabПоставки\xbb**
+:::signs
+→ | Стрелка \xd7 2 → **\xabЗавершить\xbb** → подтвердить
+→ | **\xabОбмен с сервером\xbb**
+→ | Сообщить Полине о завершении
+→ | Ждать подтверждения в чате **\xabПоставки\xbb**
+:::
 
----`},{id:5013,moduleId:5,title:"Частые ошибки",type:"text",duration:"1 мин",content:`❌ Нажал \xabДа\xbb на завершение → документ закрывается некорректно, всегда \xabНЕТ\xbb
-
-❌ Начал приёмку без команды Полины → ждём сигнала, даже если поставка уже стоит
-
-❌ Отсканировал Друмшандо штрихкодом коробки → он в исключениях, пикается поштучно
-
-❌ Забыл \xabОбмен с сервером\xbb → данные не уйдут в систему
+---`},{id:5013,moduleId:5,title:"Частые ошибки",type:"text",duration:"1 мин",content:`:::signs
+❌ | Нажал \xabДа\xbb на завершение → документ закрывается некорректно, всегда \xabНЕТ\xbb
+❌ | Начал приёмку без команды Полины → ждём сигнала, даже если поставка уже стоит
+❌ | Отсканировал Друмшандо штрихкодом коробки → он в исключениях, пикается поштучно
+❌ | Забыл \xabОбмен с сервером\xbb → данные не уйдут в систему
+:::
 
 ---`},{id:5014,moduleId:5,title:"Проверь себя",type:"text",duration:"1 мин",content:`Пришла поставка. Как сканируешь каждую позицию?
 
-🥃 Большая бутылка виски (0,7 л)
-📦 Коробка миниатюрок водки
-🍸 Джин Друмшандо
-🍷 Неполная коробка Шато Тамань
+:::signs
+🥃 | Большая бутылка виски (0,7 л)
+📦 | Коробка миниатюрок водки
+🍸 | Джин Друмшандо
+🍷 | Неполная коробка Шато Тамань
+:::
 
 **Правильно:**
-🥃 Каждую акцизу
-📦 Штрихкод коробки
-🍸 Каждую бутылку
-🍷 Каждую акцизу
+:::signs
+🥃 | Каждую акцизу
+📦 | Штрихкод коробки
+🍸 | Каждую бутылку
+🍷 | Каждую акцизу
+:::
 
 ---`},{id:6001,moduleId:6,title:"Чистота — это доверие",type:"text",duration:"1 мин",content:`Покупатель замечает грязь раньше, чем замечает товар.
 
 Липкий стол, пятно на стекле, запах у входа — гость это чувствует за секунды.
 
-Чистота в Take&Go — не разовая акция. Это ритм, который ты держишь каждую смену.
+Чистота в Take&Go — это ритм: держишь его всю смену, каждую смену.
 
 ---`},{id:6002,moduleId:6,title:"Четыре вида уборки",type:"text",duration:"1 мин",content:`В магазине четыре вида уборки — у каждого своё время и задача:
 
@@ -941,15 +980,19 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 - ☐ Сбор и вынос мусора
 - ☐ Мойка мусорных контейнеров и стеновых панелей (при необходимости)
 
-> 📅 Раз в неделю — влажная уборка внутри табачных шкафов.
+:::note Правило
+📅 Раз в неделю — влажная уборка внутри табачных шкафов.
+:::
 
----`},{id:6005,moduleId:6,title:"Срочная уборка: не ждёшь",type:"text",duration:"1 мин",content:`Разбилась бутылка. Пролился кофе. У входа появился мусор.
+---`},{id:6005,moduleId:6,title:"Срочная уборка: не ждёшь",type:"text",duration:"1 мин",content:`Разбилась бутылка. Пролился напиток. У входа появился мусор.
 
 Правило одно: **устраняешь сразу.**
 
 Гость не должен видеть проблему дольше 2–3 минут.
 
-> ⚠️ Пролитое на полу = риск падения. Убираешь сразу, не позже.
+:::note Правило
+⚠️ Пролитое на полу = риск падения. Убираешь сразу, не позже.
+:::
 
 ---`},{id:6006,moduleId:6,title:"Срочная уборка: алгоритм",type:"text",duration:"1 мин",content:`1. Огради зону (если нужно — предупреди покупателей)
 2. Устрани загрязнение
@@ -978,28 +1021,34 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 - ☐ Сигаретные шкафы внутри
 - ☐ Склад и морозильные камеры
 
----`},{id:6009,moduleId:6,title:"Инструменты: правило раздельности",type:"text",duration:"1 мин",content:`Разные зоны — разные инструменты. Это не бюрократия, это гигиена.
+---`},{id:6009,moduleId:6,title:"Инструменты: правило раздельности",type:"text",duration:"1 мин",content:`Разные зоны — разные инструменты. Одна тряпка на всё разносит грязь по магазину.
 
-> 🚫 Одна тряпка для всего = разносишь загрязнение по магазину
+:::note Правило
+🚫 Одна тряпка для всего = разносишь загрязнение по магазину
+:::
 
-Запомни: инструменты для санузла не используются в торговом зале. После каждого использования — инструменты моются и сушатся.
+Запомни: инструменты для санузла не используются в торговом зале. После каждого использования — инструменты моются и сушатся.`},{id:6010,moduleId:6,title:"Зоны, которые часто пропускают",type:"text",duration:"1 мин",content:`Самые \xabневидимые\xbb места — те, что не на уровне глаз:
 
----`},{id:6010,moduleId:6,title:"Зоны, которые часто пропускают",type:"text",duration:"1 мин",content:`Самые \xabневидимые\xbb места — те, что не на уровне глаз:
-
-👀 Верхние части холодильников и стеллажей
-👀 Боковины оборудования
-👀 Углы у входа
-👀 Пространство под стойкой кассира
-👀 Задняя стенка табачного шкафа
+:::signs
+👀 | Верхние части холодильников и стеллажей
+👀 | Боковины оборудования
+👀 | Углы у входа
+👀 | Пространство под стойкой кассира
+👀 | Задняя стенка табачного шкафа
+:::
 
 Именно здесь разница между \xabубрали\xbb и \xabубрали по стандарту\xbb.
 
 ---`},{id:6011,moduleId:6,title:"График и журналы",type:"text",duration:"1 мин",content:`Уборка фиксируется. В магазине есть:
 
-📋 **График уборки** — кто, что и когда
-📋 **Журнал уборки** — отметка по факту выполнения
+:::signs
+📋 | **График уборки** — кто, что и когда
+📋 | **Журнал уборки** — отметка по факту выполнения
+:::
 
-> Не заполнил журнал = уборки не было. Журнал — это твоя защита, если после спросят, что и когда убирали.
+:::note Правило
+Не заполнил журнал = уборки не было. Журнал — это твоя защита, если после спросят, что и когда убирали.
+:::
 
 ⚠️ Расположение журналов и моющих средств уточни у наставника в первую смену.
 
@@ -1012,111 +1061,6 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 В) Сообщаю наставнику и жду
 
 **Правильно: Б** — срочная уборка не ждёт. Безопасность гостя важнее любой текущей задачи.
-
----`},{id:7001,moduleId:7,title:"Два устройства — два режима",type:"text",duration:"1 мин",content:`**☕ Dr.Coffee — кофемашина**
-Покупатель выбирает → ты готовишь
-
-**🍜 EZ Cook — раменоварка**
-Покупатель готовит сам
-
----`},{id:7002,moduleId:7,title:"Кофемашина Dr.Coffee: твоя работа",type:"text",duration:"1 мин",content:`Покупатель **называет напиток** — ты **готовишь**.
-
-Меню — 8 позиций:
-Ристретто \xb7 Эспрессо \xb7 Эспрессо с молоком \xb7 Американо \xb7 Крем-кофе \xb7 Капучино \xb7 Латте \xb7 Макиато
-
-Алгоритм: принял заказ → выбрал на экране → машина приготовила → выдал покупателю.
-
----`},{id:7003,moduleId:7,title:"Кофемашина: твои задачи",type:"text",duration:"1 мин",content:`**При открытии:**
-- ☐ Включить машину
-- ☐ Влажная уборка снаружи
-- ☐ Проверить дату на стикере молока — если 3 дня или больше, списать и открыть новую пачку
-
-**В течение смены:**
-- ☐ Следить за уровнем зерна и воды (уточни у наставника где смотреть)
-
-**При закрытии:**
-- ☐ Полная мойка внутри всех отсеков
-- ☐ Выключить машину
-
----`},{id:7004,moduleId:7,title:"Молоко: контроль срока",type:"text",duration:"1 мин",content:`Каждая открытая пачка молока маркируется стикером с датой открытия.
-
-Правило одно: **если с момента открытия прошло более 3 дней — пачка списывается.**
-
-1. Открыл новую пачку → сразу поставил стикер с сегодняшней датой
-2. При каждом открытии смены → проверил дату на пачке
-3. Прошло 3 дня или больше → списал старую, открыл новую, поставил стикер
-
-❌ Не используй молоко без стикера — непонятно когда открыто.
-❌ Не оставляй решение на потом — прокисшее молоко = жалоба покупателя и репутация магазина.
-
----`},{id:7005,moduleId:7,title:"Кофемашина: важно про мойку",type:"text",duration:"1 мин",content:`Мойка внутри — только при закрытии. Это не опционально.
-
-> ⚠️ Остатки молока за ночь скисают → утром горький привкус → жалоба покупателя.
-
-Помыл при закрытии = утром свежий кофе без вопросов.
-
----`},{id:7006,moduleId:7,title:"Раменоварка EZ Cook: что это",type:"text",duration:"1 мин",content:`EZ Cook — устройство для варки лапши быстрого приготовления.
-
-Покупатель готовит сам по инструкции на стене рядом с устройством. Три шага — и лапша готова за несколько минут.
-
-Твоя задача: устройство включено и чистое.
-
----`},{id:7007,moduleId:7,title:"Раменоварка: как работает покупатель",type:"text",duration:"1 мин",content:`1. Положить лапшу в тарелку, поставить на раменоварку
-2. Выбрать **Режим 1 (Set 1)** — нажать кнопку Start под цифрой 1
-3. Варить полную программу, **не поднимать тарелку** до звукового сигнала
-4. Слить воду в раковину, добавить топпинги и специи
-
-Инструкция висит на стене рядом — покупатель видит её сам.
-
----`},{id:7008,moduleId:7,title:"Раменоварка: твои задачи",type:"text",duration:"1 мин",content:`**При открытии:**
-- ☐ Включить устройство (кнопка Power)
-
-**В течение смены:**
-- ☐ Следить за чистотой поддона — убирать остатки воды и лапши
-
-**При закрытии:**
-- ☐ Протереть устройство снаружи
-- ☐ Вылить воду из поддона
-- ☐ Выключить
-
----`},{id:7009,moduleId:7,title:"Как принять заказ на кофе",type:"text",duration:"1 мин",content:`Покупатель подходит и говорит \xabкапучино\xbb — или просто смотрит в ожидании.
-
-1. Уточни если нужно: \xabВам капучино?\xbb
-2. Выбери позицию на экране машины
-3. Дождись готовности — выдай покупателю
-
-Если покупатель не знает что хочет — предложи: \xabЭспрессо, капучино или латте?\xbb
-
----`},{id:7010,moduleId:7,title:"Если что-то не работает",type:"text",duration:"1 мин",content:`Любая техническая проблема — в чат магазина.
-
-Что написать: \xab[Название устройства] не работает — [что именно происходит]\xbb
-
-❌ Не пытаешься починить сам
-❌ Не говоришь покупателю \xabсломалось, не знаю\xbb
-✅ Пишешь в чат и сообщаешь покупателю: \xabУточняю, одну минуту\xbb
-
----`},{id:7011,moduleId:7,title:"Ритм: что и когда",type:"text",duration:"1 мин",content:`| Действие | Кофемашина | Раменоварка |
-|---|---|---|
-| Открытие | Включить + уборка снаружи | Включить |
-| Смена | Следить за расходниками | Чистота поддона |
-| Закрытие | Мойка внутри + выключить | Слить воду + выключить |
-
----`},{id:7012,moduleId:7,title:"Что уточнить у наставника",type:"text",duration:"1 мин",content:`В первую смену узнай у наставника:
-
-- ☐ Где смотреть уровень зерна и воды в кофемашине
-- ☐ Где хранятся моющие средства для кофемашины
-- ☐ Как правильно разбирать отсеки при мойке
-
----`},{id:7013,moduleId:7,title:"Проверь себя",type:"text",duration:"1 мин",content:`Утром при открытии ты включил кофемашину. Через час покупатель говорит: \xabКофе горчит\xbb.
-
-**Что скорее всего произошло?**
-
-А) Машина сломалась
-Б) Вчера не помыли внутри при закрытии
-В) Неправильно выбран режим
-Г) Молоко несвежее
-
-**Правильно: Б или Г** — горечь даёт либо немытая машина, либо несвежее молоко. Проверяй оба варианта.
 
 ---`},{id:8001,moduleId:8,title:"Приёмка: почему это серьёзно",type:"text",duration:"1 мин",content:`Приёмка — момент, когда магазин берёт товар на ответственность.
 
@@ -1165,9 +1109,11 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 
 Как только ты поставил подпись на накладной — всё что внутри становится твоей ответственностью.
 
-❌ Не успел пересчитать — подписывать нельзя
-❌ Нашёл расхождение — подписывать нельзя до решения с Товароведом
-✅ Пересчитал, проверил, всё совпало — тогда подписываешь
+:::signs
+❌ | Не успел пересчитать — подписывать нельзя
+❌ | Нашёл расхождение — подписывать нельзя до решения с Товароведом
+✅ | Пересчитал, проверил, всё совпало — тогда подписываешь
+:::
 
 ---`},{id:8007,moduleId:8,title:"Расхождения: что делать",type:"text",duration:"1 мин",content:`Нашёл недостачу, излишек, брак или пересорт?
 
@@ -1176,7 +1122,9 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 3. Дождись решения — Товаровед подготовит документы
 4. Только после этого подписываешь
 
-> ⚠️ Не пытайся решить расхождение сам с водителем — это не твои полномочия.
+:::note Правило
+⚠️ Не пытайся решить расхождение сам с водителем — это не твои полномочия.
+:::
 
 ---`},{id:8008,moduleId:8,title:"Этап 3: Оформление документов",type:"text",duration:"1 мин",content:`После проверки и пересчёта:
 
@@ -1190,20 +1138,26 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 ---`},{id:8009,moduleId:8,title:"Подакцизный товар: почему это особая история",type:"text",duration:"1 мин",content:`Алкоголь — подакцизный товар. Каждая бутылка обязана иметь **акцизную марку.**
 
 Акцизная марка — это государственное подтверждение:
-✅ Товар легальный
-✅ Акциз уплачен
-✅ Товар можно продавать
+:::signs
+✅ | Товар легальный
+✅ | Акциз уплачен
+✅ | Товар можно продавать
+:::
 
 Бутылка без марки или с чужой / повреждённой маркой — **нелегальный товар.** Принять его = подставить магазин под штраф и изъятие всей партии.
 
 ---`},{id:8010,moduleId:8,title:"Акцизная марка: визуальная проверка",type:"text",duration:"1 мин",content:`До сканирования — осмотри каждую коробку:
 
-✅ Марка есть на каждой бутылке
-✅ Марка целая, не надорвана, не переклеена
-✅ Марка соответствует товару (не от другой бутылки)
-✅ Марка не самодельная — голограмма есть
+:::signs
+✅ | Марка есть на каждой бутылке
+✅ | Марка целая, не надорвана, не переклеена
+✅ | Марка соответствует товару (не от другой бутылки)
+✅ | Марка не самодельная — голограмма есть
+:::
 
-> ⚠️ Если что-то вызвало сомнение — не принимай эту позицию, сразу сообщи Товароведу.
+:::note Правило
+⚠️ Если что-то вызвало сомнение — не принимай эту позицию, сразу сообщи Товароведу.
+:::
 
 ---`},{id:8011,moduleId:8,title:"Сканирование марок через ТСД",type:"text",duration:"1 мин",content:`После подписи документов — сканируешь все акцизные марки через ТСД.
 
@@ -1221,8 +1175,10 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 2. Попробуй поштучно если сканировал групповым кодом
 3. Всё равно не читается → **сообщи Товароведу**
 
-❌ Не пропускай марку \xabна потом\xbb
-❌ Не принимай бутылку без сканирования
+:::signs
+❌ | Не пропускай марку \xabна потом\xbb
+❌ | Не принимай бутылку без сканирования
+:::
 
 Непросканированная марка = товара нет в системе = при продаже через ЕГАИС будет ошибка.
 
@@ -1286,14 +1242,15 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 1. Временно расширь выкладку **соседнего товара** из той же категории
 2. После поступления нужного товара — верни всё на место по планограмме
 
-❌ \xabПотом докину\xbb — не стандарт.
-✅ Заполнил сразу — молодец.
+:::signs
+❌ | \xabПотом докину\xbb — не стандарт.
+✅ | Заполнил сразу — молодец.
+:::
 
----`},{id:9004,moduleId:9,title:"Правила 2 и 3: Край и лицо",type:"text",duration:"1 мин",content:`**Выравнивай по переднему краю:**
-Весь товар — вперёд. Полка выглядит полной даже когда товара немного.
-
-**Лицом к покупателю:**
-Этикетка, название, логотип — смотрят на покупателя. Не вбок, не назад, не под углом.
+---`},{id:9004,moduleId:9,title:"Правила 2 и 3: Край и лицо",type:"text",duration:"1 мин",content:`:::terms
+Выравнивай по переднему краю | Весь товар — вперёд. Полка выглядит полной даже когда товара немного.
+Лицом к покупателю | Этикетка, название, логотип — смотрят на покупателя. Не вбок, не назад, не под углом.
+:::
 
 Проверь себя: отойди на шаг — полка выглядит как в магазине журнала?
 
@@ -1303,23 +1260,29 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 - ☐ Ценник стоит **под своим товаром** (не съехал к соседнему)
 - ☐ Цена **актуальная** (не от старой поставки)
 
-> ⚠️ Покупатель видит одну цену на полке — платит другую на кассе. Это конфликт и потеря доверия. Твоя задача — не допускать.
+:::note Правило
+⚠️ Покупатель видит одну цену на полке — платит другую на кассе. Это конфликт и потеря доверия. Твоя задача — не допускать.
+:::
 
 ---`},{id:9006,moduleId:9,title:"Правило 5: FIFO",type:"text",duration:"1 мин",content:`FIFO = **F**irst **I**n — **F**irst **O**ut. \xabПервым пришёл — первым ушёл\xbb.
 
 Как это работает на полке:
 
-🕐 Ближе к покупателю — товар с **ближайшим сроком годности**
-📦 За ним — свежий товар из новой поставки
+:::signs
+🕐 | Ближе к покупателю — товар с **ближайшим сроком годности**
+📦 | За ним — свежий товар из новой поставки
+:::
 
 При каждой выкладке нового товара: **старый вперёд, новый за ним.** Не наоборот.
 
 ---`},{id:9007,moduleId:9,title:"FIFO: почему это важно",type:"text",duration:"1 мин",content:`Нарушил FIFO → старый товар остался сзади → никто не берёт → просрочка.
 
 Просроченный товар на полке — это:
-❌ Жалоба покупателя
-❌ Штраф при проверке
-❌ Ответственность магазина
+:::signs
+❌ | Жалоба покупателя
+❌ | Штраф при проверке
+❌ | Ответственность магазина
+:::
 
 **Просроченный товар убирается немедленно:** отдельно от зала → сообщаешь старшему смены → ждёшь решения.
 
@@ -1362,7 +1325,7 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 
 📲 Актуальная версия всегда в служебном чате.
 
----`},{id:9012,moduleId:9,title:"Когда делать выкладку",type:"text",duration:"1 мин",content:`Выкладка — это не разовое событие. Это ритм смены.
+---`},{id:9012,moduleId:9,title:"Когда делать выкладку",type:"text",duration:"1 мин",content:`Выкладка — ритм смены, а не разовое событие:
 
 **При открытии:** пройти по залу, проверить полноту и порядок на всех стеллажах
 
@@ -1370,9 +1333,7 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 
 **После приёмки:** новый товар выставляется по FIFO и планограмме после статуса \xabПринято\xbb
 
-**При закрытии:** финальный осмотр — полка готова к следующему дню
-
----`},{id:9013,moduleId:9,title:"Быстрая проверка выкладки: 30 секунд",type:"text",duration:"1 мин",content:`Перед тем как уйти от стеллажа:
+**При закрытии:** финальный осмотр — полка готова к следующему дню`},{id:9013,moduleId:9,title:"Быстрая проверка выкладки: 30 секунд",type:"text",duration:"1 мин",content:`Перед тем как уйти от стеллажа:
 
 - ☐ Нет пустот на полке
 - ☐ Товар выровнен по переднему краю
@@ -1425,28 +1386,27 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 - ☐ **Никогда не лифт** — только пешком
 - ☐ Сам выходишь последним
 
-❌ Не возвращайся за вещами, деньгами или кассой
-❌ Не пытайся тушить самостоятельно — это работа пожарных
+:::signs
+❌ | Не возвращайся за вещами, деньгами или кассой
+❌ | Не пытайся тушить самостоятельно — это работа пожарных
+:::
 
 ---`},{id:10005,moduleId:10,title:"Конфликтный покупатель: уровни реакции",type:"text",duration:"1 мин",content:`Покупатель недоволен, повышает голос, требует невозможного.
 
-**Уровень 1 — решаешь сам:**
-Спокойно, без ответной агрессии. Помогаешь — по стандартам магазина.
-\xabЯ понимаю вашу ситуацию, давайте разберёмся\xbb
-
-**Уровень 2 — если не получается:**
-Зови старшего смены или старшего продавца.
-\xabСейчас позову коллегу, который поможет решить вопрос\xbb
-
-**Уровень 3 — угроза физической безопасности:**
-Вызывай **112**. Не вступай в контакт.
+:::terms
+Уровень 1 — решаешь сам | Спокойно, без ответной агрессии. Помогаешь — по стандартам магазина. | \xabЯ понимаю вашу ситуацию, давайте разберёмся\xbb
+Уровень 2 — если не получается | Зови старшего смены или старшего продавца. | \xabСейчас позову коллегу, который поможет решить вопрос\xbb
+Уровень 3 — угроза физической безопасности | Вызывай **112**. Не вступай в контакт.
+:::
 
 ---`},{id:10006,moduleId:10,title:"Конфликт: чего нельзя",type:"text",duration:"1 мин",content:`В конфликтной ситуации никогда:
 
-❌ Не отвечай агрессией на агрессию — ты проиграешь в любом случае
-❌ Не спорь о том кто прав — это не цель
-❌ Не оставляй кассу без присмотра во время конфликта
-❌ Не обещай того, что не можешь сделать
+:::signs
+❌ | Не отвечай агрессией на агрессию — ты проиграешь в любом случае
+❌ | Не спорь о том кто прав — это не цель
+❌ | Не оставляй кассу без присмотра во время конфликта
+❌ | Не обещай того, что не можешь сделать
+:::
 
 ✅ Твоя задача: снизить напряжение и найти решение или передать старшему.
 
@@ -1458,9 +1418,11 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 - ☐ После того как покупатель ушёл — сообщаешь операционному директору
 
 **Что не делаешь никогда:**
-❌ Не обвиняешь публично
-❌ Не задерживаешь и не блокируешь выход
-❌ Не обыскиваешь
+:::signs
+❌ | Не обвиняешь публично
+❌ | Не задерживаешь и не блокируешь выход
+❌ | Не обыскиваешь
+:::
 
 Самостоятельное задержание — незаконно. Ответственность ляжет на тебя.
 
@@ -1481,8 +1443,10 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 2. Жди решения
 3. Покупателям объясняй спокойно — сообщи о сбое и что уже разбираетесь
 
-❌ Не пытайся чинить самостоятельно
-❌ Не говори покупателю \xabне знаю, ничем не могу помочь\xbb
+:::signs
+❌ | Не пытайся чинить самостоятельно
+❌ | Не говори покупателю \xabне знаю, ничем не могу помочь\xbb
+:::
 
 ---`},{id:10010,moduleId:10,title:"Плохо человеку в зале",type:"text",duration:"1 мин",content:`Покупателю или сотруднику стало плохо.
 
@@ -1500,8 +1464,10 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 
 ---`},{id:10011,moduleId:10,title:"Затопление: два сценария",type:"text",duration:"1 мин",content:`В магазине возможны два вида затопления:
 
-🔽 **Снизу (подвал):** вода идёт через пол или стены снизу
-🔼 **Сверху (соседи):** капает или льёт с потолка
+:::signs
+🔽 | **Снизу (подвал):** вода идёт через пол или стены снизу
+🔼 | **Сверху (соседи):** капает или льёт с потолка
+:::
 
 Первые действия одинаковы в обоих случаях:
 1. Сообщи операционному директору немедленно
@@ -1565,21 +1531,25 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 Сотрудник в чистой форме с бейджем → **доверие**
 Сотрудник без бейджа, в мятой майке → \xabа ты вообще тут работаешь?\xbb
 
-Внешний вид — не дресс-код ради правил. Это первое впечатление о Take&Go.
+По твоему виду покупатель составляет первое впечатление о Take&Go — для этого стандарт и нужен.
 
 ---`},{id:20002,moduleId:20,title:"Форма: что и как",type:"text",duration:"1 мин",content:`Твоя форма — майка или худи Take&Go корпоративного дизайна.
 
-✅ Чистая — без пятен и запаха
-✅ Не мятая — постирал, повесил, пришёл в порядке
-✅ Зимой под худи — разрешено термобельё или водолазка
+:::signs
+✅ | Чистая — без пятен и запаха
+✅ | Не мятая — постирал, повесил, пришёл в порядке
+✅ | Зимой под худи — разрешено термобельё или водолазка
+:::
 
 Форма выдаётся магазином. Хранишь и стираешь **самостоятельно.** При увольнении форма **остаётся у тебя.**
 
 ---`},{id:20003,moduleId:20,title:"Бейдж: имя и грейд",type:"text",duration:"1 мин",content:`Бейдж — обязателен на каждой смене.
 
 На нём:
-👤 Твоё имя
-🏅 Знак грейда
+:::signs
+👤 | Твоё имя
+🏅 | Знак грейда
+:::
 
 Носится на видном месте — покупатель видит без усилий.
 
@@ -1588,44 +1558,58 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 
 ---`},{id:20004,moduleId:20,title:"Обувь: стандарт",type:"text",duration:"1 мин",content:`В магазине ты на ногах весь день. Обувь — это и стандарт, и безопасность.
 
-✅ Закрытый носок и закрытая пятка
-✅ Нескользящая подошва
-✅ Чистая
-✅ Шнурки завязаны
+:::signs
+✅ | Закрытый носок и закрытая пятка
+✅ | Нескользящая подошва
+✅ | Чистая
+✅ | Шнурки завязаны
+:::
 
-❌ Тапочки — запрещены
-❌ Сланцы — запрещены
+:::signs
+❌ | Тапочки — запрещены
+❌ | Сланцы — запрещены
+:::
 
 Падающий товар, разлитая жидкость — открытая обувь не защищает.
 
 ---`},{id:20005,moduleId:20,title:"Руки и украшения",type:"text",duration:"1 мин",content:`Руки — рабочий инструмент. На них смотрят.
 
-✅ Ногти короткие и аккуратные
-⚠️ Длинный гель-лак не рекомендуется — скалывается при работе с товаром
+:::signs
+✅ | Ногти короткие и аккуратные
+⚠️ | Длинный гель-лак не рекомендуется — скалывается при работе с товаром
+:::
 
 Украшения:
-✅ Аккуратные, прилегающие
-❌ Длинные свисающие серьги, браслеты — нет
+:::signs
+✅ | Аккуратные, прилегающие
+❌ | Длинные свисающие серьги, браслеты — нет
+:::
 
-При работе с кофемашиной и едой: ❌ кольца на руках снять
+При работе с едой и стаканами со льдом: ❌ кольца на руках снять
 
 ---`},{id:20006,moduleId:20,title:"Телефон: личный и служебный",type:"text",duration:"1 мин",content:`В магазине два телефона — личный и служебный. Разные правила.
 
-📱 **Личный:**
-— В кармане — норм
-— При покупателе — убираешь
-— Личные звонки — только в перерыв
+:::signs
+📱 | **Личный:**
+— | В кармане — норм
+— | При покупателе — убираешь
+— | Личные звонки — только в перерыв
+:::
 
-📞 **Служебный:**
-— Всегда лежит на своём месте в рабочей зоне
-— Отвечать и говорить по нему можно во время работы
-— Это рабочий инструмент, не развлечение
+:::signs
+📞 | **Служебный:**
+— | Всегда лежит на своём месте в рабочей зоне
+— | Отвечать и говорить по нему можно во время работы
+— | Это рабочий инструмент, не развлечение
+:::
 
 ---`},{id:20007,moduleId:20,title:"Общий вид",type:"text",duration:"1 мин",content:`Несколько деталей, которые складывают общее впечатление:
 
-💇 Волосы чистые. Длинные — собраны
-💄 Макияж аккуратный, без ярких вызывающих элементов
-🌬️ Запах нейтральный — без резкого парфюма
+:::signs
+💇 | Волосы чистые. Длинные — собраны
+💄 | Макияж аккуратный, без ярких вызывающих элементов
+🌬️ | Запах нейтральный — без резкого парфюма
+:::
 
 Ориентир простой: \xabВыгляжу так, чтобы покупатель чувствовал — здесь всё в порядке\xbb
 
@@ -1633,9 +1617,11 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 
 Смена 8–12 часов, пространство маленькое, покупатели рядом — у кассы, в очереди, вплотную.
 
-✅ Душ перед сменой — стандарт, не опция
-✅ Дезодорант — обязательно
-⚠️ Резкий парфюм — нежелательно: у людей бывает аллергия
+:::signs
+✅ | Душ перед сменой — стандарт, не опция
+✅ | Дезодорант — обязательно
+⚠️ | Резкий парфюм — нежелательно: у людей бывает аллергия
+:::
 
 📍 В туалете магазина есть **служебный дезодорант** — пользуйся перед сменой.
 
@@ -1672,17 +1658,21 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 
 Два риска которые надо знать с первого дня:
 
-⚠️ Продал несовершеннолетнему → штраф на магазин и лично на тебя
-💸 Не предложил Morrison → упустил продажу своего товара
+:::signs
+⚠️ | Продал несовершеннолетнему → штраф на магазин и лично на тебя
+💸 | Не предложил Morrison → упустил продажу своего товара
+:::
 
 После этого модуля ты знаешь категории, правила и как продавать.
 
 ---`},{id:12002,moduleId:12,title:"4 категории табака в магазине",type:"text",duration:"1 мин",content:`Весь табак делится на 4 категории по Честному знаку:
 
-🚬 **Табачные изделия** — сигареты, папиросы
-🌿 **Альтернативная продукция** — кальянный табак, сигары, трубочный
-🔥 **Никотиносодержащая** — стики для нагревания (IQOS и др.)
-💨 **ЭСДН и жидкости** — вейпы, поды, одноразки, жидкости
+:::signs
+🚬 | **Табачные изделия** — сигареты, папиросы
+🌿 | **Альтернативная продукция** — кальянный табак, сигары, трубочный
+🔥 | **Никотиносодержащая** — стики для нагревания (IQOS и др.)
+💨 | **ЭСДН и жидкости** — вейпы, поды, одноразки, жидкости
+:::
 
 Каждая категория — своё место в магазине.
 
@@ -1698,9 +1688,11 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 
 ---`},{id:12004,moduleId:12,title:"Сигареты: основные бренды",type:"text",duration:"1 мин",content:`Крупнейшие производители и их бренды:
 
-🏢 **JTI** — Winston, Camel, LD, Sobranie
-🏢 **Philip Morris** — Marlboro, Parliament, L&M, Chesterfield
-🏢 **BAT** — Lucky Strike, Kent, Dunhill, Rothmans
+:::signs
+🏢 | **JTI** — Winston, Camel, LD, Sobranie
+🏢 | **Philip Morris** — Marlboro, Parliament, L&M, Chesterfield
+🏢 | **BAT** — Lucky Strike, Kent, Dunhill, Rothmans
+:::
 
 С каждым из этих производителей у нас маркетинговый контракт. Это значит: соблюдаем ассортимент и планограмму — не меняем самостоятельно.
 
@@ -1734,11 +1726,10 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 
 Дисплей убран или повёрнут — продажи Morrison падают. Следи чтобы он всегда был на месте и хорошо виден.
 
----`},{id:12008,moduleId:12,title:"Morrison: кому и как предложить",type:"text",duration:"1 мин",content:`**Кому предлагать в первую очередь:**
-Покупателям которые берут вкусовые сигареты — особенно тем кто курит Чапман.
-
-**Что говорить:**
-\xabПопробуйте Morrison — наша новинка, произведены в Венгрии из качественного табака, вкусовые. Многим кто курит Чапман очень нравится\xbb
+---`},{id:12008,moduleId:12,title:"Morrison: кому и как предложить",type:"text",duration:"1 мин",content:`:::terms
+Кому предлагать в первую очередь | Покупателям которые берут вкусовые сигареты — особенно тем кто курит Чапман.
+Что говорить |  | \xabПопробуйте Morrison — наша новинка, произведены в Венгрии из качественного табака, вкусовые. Многим кто курит Чапман очень нравится\xbb
+:::
 
 Покупатель отказался — не настаиваешь. Предложил — уже хорошо.
 
@@ -1754,9 +1745,11 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 ---`},{id:12010,moduleId:12,title:"ЭСДН: вейпы и одноразки",type:"text",duration:"1 мин",content:`ЭСДН = Электронные Системы Доставки Никотина.
 
 Что входит:
-— Вейпы и поды (многоразовые)
-— Одноразовые электронные сигареты
-— Жидкости, в том числе **безникотиновые**
+:::signs
+— | Вейпы и поды (многоразовые)
+— | Одноразовые электронные сигареты
+— | Жидкости, в том числе **безникотиновые**
+:::
 
 ⚠️ Безникотиновые жидкости — тоже под ограничением 18+.
 
@@ -1764,24 +1757,28 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 
 ---`},{id:12011,moduleId:12,title:"Правило 18+: что под запретом",type:"text",duration:"1 мин",content:`Список шире чем кажется. Несовершеннолетним нельзя продавать:
 
-❌ Все виды табачной продукции
-❌ Зажигалки с газом (одноразовые и многоразовые)
-❌ Баллончики для заправки зажигалок
-❌ Бензин для зажигалок
-❌ Незаправленные зажигалки (Zippo и др.)
-❌ Вейпы и поды (многоразовые и одноразовые)
-❌ Безникотиновые жидкости
-❌ Курительные смеси без табака
+:::signs
+❌ | Все виды табачной продукции
+❌ | Зажигалки с газом (одноразовые и многоразовые)
+❌ | Баллончики для заправки зажигалок
+❌ | Бензин для зажигалок
+❌ | Незаправленные зажигалки (Zippo и др.)
+❌ | Вейпы и поды (многоразовые и одноразовые)
+❌ | Безникотиновые жидкости
+❌ | Курительные смеси без табака
+:::
 
 ---`},{id:12012,moduleId:12,title:"Проверка возраста: когда и как",type:"text",duration:"1 мин",content:`Сомневаешься в возрасте — спрашиваешь документ. Всегда.
 Лучше спросить лишний раз, чем не спросить один раз нужный.
 
 **Какие документы принимаем:**
-✅ Паспорт РФ (внутренний или заграничный)
-✅ Временное удостоверение личности
-✅ Водительские права
-✅ Военный билет
-✅ Паспорт иностранного гражданина
+:::signs
+✅ | Паспорт РФ (внутренний или заграничный)
+✅ | Временное удостоверение личности
+✅ | Водительские права
+✅ | Военный билет
+✅ | Паспорт иностранного гражданина
+:::
 
 ❌ Студенческий билет, скидочные карты — не принимаем.
 
@@ -1797,9 +1794,11 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 ---`},{id:12014,moduleId:12,title:"Маркетинговые контракты: что это значит для тебя",type:"text",duration:"1 мин",content:`С производителями JTI, Philip Morris, BAT и Меридиан-Трейд у магазина подписаны маркетинговые соглашения.
 
 Что это означает на практике:
-✅ Поддерживаем согласованный ассортимент этих брендов
-✅ Соблюдаем планограмму на табачной витрине
-❌ Самостоятельно не меняем расстановку
+:::signs
+✅ | Поддерживаем согласованный ассортимент этих брендов
+✅ | Соблюдаем планограмму на табачной витрине
+❌ | Самостоятельно не меняем расстановку
+:::
 
 Если возник вопрос по выкладке — уточняешь у старшего, не решаешь сам.
 
@@ -1816,8 +1815,10 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 ---`},{id:13001,moduleId:13,title:"Алкоголь: главная категория ассортимента",type:"text",duration:"1 мин",content:`Алкоголь — одна из главных категорий Take&Go.
 
 Здесь два полюса:
-⚠️ Строгая регуляторика — ошибка стоит дорого
-🏆 Наше конкурентное преимущество — лимитки и коктейльный формат
+:::signs
+⚠️ | Строгая регуляторика — ошибка стоит дорого
+🏆 | Наше конкурентное преимущество — лимитки и коктейльный формат
+:::
 
 Знаешь категорию → продаёшь уверенно и без нарушений.
 
@@ -1835,9 +1836,11 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 
 ---`},{id:13003,moduleId:13,title:"Три формата по размеру",type:"text",duration:"1 мин",content:`Алкоголь на полках разделён по размеру:
 
-🍾 **Большой** — более 500 мл → своя полка
-🥃 **Средний** — от 100 до 500 мл → своя полка
-🔹 **Мини** — от 40 до 100 мл → алко-миниатюры
+:::signs
+🍾 | **Большой** — более 500 мл → своя полка
+🥃 | **Средний** — от 100 до 500 мл → своя полка
+🔹 | **Мини** — от 40 до 100 мл → алко-миниатюры
+:::
 
 Мини входят в **коктейльные наборы** — самый узнаваемый продукт магазина.
 
@@ -1853,12 +1856,14 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 
 Перепутал способ → продажа прошла некорректно.
 
----`},{id:13005,moduleId:13,title:"ЕГАИС: что это и зачем",type:"text",duration:"1 мин",content:`ЕГАИС — государственная система учёта алкоголя. Каждая продажа фиксируется и уходит в реестр автоматически.
+---`},{id:13005,moduleId:13,title:"ЕГАИС: что это и зачем",type:"text",duration:"1 мин",content:`ЕГАИС — Единая государственная автоматизированная информационная система учёта алкоголя. Каждая продажа фиксируется и уходит в реестр автоматически.
 
 Твой индикатор: на кассе должен отображаться значок **УТМ** (Универсальный Транспортный Модуль).
 
-✅ УТМ есть → всё работает, продаёшь
-❌ УТМ не отображается → сообщаешь старшему **до начала продаж алкоголя**
+:::signs
+✅ | УТМ есть → всё работает, продаёшь
+❌ | УТМ не отображается → сообщаешь старшему **до начала продаж алкоголя**
+:::
 
 Продал без УТМ = продажа не зафиксирована в системе.
 
@@ -1877,11 +1882,13 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 
 Сомневаешься → просишь документ.
 
-✅ Паспорт РФ (внутренний или заграничный)
-✅ Временное удостоверение личности
-✅ Водительские права
-✅ Военный билет
-✅ Паспорт иностранного гражданина
+:::signs
+✅ | Паспорт РФ (внутренний или заграничный)
+✅ | Временное удостоверение личности
+✅ | Водительские права
+✅ | Военный билет
+✅ | Паспорт иностранного гражданина
+:::
 
 Нет документа = нет продажи.
 \xabК сожалению, без документа подтверждающего возраст продать не могу\xbb
@@ -1912,12 +1919,14 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 - ☐ Знай что пришло и как выглядит
 - ☐ При случае предложи: \xabУ нас есть подарочный набор — подойдёт?\xbb
 
----`},{id:13011,moduleId:13,title:"Что нельзя делать никогда",type:"text",duration:"1 мин",content:`❌ Продавать алкоголь до 8:00 и после 23:00
-❌ Продавать без проверки возраста при сомнении
-❌ Принимать студенческий билет как документ
-❌ Продавать при отсутствии УТМ на кассе
-❌ Сканировать пиво через акцизную марку (нужен ЧЗ)
-❌ Делать исключения для \xabпостоянных клиентов\xbb или \xabтолько пиво\xbb
+---`},{id:13011,moduleId:13,title:"Что нельзя делать никогда",type:"text",duration:"1 мин",content:`:::signs
+❌ | Продавать алкоголь до 8:00 и после 23:00
+❌ | Продавать без проверки возраста при сомнении
+❌ | Принимать студенческий билет как документ
+❌ | Продавать при отсутствии УТМ на кассе
+❌ | Сканировать пиво через штрих-код, минуя ЧЗ.
+❌ | Делать исключения для \xabпостоянных клиентов\xbb или \xabтолько пиво\xbb
+:::
 
 Каждый пункт — это либо штраф, либо нарушение закона.
 
@@ -1943,7 +1952,7 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 
 ---`},{id:14001,moduleId:14,title:"Напитки: самая быстрая категория",type:"text",duration:"1 мин",content:`Покупатель зашёл за холодным напитком. Он знает что хочет. Он хочет это сейчас.
 
-Наша задача — чтобы оно было. Холодное. На полке.
+Наша задача — чтобы холодный напиток стоял на полке и ждал его.
 
 Напитки — одна из самых продаваемых категорий. Пустой холодильник = потерянная продажа.
 
@@ -1956,41 +1965,52 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 **3️⃣ Редкие импортные новинки**
 Главным образом Monster — вкусы которых нет в других магазинах. Покупатели приходят за этим целенаправленно.
 
----`},{id:14003,moduleId:14,title:"Пять подкатегорий напитков",type:"text",duration:"1 мин",content:`💧 **Вода** — без газа, с газом, минеральная
-🥤 **Газированные** — Cola, Fanta, Sprite, Tonic, Milkis, Dr. Pepper
-⚡ **Энергетики и изотоники** — Red Bull, Monster, Adrenalin, PRIME, HQD
-🍵 **Чай, кофе, прочие** — Lipton, Arizona, Lotte, бабл-ти, молочные
-🍊 **Соки и нектары** — Rich, Добрый, Палпи
+---`},{id:14003,moduleId:14,title:"Пять подкатегорий напитков",type:"text",duration:"1 мин",content:`:::signs
+💧 | **Вода** — без газа, с газом, минеральная
+🥤 | **Газированные** — Cola, Fanta, Sprite, Tonic, Milkis, Dr. Pepper
+⚡ | **Энергетики и изотоники** — Red Bull, Monster, Adrenalin, PRIME, HQD
+🍵 | **Чай, кофе, прочие** — Lipton, Arizona, Lotte, бабл-ти, молочные
+🍊 | **Соки и нектары** — Rich, Добрый, Палпи
+:::
 
 ---`},{id:14004,moduleId:14,title:"Энергетики: 18+ и Честный знак",type:"text",duration:"1 мин",content:`⚠️ Энергетические напитки продаются только с 18 лет.
 
 Правило то же что у алкоголя и табака: сомневаешься в возрасте → просишь документ.
 
-✅ Паспорт РФ / загранпаспорт, водительские права, военный билет, временное удостоверение, паспорт иностранного гражданина
-❌ Студенческий билет — не принимаем
+:::signs
+✅ | Паспорт РФ / загранпаспорт, водительские права, военный билет, временное удостоверение, паспорт иностранного гражданина
+❌ | Студенческий билет — не принимаем
+:::
 
 Энергетики продаются **через Честный знак**: сканируешь стикер ЧЗ на упаковке, а не штрихкод.
 
-❌ Пробил через штрихкод → нарушение маркировки
-✅ Пробил через ЧЗ → всё корректно
+:::signs
+❌ | Пробил через штрихкод → нарушение маркировки
+✅ | Пробил через ЧЗ → всё корректно
+:::
 
 ---`},{id:14005,moduleId:14,title:"HQD: наш энергетик",type:"text",duration:"1 мин",content:`**HQD — это наш собственный бренд.**
 
 Что делает его особенным:
-🍹 Содержит натуральный сок
-☕ Натуральный кофеин — не синтетический
-🌿 Производится методом пастеризации
-💰 Лучшая цена/качество на рынке
+:::signs
+🍹 | Содержит натуральный сок
+☕ | Натуральный кофеин — не синтетический
+🌿 | Производится методом пастеризации
+💰 | Лучшая цена/качество на рынке
+:::
 
 **27 вкусов за всё время — 14 в продаже сейчас.** Самый большой ассортимент среди всех производителей в России.
 
 ---`},{id:14006,moduleId:14,title:"HQD: вкусы которых нет больше нигде",type:"text",duration:"1 мин",content:`Редкие вкусы — наша фишка:
 
-🍈 Памело-ананас
-🍓 Клубника со сливками
-🐻 Мармеладные мишки
-🍬 Скитлз
-🍏 Белорусское яблочко
+:::signs
+🍈 | Памело-ананас
+🍓 | Клубника со сливками
+🐻 | Мармеладные мишки
+🍬 | Скитлз
+🍏 | Белорусское яблочко
+:::
+
 ...и другие
 
 Коллаборации с рэперами — часть ДНК бренда. Следи за новинками в служебном чате.
@@ -1999,8 +2019,10 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 
 ---`},{id:14007,moduleId:14,title:"Monster: наша экспертиза",type:"text",duration:"1 мин",content:`Take&Go — место с самым широким выбором Monster в Москве.
 
-🟢 **Более 50 артикулов** в постоянном наличии
-🆕 **Новинки появляются у нас первыми** — раньше супермаркетов
+:::signs
+🟢 | **Более 50 артикулов** в постоянном наличии
+🆕 | **Новинки появляются у нас первыми** — раньше супермаркетов
+:::
 
 Фанаты и коллекционеры Monster знают: если где-то нет — найдут у нас.
 
@@ -2014,7 +2036,7 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 
 🧊 Холодильники должны быть **заполнены всегда**.
 
-Заметил пустые ячейки → пополняешь сразу. Не \xabпотом\xbb, не \xabв конце смены\xbb. **Сразу.**
+Заметил пустые ячейки → пополняешь **сразу**, не откладывая на конец смены.
 
 ---`},{id:14010,moduleId:14,title:"Выкладка по FIFO",type:"text",duration:"1 мин",content:`FIFO — \xabпервым пришёл, первым ушёл\xbb.
 
@@ -2034,25 +2056,33 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 
 Нашёл проблему → исправил или сообщил старшему.
 
----`},{id:14012,moduleId:14,title:"Три «нельзя» в категории",type:"text",duration:"1 мин",content:`❌ Продавать энергетики без проверки возраста при сомнении
-❌ Пробивать энергетики и молочные напитки без ЧЗ
-❌ Оставлять пустые ячейки в холодильнике
+---`},{id:14012,moduleId:14,title:"Три «нельзя» в категории",type:"text",duration:"1 мин",content:`:::signs
+❌ | Продавать энергетики без проверки возраста при сомнении
+❌ | Пробивать энергетики и молочные напитки без ЧЗ
+❌ | Оставлять пустые ячейки в холодильнике
+:::
 
 Первые два — нарушение закона.
 Третье — потерянные продажи каждый день.
 
 ---`},{id:14013,moduleId:14,title:"Консультация: что говорить",type:"text",duration:"1 мин",content:`Покупатель спрашивает \xabчто-нибудь бодрящее\xbb:
-→ \xabЭнергетики вот здесь — Red Bull, Monster, PRIME. Если хотите изотоник — есть PRIME, держит лучше при активности\xbb
+:::note Совет
+\xabЭнергетики вот здесь — Red Bull, Monster, PRIME. Если хотите изотоник — есть PRIME, держит лучше при активности\xbb
+:::
 
 Покупатель спрашивает воду с газом:
-→ Показываешь конкретно, называешь марку
+:::note Совет
+Показываешь конкретно, называешь марку
+:::
 
 Знаешь ассортимент → продаёшь уверенно.
 
 ---`},{id:14014,moduleId:14,title:"Запрос от явного несовершеннолетнего",type:"text",duration:"1 мин",content:`Запрос на энергетик от человека явно младше 18:
 
-❌ Не консультируешь
-❌ Не продаёшь
+:::signs
+❌ | Не консультируешь
+❌ | Не продаёшь
+:::
 
 Скрипт: \xabК сожалению, энергетики продаются только с 18 лет\xbb
 
@@ -2066,37 +2096,34 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 Б) Прошу документ на Monster, Milkis продаю без ограничений
 В) Прошу документ на оба товара
 
-**Правильно: В** — Monster 18+ обязательно. При сомнении в возрасте — документ на оба. Monster нельзя продавать без проверки.
+**Правильно: Б** — Monster 18+ обязательно, при сомнении просишь документ. Milkis — молочный напиток, возрастного ограничения нет, продаёшь без проверки.
 
 ---`},{id:15001,moduleId:15,title:"Продукты: больше чем снеки",type:"text",duration:"1 мин",content:`Покупатель заходит \xabчто-нибудь перекусить\xbb. У нас для этого есть всё:
 
-🍫 Сладкое и шоколад
-🥨 Чипсы и снеки
-🍜 Горячая лапша прямо в магазине
-🥣 Готовые завтраки
-🍦 Мороженое
+:::signs
+🍫 | Сладкое и шоколад
+🥨 | Чипсы и снеки
+🥣 | Готовые завтраки
+🍦 | Мороженое
+:::
 
 Знаешь полку — помогаешь покупателю. Помогаешь — увеличиваешь чек.
 
----`},{id:15002,moduleId:15,title:"Шесть групп продуктов",type:"text",duration:"1 мин",content:`🍬 **Сладкое** — шоколад, мармелад, конфеты, жвачка, шоколадная паста
-🥨 **Выпечка и снеки** — печенье, вафли, чипсы, снеки, соевые снеки
-🍜 **Быстрая еда** — лапша, рис, готовые завтраки RTEC
-☕ **Растворимые напитки** — кофе, какао, горячий шоколад в пакетиках
-🍦 **Мороженое и пищевой лёд** — молочное мороженое и фруктовый лёд
-🥣 **Прочее** — функциональные снеки и новинки
-
----`},{id:15003,moduleId:15,title:"Зона лапши: кластер быстрой еды",type:"text",duration:"1 мин",content:`Полка с лапшой стоит **рядом с раменоваркой** — это не случайно.
-
-Покупатель видит лапшу → видит раменоварку → понимает: \xabЯ могу приготовить и съесть прямо здесь\xbb
-
-Рядом — чипсы и готовые завтраки RTEC. Это зона \xabбыстрого перекуса\xbb внутри магазина.
-
-Знаешь где это → можешь провести покупателя.
+---`},{id:15002,moduleId:15,title:"Шесть групп продуктов",type:"text",duration:"1 мин",content:`:::signs
+🍬 | **Сладкое** — шоколад, мармелад, конфеты, жвачка, шоколадная паста
+🥨 | **Выпечка и снеки** — печенье, вафли, чипсы, снеки, соевые снеки
+🍚 | **Быстрая еда** — рис, готовые завтраки RTEC
+☕ | **Растворимые напитки** — кофе, какао, горячий шоколад в пакетиках
+🍦 | **Мороженое и пищевой лёд** — молочное мороженое и фруктовый лёд
+🥣 | **Прочее** — функциональные снеки и новинки
+:::
 
 ---`},{id:15004,moduleId:15,title:"Мороженое: Честный знак",type:"text",duration:"1 мин",content:`Мороженое и фруктовый лёд — разные продукты. Но правило одно для обоих:
 
-✅ Сканировать только через **ЧЗ стикер**
-❌ Через штрихкод — нельзя
+:::signs
+✅ | Сканировать только через **ЧЗ стикер**
+❌ | Через штрихкод — нельзя
+:::
 
 В системе ЧЗ оба вида относятся к категории **\xabМороженое и пищевой лёд\xbb**.
 
@@ -2104,27 +2131,30 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 
 ---`},{id:15005,moduleId:15,title:"Запрос «что-нибудь сладкое»",type:"text",duration:"1 мин",content:`Покупатель: \xabЕсть что-нибудь сладкое?\xbb
 
-❌ \xabВон там полки\xbb
-✅ \xabДа — шоколад и мармелад вот здесь, печенье рядом. Если хотите мороженое — есть в морозилке\xbb
+:::signs
+❌ | \xabВон там полки\xbb
+✅ | \xabДа — шоколад и мармелад вот здесь, печенье рядом. Если хотите мороженое — есть в морозилке\xbb
+:::
 
 Две секунды — и покупатель идёт к нужной полке. Не идёт — уходит ни с чем.
 
----`},{id:15006,moduleId:15,title:"Запрос «перекусить» и «что-то горячее»",type:"text",duration:"1 мин",content:`Покупатель: \xabХочу что-нибудь перекусить\xbb — два варианта в зависимости от времени:
+---`},{id:15006,moduleId:15,title:"Запрос «перекусить» и «что-то горячее»",type:"text",duration:"1 мин",content:`Покупатель: \xabХочу что-нибудь перекусить\xbb — два варианта в зависимости от того, что нужно:
 
-⚡ **Быстро** → чипсы, снеки — сразу готово
-🍜 **Чуть дольше** → лапша в раменоварке — горячо, сытно
+:::signs
+⚡ | **Быстро** → чипсы, снеки — сразу готово
+🥣 | **Посытнее** → готовые завтраки RTEC, рис
+:::
 
-Уточни: \xabХотите что-то быстро или есть пара минут на лапшу?\xbb
+Уточни: \xabХотите что-то быстро или что-то посытнее?\xbb
 
-Покупатель хочет горячего: 🍜 лапша в раменоварке, ☕ кофе из кафетерия, 🍫 растворимый какао — в зависимости от того, хочет ли есть или просто согреться.
+Покупатель хочет горячего: ☕ растворимый кофе, 🍫 какао, 🍵 горячий шоколад в пакетиках.
 
----`},{id:15007,moduleId:15,title:"Выкладка: что важно держать в порядке",type:"text",duration:"1 мин",content:`В продуктовой зоне три вещи критичны:
+---`},{id:15007,moduleId:15,title:"Выкладка: что важно держать в порядке",type:"text",duration:"1 мин",content:`В продуктовой зоне две вещи критичны:
 
-- ☐ **Зона лапши** — полка полная, ценники на месте
 - ☐ **Морозилка** — работает, мороженое не подтаяло
 - ☐ **Снеки и сладкое** — товар лицом, не завален в глубину
 
-Пустая полка в зоне лапши = покупатель не видит связки с раменоваркой.
+Пустая полка = покупатель не видит товар и уходит без покупки.
 
 ---`},{id:15008,moduleId:15,title:"FIFO в продуктах",type:"text",duration:"1 мин",content:`FIFO работает везде — в том числе в продуктах.
 
@@ -2132,17 +2162,20 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 Старый товар — вперёд, к покупателю.
 
 Особенно важно:
-🍦 Мороженое — срок годности короткий
-🥣 Готовые завтраки и лапша — тоже следи за датами
+:::signs
+🍦 | Мороженое — срок годности короткий
+🥣 | Готовые завтраки — тоже следи за датами
+:::
 
 Просроченный товар на полке = нарушение + репутационный риск.
 
----`},{id:15009,moduleId:15,title:"Три «нельзя» в категории",type:"text",duration:"1 мин",content:`❌ Пробивать мороженое и фруктовый лёд без ЧЗ
-❌ Не знать где зона лапши и раменоварки
-❌ На вопрос покупателя отвечать \xabвон полки\xbb вместо конкретной помощи
+---`},{id:15009,moduleId:15,title:"Два «нельзя» в категории",type:"text",duration:"1 мин",content:`:::signs
+❌ | Пробивать мороженое и фруктовый лёд без ЧЗ
+❌ | На вопрос покупателя отвечать \xabвон полки\xbb вместо конкретной помощи
+:::
 
 Первое — нарушение закона.
-Второе и третье — потерянные продажи каждый день.
+Второе — потерянные продажи каждый день.
 
 ---`},{id:15010,moduleId:15,title:"Проверь себя",type:"text",duration:"1 мин",content:`Покупатель говорит: \xabХочу что-нибудь вкусное к кофе\xbb
 
@@ -2163,8 +2196,10 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 
 Стакан нужен **не только для коктейлей**. Со льдом вкуснее всё:
 
-🥤 Газировка \xb7 Вода \xb7 Энергетик \xb7 Сок
-🍺 Пиво — тоже лучше со льдом
+:::signs
+🥤 | Газировка \xb7 Вода \xb7 Энергетик \xb7 Сок
+🍺 | Пиво — тоже лучше со льдом
+:::
 
 При любой покупке напитка: **\xabХотите стакан со льдом?\xbb**
 
@@ -2173,7 +2208,7 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 - ☐ Стаканы заканчиваются → пополняешь **сразу**
 - ☐ Лёд заканчивается → делаешь или сообщаешь старшему
 
-Не \xabв конце смены\xbb. Не \xabпопозже\xbb. **Сразу.**
+Пополняешь **сразу**, а не \xabв конце смены\xbb и не \xabпопозже\xbb.
 
 ---`},{id:16004,moduleId:16,title:"Пакеты: предлагаем всегда",type:"text",duration:"1 мин",content:`Три вида: **большой \xb7 маленький \xb7 крафтовый**
 
@@ -2185,12 +2220,14 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 
 ---`},{id:16005,moduleId:16,title:"Товары первой необходимости",type:"text",duration:"1 мин",content:`Покупатель вспоминает об этом когда уже нужно:
 
-🧻 **Влажные салфетки** — к еде, к раменоварке, к стакану
-🔋 **Батарейки** — импульсная покупка, часто у кассы
-🩹 **Пластыри** — аптечный минимум здесь и сейчас
-💄 **Бальзам для губ** — уходовая импульсная покупка
-😷 **Маска гигиеническая** — ситуативный спрос
-🛡 **Презервативы** — есть в ассортименте
+:::signs
+🧻 | **Влажные салфетки** — к еде, к стакану
+🔋 | **Батарейки** — импульсная покупка, часто у кассы
+🩹 | **Пластыри** — аптечный минимум здесь и сейчас
+💄 | **Бальзам для губ** — уходовая импульсная покупка
+😷 | **Маска гигиеническая** — ситуативный спрос
+🛡 | **Презервативы** — есть в ассортименте
+:::
 
 Знаешь что есть → можешь подсказать.
 
@@ -2239,7 +2276,7 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 
 ~50 вариантов наборов. Напиток + алкоголь + мармелад + стакан со льдом.
 
-Сотрудник который разбирается в наборах — продаёт не товар, а впечатление.
+Сотрудник, который разбирается в наборах, продаёт впечатление — покупатель это запоминает.
 
 ---`},{id:17002,moduleId:17,title:"Пять полок: логика выкладки",type:"text",duration:"1 мин",content:`Наборы выложены по смыслу, не случайно:
 
@@ -2253,16 +2290,20 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 
 ---`},{id:17003,moduleId:17,title:"Три уровня крепости",type:"text",duration:"1 мин",content:`Первый вопрос покупателю: **\xabКрепкий или полегче?\xbb**
 
-🟢 **Лёгкий** — напиток + 1 алкоголь
-🟡 **Средний** — напиток + 1 алкоголь + 1 ликёр
-🔴 **Крепкий** — напиток + 2 алкоголя
+:::signs
+🟢 | **Лёгкий** — напиток + 1 алкоголь
+🟡 | **Средний** — напиток + 1 алкоголь + 1 ликёр
+🔴 | **Крепкий** — напиток + 2 алкоголя
+:::
 
 Один вопрос — и ты уже знаешь в какую сторону идти.
 
 ---`},{id:17004,moduleId:17,title:"Принцип цвета",type:"text",duration:"1 мин",content:`Наборы в одной цветовой гамме продаются лучше.
 
-🟣 Фанта Виноград + Смородиновая водка + фиолетовый мармелад
-🩷 Розовый Баскин Роббинс + розовый джин + розовый мармелад
+:::signs
+🟣 | Фанта Виноград + Смородиновая водка + фиолетовый мармелад
+🩷 | Розовый Баскин Роббинс + розовый джин + розовый мармелад
+:::
 
 При сборке и выкладке: подбирай **напиток + алкоголь + мармелад** в одном цвете.
 
@@ -2314,8 +2355,10 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 
 Покупатель должен видеть этикетки всех элементов набора — это часть визуальной подачи.
 
-❌ Бутылки вперемешку, этикетки внутрь
-✅ Каждый элемент повёрнут лицом наружу
+:::signs
+❌ | Бутылки вперемешку, этикетки внутрь
+✅ | Каждый элемент повёрнут лицом наружу
+:::
 
 Красивый стакан продаёт себя сам.
 
@@ -2361,22 +2404,28 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 
 ---`},{id:18002,moduleId:18,title:"Три категории 18+",type:"text",duration:"1 мин",content:`В нашем магазине три категории с ограничением 18+:
 
-🍷 **Алкоголь** — плюс ограничение по времени
-🚬 **Табак и никотин** — все виды без исключений
-⚡ **Энергетические напитки** — включая изотоники
+:::signs
+🍷 | **Алкоголь** — плюс ограничение по времени
+🚬 | **Табак и никотин** — все виды без исключений
+⚡ | **Энергетические напитки** — включая изотоники
+:::
 
 Правило одно для всех: **Сомневаешься в возрасте → просишь документ.**
 
----`},{id:18003,moduleId:18,title:"Какие документы принимаем",type:"text",duration:"1 мин",content:`✅ Паспорт РФ (внутренний или заграничный)
-✅ Временное удостоверение личности
-✅ Водительские права
-✅ Военный билет
-✅ Паспорт иностранного гражданина
+---`},{id:18003,moduleId:18,title:"Какие документы принимаем",type:"text",duration:"1 мин",content:`:::signs
+✅ | Паспорт РФ (внутренний или заграничный)
+✅ | Временное удостоверение личности
+✅ | Водительские права
+✅ | Военный билет
+✅ | Паспорт иностранного гражданина
+:::
 
 ❌ **Студенческий билет — не принимаем.** Он не удостоверяет возраст по закону.
 
----`},{id:18004,moduleId:18,title:"Алкоголь: часы продажи",type:"text",duration:"1 мин",content:`✅ **С 8:00 до 23:00** — продаёшь
-❌ **До 8:00 и после 23:00** — не продаёшь
+---`},{id:18004,moduleId:18,title:"Алкоголь: часы продажи",type:"text",duration:"1 мин",content:`:::signs
+✅ | **С 8:00 до 23:00** — продаёшь
+❌ | **До 8:00 и после 23:00** — не продаёшь
+:::
 
 ⚠️ Момент продажи = время пробития чека. Чек в 23:01 — нарушение, даже если товар взят в 22:58.
 
@@ -2386,10 +2435,12 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 
 ---`},{id:18005,moduleId:18,title:"Табак: что нельзя продавать до 18",type:"text",duration:"1 мин",content:`Под запрет для несовершеннолетних попадает не только табак:
 
-🚬 Сигареты, стики, кальянный табак — все виды
-💨 Вейпы, поды, одноразовые электронные сигареты
-🔥 Зажигалки (газовые, заправочные баллончики, Zippo)
-🌬 Безникотиновые жидкости и курительные смеси
+:::signs
+🚬 | Сигареты, стики, кальянный табак — все виды
+💨 | Вейпы, поды, одноразовые электронные сигареты
+🔥 | Зажигалки (газовые, заправочные баллончики, Zippo)
+🌬 | Безникотиновые жидкости и курительные смеси
+:::
 
 Также нельзя **консультировать** покупателей младше 18 по любой из этих позиций.
 
@@ -2403,11 +2454,13 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 
 ---`},{id:18007,moduleId:18,title:"Что сканируется через ЧЗ",type:"text",duration:"1 мин",content:`Через **Честный знак** сканируются:
 
-🍺 Пиво, сидр, слабый алкоголь
-🚬 Табак и никотиносодержащие изделия
-⚡ Энергетики и изотоники
-🥛 Молочные напитки
-🍦 Мороженое и фруктовый лёд
+:::signs
+🍺 | Пиво, сидр, слабый алкоголь
+🚬 | Табак и никотиносодержащие изделия
+⚡ | Энергетики и изотоники
+🥛 | Молочные напитки
+🍦 | Мороженое и фруктовый лёд
+:::
 
 Видишь ЧЗ стикер на упаковке — сканируешь только его. Штрихкод в этом случае не подходит.
 
@@ -2418,8 +2471,10 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 Это делает **УТМ** (Универсальный транспортный модуль).
 
 На кассе всегда должен быть значок УТМ:
-✅ Значок есть → продаёшь алкоголь спокойно
-❌ Значка нет → сообщаешь старшему **до** начала продаж
+:::signs
+✅ | Значок есть → продаёшь алкоголь спокойно
+❌ | Значка нет → сообщаешь старшему **до** начала продаж
+:::
 
 ---`},{id:18009,moduleId:18,title:"Как не перепутать: акциз vs ЧЗ",type:"text",duration:"1 мин",content:`Простое правило:
 
@@ -2431,17 +2486,21 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 
 ---`},{id:18010,moduleId:18,title:"Что делать если маркировки нет",type:"text",duration:"1 мин",content:`Взял товар — нет акцизной марки или ЧЗ стикера.
 
-❌ Не пробивай через штрихкод вместо маркировки
-✅ Сообщи старшему до продажи
+:::signs
+❌ | Не пробивай через штрихкод вместо маркировки
+✅ | Сообщи старшему до продажи
+:::
 
 Возможные причины: стикер отклеился, товар пришёл без маркировки. В любом случае — это не твоё решение. Решение принимает старший.
 
 ---`},{id:18011,moduleId:18,title:"Единое правило для любой ситуации",type:"text",duration:"1 мин",content:`Любая ситуация с 18+ или маркировкой решается одним подходом:
 
-🔴 Сомневаешься в возрасте → **просишь документ**
-🔴 Нет маркировки → **сообщаешь старшему**
-🔴 Нет УТМ → **сообщаешь старшему до продажи**
-🔴 После 23:00 → **отказываешь вежливо**
+:::signs
+🔴 | Сомневаешься в возрасте → **просишь документ**
+🔴 | Нет маркировки → **сообщаешь старшему**
+🔴 | Нет УТМ → **сообщаешь старшему до продажи**
+🔴 | После 23:00 → **отказываешь вежливо**
+:::
 
 Останавливаешь себя сам — лучше чем тебя остановят с протоколом.
 
@@ -2473,9 +2532,11 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 ---`},{id:19001,moduleId:19,title:"Добро пожаловать на аттестацию",type:"text",duration:"1 мин",content:`Ты прошёл все модули G1. Теперь проверим — не теорию, а готовность работать.
 
 Три части:
-📋 Практический чек-лист — проверь себя и рабочее место
-🎬 6 сценариев — реальные ситуации из смены
-✅ 10 вопросов — финальный тест
+:::signs
+📋 | Практический чек-лист — проверь себя и рабочее место
+🎬 | 6 сценариев — реальные ситуации из смены
+✅ | 10 вопросов — финальный тест
+:::
 
 Проходной балл: **80%**. Удачи — ты готов.
 
@@ -2558,4 +2619,4 @@ Blue Cura\xe7ao: внешняя коробка → 4 коробочки по 12 
 
 Кое-что важно понять сразу: в Take&Go сотрудников запоминают по имени. Это редкость для магазина у дома — и то, ради чего к нам возвращаются снова и снова. Скоро твоё имя станет частью этой истории тоже.
 
-Добро пожаловать в команду.`},n=[{id:"recommend-bar",title:"Первый раз в магазине",category:"sales",difficulty:1,situation:"Покупатель стоит у полки с коктейльными наборами. Он у нас первый раз и явно не знает, что выбрать.",customerName:"Алексей",customerMood:"neutral",turns:[{id:"t1",customerLine:"А что это у вас за наборы такие? Я первый раз.",choices:[{id:"c1a",text:"«Это коктейльный набор: мини-бутылка, напиток и стакан со льдом. Вам покрепче или полегче?»",outcome:"great",feedback:"Отлично: объяснили в одну фразу и сразу спросили про вкус, а не навязали первое попавшееся.",customerReply:"Полегче, наверное. Просто посидеть вечером.",xpReward:20},{id:"c1b",text:"«Возьмите вот этот, он самый ходовой»",outcome:"good",feedback:"Хорошо, что дали конкретную рекомендацию. Но сначала стоит узнать, какую крепость он хочет.",customerReply:"А что в нём?",xpReward:12},{id:"c1c",text:"«Там всё на ценниках написано»",outcome:"bad",feedback:"Покупатель прямо попросил помощи. Такой ответ читается как безразличие — и он уходит с водой вместо набора.",customerReply:"Ладно... тогда просто воду возьму.",xpReward:0},{id:"c1d",text:"«У нас всё хорошее, не ошибётесь!»",outcome:"neutral",feedback:"Дружелюбно, но пусто. Покупатель так и не понял, что он покупает.",customerReply:"Ну окей... давайте что-нибудь среднее.",xpReward:6}]}],maxXP:20},{id:"handle-complaint",title:"Жалоба на качество",category:"conflict",difficulty:2,situation:"Покупатель возвращается с энергетиком — банка тёплая, хотя он брал её из холодильника. Слегка раздражён.",customerName:"Наталья",customerMood:"frustrated",turns:[{id:"t1",customerLine:"Извините, но она совсем тёплая. Я же из холодильника брала!",choices:[{id:"c1a",text:"«Извините — сейчас поменяю, и скажу старшему, чтобы проверили холодильник»",outcome:"great",feedback:"Идеально: закрыли и проблему покупателя, и её причину. Тёплая банка — это не одна банка, а весь холодильник.",customerReply:"Вот это по-человечески, спасибо!",xpReward:25},{id:"c1b",text:"«Странно, обычно всё холодное... давайте проверим»",outcome:"neutral",feedback:"Не спорьте с покупателем. Даже мягкое сомнение читается как обвинение.",customerReply:"Ну... надеюсь, это исключение.",xpReward:8},{id:"c1c",text:"«Может, вы её долго носили? Она быстро нагревается»",outcome:"bad",feedback:"Никогда не перекладывайте вину на покупателя. Это разрушает доверие быстрее, чем тёплая банка.",customerReply:"Вы серьёзно? Это было две минуты назад.",xpReward:0},{id:"c1d",text:"«Хотите скидку на следующую?»",outcome:"good",feedback:"Добрый жест, но сначала решите текущую проблему — замените банку.",customerReply:"Лучше просто холодную сейчас, если можно.",xpReward:15}]}],maxXP:25},{id:"product-knowledge",title:"Вопрос о составе",category:"knowledge",difficulty:2,situation:"Покупательница спрашивает о составе протеинового батончика — у неё аллергия на глютен.",customerName:"Светлана",customerMood:"confused",turns:[{id:"t1",customerLine:"Скажите, в этом батончике есть глютен? У меня аллергия.",choices:[{id:"c1a",text:"«Сейчас посмотрю состав на упаковке — одну секунду» (проверяете и называете точный ответ)",outcome:"great",feedback:"Правильно: не угадывать, а проверить. При аллергии это вопрос здоровья, а не сервиса.",customerReply:"Спасибо, что проверили! Уважаю такой подход.",xpReward:25},{id:"c1b",text:"«Кажется, там овсянка, наверное есть глютен»",outcome:"neutral",feedback:"«Кажется» и «наверное» — опасные слова при пищевой аллергии. Состав написан на упаковке, его видно за пять секунд.",customerReply:"Мне нужна точная информация, не «кажется»...",xpReward:5},{id:"c1c",text:"«Не знаю, вы лучше не рискуйте»",outcome:"good",feedback:"Честность — это плюс. Но следующий шаг: посмотреть состав или позвать того, кто знает.",customerReply:"Хорошо, а вы можете посмотреть?",xpReward:12},{id:"c1d",text:"«У нас всё свежее, проблем не будет»",outcome:"bad",feedback:"Свежесть никак не связана с аллергенами. Такой ответ безответственен и опасен.",customerReply:"Это не ответ на мой вопрос...",xpReward:0}]}],maxXP:25},{id:"upsell-natural",title:"Допродажа без давления",category:"sales",difficulty:3,situation:"Покупатель взял энергетик. Вечер пятницы, он никуда не спешит.",customerName:"Михаил",customerMood:"neutral",turns:[{id:"t1",customerLine:"HQD, пожалуйста.",choices:[{id:"c1a",text:"«Конечно! Стакан со льдом возьмёте? Со льдом он совсем по-другому пьётся»",outcome:"great",feedback:"Естественная допродажа: конкретное предложение и причина, зачем это ему. Не давит, но цепляет.",customerReply:"О, а давайте попробую.",xpReward:30},{id:"c1b",text:"«HQD и... может, ещё что-то?»",outcome:"neutral",feedback:"Слабый оффер: нет конкретики, покупатель не понимает, что ему предлагают.",customerReply:"Нет, спасибо.",xpReward:8},{id:"c1c",text:"«Хотите добавить снек или шоколадку? У нас большой выбор»",outcome:"good",feedback:"Неплохо, но «большой выбор» слабее, чем одна конкретная рекомендация.",customerReply:"Хм, а что есть?",xpReward:18},{id:"c1d",text:"«Это всё?»",outcome:"bad",feedback:"«Это всё?» — ленивый вопрос. Он закрывает разговор вместо того, чтобы что-то предложить.",customerReply:"Да, всё.",xpReward:0}]}],maxXP:30},{id:"aromatic-request",title:"Запрос «что-нибудь с вкусом»",grade:2,category:"sales",difficulty:2,situation:"Самый частый запрос в табачной зоне. Пять ситуаций — от открытого вопроса до даунселла и выбора вкуса.",customerName:"Алексей",customerMood:"neutral",turns:[{id:"t1",customerLine:"«Хочу что-нибудь с вкусом, посоветуйте что-нибудь»",choices:[{id:"c1a",text:"«Возьмите Chapman Red — самый популярный с вкусом»",outcome:"bad",feedback:"Chapman Red — популярный, но это угадывание. Покупатель мог хотеть тонкий формат или другой вкус. Сначала — вопрос.",customerReply:"",xpReward:0},{id:"c1b",text:"«Скажите — обычный формат или тонкий? И какой вкус ближе — ягодный, фруктовый или с мятой?»",outcome:"great",feedback:"Правильно. Два вопроса — формат и вкус — дают всю нужную информацию. После этого ты предложишь точно, а не наугад. Покупатель чувствует что его слушают.",customerReply:"",xpReward:20},{id:"c1c",text:"«Вот ароматические — вся полка здесь, смотрите»",outcome:"bad",feedback:"Отправить к полке без объяснений — потерянная консультация. Покупатель ушёл без уверенности что выбрал правильно.",customerReply:"",xpReward:0}]},{id:"t2",customerLine:"«Обычный, что-нибудь ягодное»",choices:[{id:"c2a",text:"«Morrison Чёрная смородина — наш бренд, стандарт, 269 ₽. Самый популярный из ягодных, берут постоянно»",outcome:"great",feedback:"Правильно. Morrison — наша марка, предлагаем первой. Называешь вкус, формат и цену. Добавляешь что это топ — это закрывает сомнения.",customerReply:"",xpReward:20},{id:"c2b",text:"«Chapman Red — вишня, 285 ₽, самый известный»",outcome:"bad",feedback:"Chapman Red тоже подходит, но Morrison предлагаешь первым — это наш бренд, маржа выше. Chapman — если Morrison не подошёл или нет в наличии.",customerReply:"",xpReward:0},{id:"c2c",text:"«Morrison или Chapman — они похожие, смотрите сами»",outcome:"bad",feedback:"Переложил выбор на покупателя. Он пришёл за советом — дай конкретный ответ, не уходи от рекомендации.",customerReply:"",xpReward:0}]},{id:"t3",customerLine:"«А подешевле есть что-нибудь с вкусом? Хочу до 200 рублей»",choices:[{id:"c3a",text:"«Дешевле ароматических нет, Morrison самые доступные у нас»",outcome:"bad",feedback:"Неверно. Chesterfield Aroma есть в наличии от 189 ₽. Сказать «дешевле нет» — значит не знать ассортимент.",customerReply:"",xpReward:0},{id:"c3b",text:"«Chesterfield Aroma — от 189 ₽, есть несколько вкусов. Лёгкие, доступные, хороший вариант для начала»",outcome:"great",feedback:"Правильно. Chesterfield Aroma — самые доступные ароматические в ассортименте, от 189 ₽. Не теряешь продажу и укладываешься в бюджет.",customerReply:"",xpReward:20},{id:"c3c",text:"«Тогда берите обычные без вкуса — там дешевле»",outcome:"bad",feedback:"Потерял покупателя полностью. Он хотел ароматические — дай альтернативу в его бюджете, а не другую категорию.",customerReply:"",xpReward:0}]},{id:"t4",customerLine:"«Ладно, возьму Morrison. Какой вкус посоветуете? Не знаю с чего начать»",choices:[{id:"c4a",text:"«Это на вкус и цвет — все разные, попробуйте что понравится»",outcome:"bad",feedback:"Уход от ответа. Покупатель прямо спросил совет — дай его. «Все разные» — это ни о чём.",customerReply:"",xpReward:0},{id:"c4b",text:"«Мне лично нравится Вишня»",outcome:"bad",feedback:"Личное мнение без обоснования. Лучше опираться на данные продаж: Чёрная смородина — топ, это объективный аргумент.",customerReply:"",xpReward:0},{id:"c4c",text:"«Чаще всего берут Чёрную смородину — топ продаж. Если не знаете с чего начать, советую её. Ещё популярны Вишня и Виноград»",outcome:"great",feedback:"Правильно. Называешь топ продаж — это конкретная, честная рекомендация. Покупатель новичок и ждёт что ты возьмёшь решение на себя. Чёрная смородина — №1, это аргумент.",customerReply:"",xpReward:20}]},{id:"t5",customerLine:"«А тонкие с вкусом есть? Я обычно слим курю, не хочу стандарт»",choices:[{id:"c5a",text:"«Morrison только стандарт, больше ничего с вкусом нет»",outcome:"bad",feedback:"Неверно. Chapman Slim есть в наличии — это ароматический в тонком формате. Сказать «нет» когда товар есть — потеря продажи.",customerReply:"",xpReward:0},{id:"c5b",text:"«Morrison в слиме нет, но есть Chapman Slim — тот же ароматический, тонкий формат. Вкусов меньше, зато привычная толщина»",outcome:"great",feedback:"Правильно. Знаешь ассортимент — Morrison только стандарт, Chapman есть в слиме. Не говоришь «нет», а предлагаешь реальную альтернативу в нужном формате.",customerReply:"",xpReward:20},{id:"c5c",text:"«Слима с вкусом у нас нет совсем»",outcome:"bad",feedback:"Неверно. Слим с вкусом есть — Chapman Slim. Нельзя говорить «нет» без проверки ассортимента.",customerReply:"",xpReward:0}]}],maxXP:100},{id:"chapman-to-morrison",title:"Chapman закончился — предложи замену",grade:2,category:"sales",difficulty:3,situation:"Три покупателя приходят за Chapman — каждый за своим вкусом. Твоя задача — предложить Morrison так, чтобы человек ушёл довольным.",customerName:"Игорь",customerMood:"neutral",turns:[{id:"t1",customerLine:"«Chapman Ред есть? Вишнёвый, обычный»",choices:[{id:"c1a",text:"«Chapman сейчас нет, возьмите лучше Marlboro Gold — тоже популярные»",outcome:"bad",feedback:"Marlboro Gold — другой формат, нет вкусов. Покупатель хотел именно вишнёвый, это не замена по сути.",customerReply:"",xpReward:0},{id:"c1b",text:"«Чапмана нет, но есть Morrison Вишня — такой же вкус, стандартный формат, чуть дешевле»",outcome:"great",feedback:"Отлично. Называешь замену, объясняешь почему — вкус совпадает, формат тот же, цена ниже. Покупатель уходит с продуктом.",customerReply:"",xpReward:20},{id:"c1c",text:"«Нет, закончился» и жду следующего»",outcome:"bad",feedback:"Молчание = потерянная продажа. Всегда предлагай альтернативу.",customerReply:"",xpReward:0}]},{id:"t2",customerLine:"«Беру Chapman Ред, но надоела вишня. Хочу что-то ягодное, поинтереснее»",choices:[{id:"c2a",text:"«Тогда попробуйте Chapman Green — там яблоко и мята, совсем другой»",outcome:"bad",feedback:"Chapman Green — совсем другое направление: мята и яблоко. Покупатель просил ягодное, а не свежее.",customerReply:"",xpReward:0},{id:"c2b",text:"«Возьмите Morrison Чёрная смородина — тот же стандартный формат что и ваш Chapman, но вкус насыщеннее, тёмная ягода»",outcome:"great",feedback:"Отлично. Человек хотел попробовать что-то новое — ты предложил конкретный вариант с объяснением вкуса. Morrison Чёрная смородина — их лидер продаж, и он точно в теме «тёмная ягода».",customerReply:"",xpReward:20},{id:"c2c",text:"«Другого ягодного у нас нет»",outcome:"bad",feedback:"Morrison Чёрная смородина стоит на полке рядом. Сказать «нет» когда товар есть — потерянная продажа.",customerReply:"",xpReward:0}]},{id:"t3",customerLine:"«Chapman Brown есть? Шоколадный»",choices:[{id:"c3a",text:"«Чапмана нет. Посмотрите Morrison Шоколад — похожий сладкий вкус, немного по-другому, но нравится кто любит Браун»",outcome:"great",feedback:"Хорошо. Честно говоришь что похоже, но не то же самое — это доверие. Покупатель сам решает и не чувствует себя обманутым.",customerReply:"",xpReward:20},{id:"c3b",text:"«Нет Брауна, возьмите Chapman Ред — тоже хороший»",outcome:"bad",feedback:"Chapman Ред — вишня, это другой вкус. Не замена для того кто хочет шоколад.",customerReply:"",xpReward:0},{id:"c3c",text:"«Нет, зайдите завтра»",outcome:"bad",feedback:"Потерянная продажа и покупатель уйдёт в другой магазин.",customerReply:"",xpReward:0}]},{id:"t4",customerLine:"«А Morrison и Chapman — в чём разница вообще? Почему Morrison дешевле?»",choices:[{id:"c4a",text:"«Morrison производится в Венгрии на современном оборудовании — не хуже по качеству, просто другое позиционирование. По вкусу с Chapman очень похожи»",outcome:"great",feedback:"Точно. Нейтральное объяснение без оценки. Morrison производится в Венгрии на современном оборудовании — это аргумент качества, а не оправдание цены.",customerReply:"",xpReward:20},{id:"c4b",text:"«Morrison хуже качеством, поэтому дешевле»",outcome:"bad",feedback:"Нельзя так говорить о товаре который продаёшь. Morrison производится в Венгрии на современном производстве — цена ниже за счёт позиционирования, не качества.",customerReply:"",xpReward:0},{id:"c4c",text:"«Не знаю, просто разные марки»",outcome:"bad",feedback:"Упущенный момент для объяснения и допродажи доверия.",customerReply:"",xpReward:0}]}],maxXP:80},{id:"alt-tobacco-request",title:"«Что у вас из альтернативного?»",grade:2,category:"knowledge",difficulty:2,situation:"Пять ситуаций — кальянный табак, сигариллы, жевательный табак. Покупатели часто сами не знают в какую категорию попадает их товар.",customerName:"Сергей",customerMood:"neutral",turns:[{id:"t1",customerLine:"«Девушка, у вас есть кальянный табак?»",choices:[{id:"c1a",text:"«Есть. Какой вкус ищете? У нас Al Fakher и Adalya — скажите что предпочитаете, подберём.»",outcome:"great",feedback:"Правильно. Ты подтвердил наличие и сразу задал уточняющий вопрос по вкусу — это сокращает выбор и помогает покупателю. Называешь конкретные марки — Al Fakher и Adalya.",customerReply:"",xpReward:20},{id:"c1b",text:"«Кальянный табак — вон там, в шкафу с альтернативным, смотрите сами.»",outcome:"bad",feedback:"Указал где стоит — но не помог выбрать. Покупатель может растеряться перед шкафом без подсказки по маркам и вкусам.",customerReply:"",xpReward:0},{id:"c1c",text:"«Кальянный? Это не обычные сигареты — убедитесь что вам нужен именно он.»",outcome:"bad",feedback:"Лишнее уточнение. Если человек спросил кальянный табак — он знает что это такое. Такой вопрос выглядит как недоверие.",customerReply:"",xpReward:0}]},{id:"t2",customerLine:"«Al Fakher есть? Какой вкус посоветуешь если первый раз?»",choices:[{id:"c2a",text:"«На вкус и цвет — все разные, смотрите этикетки.»",outcome:"bad",feedback:"Уход от ответа. Покупатель прямо спросил совет — «все разные» это ничто. Он пришёл за рекомендацией.",customerReply:"",xpReward:0},{id:"c2b",text:"«Двойное яблоко — классика для первого раза. Несложный, нейтральный, все берут. Mint тоже популярен если любите свежее.»",outcome:"great",feedback:"Правильно. Двойное яблоко — классика для новичка, это объективный аргумент, не личное мнение. Даёшь конкретику и добавляешь альтернативу (Mint). Покупатель получил ответ, а не новый вопрос.",customerReply:"",xpReward:20},{id:"c2c",text:"«Зависит что вам нравится. Фрукты, мята, ягоды?»",outcome:"bad",feedback:"Встречный вопрос уместен когда нет информации. Но здесь покупатель сказал «первый раз» — дай стартовую рекомендацию, потом уточняй.",customerReply:"",xpReward:0}]},{id:"t3",customerLine:"«А жевательный табак у вас есть? Oden's или Corvus?»",choices:[{id:"c3a",text:"«Жевательный — он у нас в шкафу с электронными, сейчас покажу.»",outcome:"bad",feedback:"Ошибка в хранении. Жевательный табак — не ЭСДН. Он хранится в шкафу с альтернативным табаком, а не с электронными сигаретами.",customerReply:"",xpReward:0},{id:"c3b",text:"«Есть, сейчас посмотрю. Это альтернативный табак — лежит в том же шкафу что и кальянный.»",outcome:"great",feedback:"Правильно. Жевательный табак — Категория 2 (Альтернативный табак), хранится вместе с кальянным и сигариллами. Ты правильно сориентировал покупателя и не перепутал с ЭСДН.",customerReply:"",xpReward:20},{id:"c3c",text:"«Жевательный это же типа снюс? Он у нас не продаётся.»",outcome:"bad",feedback:"Снюс и жевательный табак — разные вещи. Снюс запрещён, жевательный табак (Corvus, Oden's, IZI, Dzen) — разрешён и есть в продаже.",customerReply:"",xpReward:0}]},{id:"t4",customerLine:"«Что такое сигариллы вообще? Это как сигары?»",choices:[{id:"c4a",text:"«Сигарилла — это маленькая сигара: табачный лист вместо бумаги, без фильтра или с мундштуком. Вкус более плотный чем у сигареты. Если интересно попробовать — Djarum Black Mini хороший старт.»",outcome:"great",feedback:"Правильно. Ты объяснил что это, чем отличается от сигареты, и сразу предложил конкретный вариант для первого знакомства. Покупатель получил понятный ответ и точку входа.",customerReply:"",xpReward:20},{id:"c4b",text:"«Да, это как сигара, только маленькая.»",outcome:"bad",feedback:"Слишком коротко. «Маленькая сигара» — это не объяснение. Покупатель не понял главного: чем отличается от сигарет и стоит ли пробовать.",customerReply:"",xpReward:0},{id:"c4c",text:"«Вы имеете в виду тонкие сигареты? Слимы вон там.»",outcome:"bad",feedback:"Путаница в продуктах. Покупатель спросил про сигариллы, ты отправил к слимам — это другая категория. Нельзя перенаправлять без понимания запроса.",customerReply:"",xpReward:0}]},{id:"t5",customerLine:"«У вас снюс есть? Только шведский, не знаю как у вас называется»",choices:[{id:"c5a",text:"«Снюс у нас не продаётся — он запрещён. Но есть жевательный табак: Corvus, Oden's — принцип похожий, это альтернативный табак. Хотите покажу?»",outcome:"great",feedback:"Правильно. Снюс продавать нельзя — ты это сказал. Но ты не остановился на «нет», а предложил реальную альтернативу — жевательный табак с похожим принципом. Продажа сохранена.",customerReply:"",xpReward:20},{id:"c5b",text:"«Снюса нет, и вообще это незаконно.»",outcome:"bad",feedback:"Технически верно, но грубо. «Это незаконно» звучит как обвинение. Покупатель мог просто не знать разницу. Лучше объяснить и предложить что есть.",customerReply:"",xpReward:0},{id:"c5c",text:"«Есть что-то похожее в электронных — ЭСДН без дыма, вдруг подойдёт.»",outcome:"bad",feedback:"Неверная замена. ЭСДН — совсем другая категория: жидкость и пар, без табака. Человек искал жевательный продукт — не предлагай ему электронную сигарету.",customerReply:"",xpReward:0}]}],maxXP:100},{id:"esdn-advice",title:"«Посоветуйте электронку»",grade:2,category:"sales",difficulty:2,situation:"Пять ситуаций: первый раз, выбор по ёмкости, бюджет, возраст и покупатель который хочет «как у друга».",customerName:"Никита",customerMood:"neutral",turns:[{id:"t1",customerLine:"«Посоветуйте что-нибудь из электронок, не знаю с чего начать»",choices:[{id:"c1a",text:"«Вот витрина — тут всё, смотрите.»",outcome:"bad",feedback:"Витрина без объяснений не помогает — человек растеряется перед 400+ позициями. Покупатель пришёл за советом.",customerReply:"",xpReward:0},{id:"c1b",text:"«Вы раньше брали ЭСДН или первый раз?»",outcome:"great",feedback:"Правильно. Один вопрос — и ты уже знаешь отправную точку. Новичку нужен маленький формат, опытному — сразу спросить марку и объём.",customerReply:"",xpReward:20},{id:"c1c",text:"«Возьмите PLONQ 10000 — самый популярный.»",outcome:"bad",feedback:"PLONQ 10000 — хороший товар, но для первого раза может быть слишком дорого и рискованно. Сначала вопрос — потом рекомендация.",customerReply:"",xpReward:0}]},{id:"t2",customerLine:"«Первый раз. Что лучше взять?»",choices:[{id:"c2a",text:"«HQD 1200 или IZI — небольшой формат, попробовать. Если понравится — в следующий раз возьмёте большой. Цена ~900 ₽.»",outcome:"great",feedback:"Правильно. HQD и IZI — наши приоритетные марки. Для первого раза небольшой формат — 1200 затяжек, ~900 ₽. Человек не рискует большой суммой если не понравится.",customerReply:"",xpReward:20},{id:"c2b",text:"«Берите сразу IZI 10000 — выгоднее на один стик выходит.»",outcome:"bad",feedback:"Логика «выгоднее на одну затяжку» не работает для новичка — он не знает понравится ли ему вообще. Большой формат = большой риск.",customerReply:"",xpReward:0},{id:"c2c",text:"«Elf Bar популярный, берите его.»",outcome:"bad",feedback:"Elf Bar — не приоритетная марка. Для первого раза лучше предложить HQD или IZI — это наши бренды, их предлагаем первыми.",customerReply:"",xpReward:0}]},{id:"t3",customerLine:"«Хочу HQD, но дорогие они у вас. Есть что подешевле?»",choices:[{id:"c3a",text:"«Дешевле HQD у нас нет, это минимум.»",outcome:"bad",feedback:"Неверно. IZI дешевле HQD, и это наша марка. Сказать «дешевле нет» без проверки — значит потерять продажу.",customerReply:"",xpReward:0},{id:"c3b",text:"«IZI — тоже наша марка, цена немного ниже. Или скажите бюджет — подберём под него.»",outcome:"great",feedback:"Правильно. IZI — тоже наша приоритетная марка и немного доступнее HQD. Дополнительный вопрос про бюджет позволяет подобрать точнее — не угадывать.",customerReply:"",xpReward:20},{id:"c3c",text:"«Elf Bar и Lost Mary дешевле — берите один из них.»",outcome:"bad",feedback:"Elf Bar и Lost Mary — не приоритетные марки. Сначала предлагаем свои: HQD или IZI. Если и они не подходят по цене — тогда остальные.",customerReply:"",xpReward:0}]},{id:"t4",customerLine:"«Дайте вот этот» — берёт IZI с витрины, протягивает к кассе. На вид лет 16.",choices:[{id:"c4a",text:"Пробиваешь молча — раз сам взял, значит знает что делает.",outcome:"bad",feedback:"Нарушение. ЭСДН — только с 18. Продажа без проверки документа при видимом сомнении — это штраф на магазин и лично на тебя.",customerReply:"",xpReward:0},{id:"c4b",text:"«Хороший выбор. Мне нужно проверить документ — ЭСДН с 18 лет, как и алкоголь.»",outcome:"great",feedback:"Правильно. Нейтральный тон — «как и алкоголь» — снимает личное напряжение. Ты не подозреваешь покупателя, ты соблюдаешь стандарт. Документ проверен, ответственность соблюдена.",customerReply:"",xpReward:20},{id:"c4c",text:"«Вам 18 есть? Нам вообще-то нельзя продавать молодым.»",outcome:"bad",feedback:"Агрессивный тон. «Нельзя продавать молодым» — звучит как обвинение. Нейтральная формулировка работает лучше и не обижает покупателя если ему и правда 18+.",customerReply:"",xpReward:0}]},{id:"t5",customerLine:"«У друга был PLONQ с арбузом — хочу такой же. Есть?»",choices:[{id:"c5a",text:"«PLONQ Watermelon — сейчас посмотрю есть ли в наличии.»",outcome:"great",feedback:"Правильно. Покупатель знает что хочет — твоя задача найти это или честно сказать что нет. «Сейчас посмотрю» — правильная реакция: ты берёшь ответственность за поиск.",customerReply:"",xpReward:20},{id:"c5b",text:"«PLONQ не знаю, у нас много всего — смотрите на витрине.»",outcome:"bad",feedback:"Отправить к витрине без попытки найти — значит не помочь. Покупатель назвал конкретный запрос, ты должен его обработать.",customerReply:"",xpReward:0},{id:"c5c",text:"«PLONQ есть, но арбуза нет. Возьмите HQD — там тоже арбуз бывает, наша марка.»",outcome:"bad",feedback:"Тоже неплохой вариант — если PLONQ Watermelon реально нет. Но начинать нужно с поиска того что просили, а не сразу переключать на другой бренд.",customerReply:"",xpReward:0}]}],maxXP:100},{id:"sticks-device",title:"«Дайте стики для моего устройства»",grade:2,category:"knowledge",difficulty:3,situation:"Главная ошибка в этой категории — выдать не тот стик. Пять ситуаций: IQOS, IQOS ILUMA, GLO, Lil и покупатель который не знает что у него.",customerName:"Ольга",customerMood:"confused",turns:[{id:"t1",customerLine:"«Дайте стики для IQOS, пожалуйста»",choices:[{id:"c1a",text:"«Сейчас. IQOS обычный или ILUMA? Для них разные стики.»",outcome:"great",feedback:"Правильно. Один уточняющий вопрос — и ты не рискуешь выдать неверный стик. IQOS и IQOS ILUMA требуют разных стиков, это критично.",customerReply:"",xpReward:20},{id:"c1b",text:"«Вот HEETS — они для IQOS, самые популярные Purple Wave.»",outcome:"bad",feedback:"Угадывание. Если у покупателя ILUMA — HEETS ему не подойдут. Всегда уточняй модель перед тем как тянуться за товаром.",customerReply:"",xpReward:0},{id:"c1c",text:"«Стики вон там на витрине, IQOS там тоже есть.»",outcome:"bad",feedback:"Отправил к витрине без объяснений. Покупатель может взять неверный стик — и вернётся с претензией.",customerReply:"",xpReward:0}]},{id:"t2",customerLine:"«У меня IQOS ILUMA, новый. Дайте стики.»",choices:[{id:"c2a",text:"«Для ILUMA нужны TEREA — они специально для этой версии. HEETS сюда не подходят. Сейчас принесу.»",outcome:"great",feedback:"Правильно. IQOS ILUMA — новая версия с другим принципом нагрева. HEETS туда не войдут физически. TEREA — единственный вариант.",customerReply:"",xpReward:20},{id:"c2b",text:"«HEETS — вот, самые ходовые. IQOS они и есть.»",outcome:"bad",feedback:"Критическая ошибка. HEETS для ILUMA не подходят. Покупатель придёт обратно — стик не входит в устройство. Это возврат и испорченное впечатление.",customerReply:"",xpReward:0},{id:"c2c",text:"«ILUMA? Нужно уточнить у производителя, я не уверен какие стики.»",outcome:"bad",feedback:"Нельзя говорить «не уверен» в базовых вещах. TEREA для ILUMA — это то что нужно знать наизусть.",customerReply:"",xpReward:0}]},{id:"t3",customerLine:"«У меня GLO, дайте стики. Мне посоветовали взять HEETS — они лучше похоже.»",choices:[{id:"c3a",text:"«HEETS не подойдут для GLO — они только для IQOS. Для GLO нужны Neo. Если возьмёте HEETS — они просто не войдут в устройство.»",outcome:"great",feedback:"Правильно. Ты остановил ошибочную покупку и объяснил почему — HEETS физически не войдут в GLO. Это не мнение, это факт. Покупатель ушёл с правильным товаром.",customerReply:"",xpReward:20},{id:"c3b",text:"«Ну раз посоветовали HEETS — берите HEETS, они хорошие.»",outcome:"bad",feedback:"Пошёл на поводу у покупателя вместо того чтобы помочь. Он вернётся — стики не подходят. Это твоя ответственность.",customerReply:"",xpReward:0},{id:"c3c",text:"«Стики у всех устройств примерно одинаковые, разница небольшая.»",outcome:"bad",feedback:"Ложное утверждение. Стики не взаимозаменяемы — каждый тип подходит только к своему устройству. Это жёсткое правило, не рекомендация.",customerReply:"",xpReward:0}]},{id:"t4",customerLine:"«Стики нужны, но я не помню как называется моё устройство. Муж купил, он на работе.»",choices:[{id:"c4a",text:"«Берите HEETS — они самые популярные, скорее всего подойдут.»",outcome:"bad",feedback:"Угадывание. HEETS самые ходовые, но не универсальные. Если у мужа GLO — покупатель вернётся с неподходящими стиками.",customerReply:"",xpReward:0},{id:"c4b",text:"«Тогда подождите пока муж ответит — покупать вслепую опасно, стики строго под устройство.»",outcome:"bad",feedback:"Технически безопасно, но ты оставил покупателя без помощи. Фото устройства решает вопрос прямо сейчас — предложи это.",customerReply:"",xpReward:0},{id:"c4c",text:"«Покажите фото устройства если есть в телефоне — по виду скажу какие стики нужны.»",outcome:"great",feedback:"Правильно. Фото устройства — быстрое решение когда человек не помнит название. По внешнему виду IQOS, GLO и Lil хорошо различимы. Ты помог не угадывая.",customerReply:"",xpReward:20}]},{id:"t5",customerLine:"«У меня IQOS обычный. Посоветуйте вкус — беру впервые.»",choices:[{id:"c5a",text:"«Там 14 вкусов, попробуйте что нравится на вид.»",outcome:"bad",feedback:"Уход от ответа. 14 вкусов для новичка — это паралич выбора. Он пришёл за советом.",customerReply:"",xpReward:0},{id:"c5b",text:"«Purple Wave — топ продаж, фруктово-ягодный, мягкий. Для первого раза отличный выбор. Если любите ментол — Green Selection.»",outcome:"great",feedback:"Правильно. Purple Wave — объективный топ продаж, это аргумент, а не личное мнение. Добавляешь альтернативу для тех кто любит ментол. Покупатель первого раза получил конкретный ответ.",customerReply:"",xpReward:20},{id:"c5c",text:"«Все берут разное — это дело вкуса.»",outcome:"bad",feedback:"То же самое — перекладываешь решение на покупателя. Он прямо попросил порекомендовать. Дай рекомендацию.",customerReply:"",xpReward:0}]}],maxXP:100},{id:"tobacco-upsell",title:"Допродажа к табаку на кассе",grade:2,category:"sales",difficulty:2,situation:"Мужчина взял пачку сигарет. Зажигалки в руках нет. Твоя задача — уместно предложить сопутствующее и вовремя остановиться.",customerName:"Андрей",customerMood:"neutral",turns:[{id:"t1",customerLine:"Пачку Marlboro красную, пожалуйста.",choices:[{id:"c10",text:"Молча пробиваю сигареты",outcome:"bad",feedback:"❌ Молча пробить — значит упустить простую допродажу. Один вопрос ничего не стоит.",customerReply:"",xpReward:0},{id:"c11",text:"«Зажигалка нужна?»",outcome:"great",feedback:"✅ Правильно! Короткий вопрос — лучший способ. Не навязываешь — просто спрашиваешь.",customerReply:"",xpReward:20},{id:"c12",text:"«Возьмите зажигалку — у нас BIC хорошие»",outcome:"bad",feedback:"❌ Слишком напористо. Покупатель не просил рекомендацию — сначала спроси нужна ли вообще.",customerReply:"",xpReward:0}]},{id:"t2",customerLine:"Нет, зажигалка есть.",choices:[{id:"c20",text:"«А может всё-таки возьмёте про запас?»",outcome:"bad",feedback:"❌ Он уже сказал нет. Настаивать — значит раздражать. Принимаем ответ и двигаемся дальше.",customerReply:"",xpReward:0},{id:"c21",text:"Молча пробиваю, больше ничего не предлагаю",outcome:"bad",feedback:"⚠️ Можно, но упускаешь возможность. После отказа по зажигалке можно один раз предложить что-то другое — например напиток.",customerReply:"",xpReward:0},{id:"c22",text:"«Что-нибудь попить возьмёте?»",outcome:"great",feedback:"✅ Верно! Отказ по зажигалке — не отказ от всего. Один вопрос про напиток уместен.",customerReply:"",xpReward:20}]},{id:"t3",customerLine:"Да, воды возьму.",choices:[{id:"c30",text:"«Вот вода — и жвачку ещё возьмите, и снек, у нас хороший»",outcome:"bad",feedback:"❌ Слишком много сразу. Покупатель почувствует давление. Один вопрос — один товар.",customerReply:"",xpReward:0},{id:"c31",text:"Пробиваю воду и сигареты",outcome:"bad",feedback:"⚠️ Сработает, но ты упустил момент. Орбит у кассы лежит — один вопрос уместен после воды.",customerReply:"",xpReward:0},{id:"c32",text:"«Орбит к ним?» — коротко, один вопрос",outcome:"great",feedback:"✅ Один короткий вопрос — идеально. Он согласился на воду, можно предложить что-то одно ещё.",customerReply:"",xpReward:20}]},{id:"t4",customerLine:"Нет, не надо.",choices:[{id:"c40",text:"«Точно не возьмёте? У нас сегодня акция»",outcome:"bad",feedback:"❌ Давление после двух отказов — это уже раздражение. Принять «нет» — тоже навык.",customerReply:"",xpReward:0},{id:"c41",text:"«Хорошо. С вас 280 рублей.» — и улыбнуться",outcome:"great",feedback:"✅ Профессионально. Чёткое завершение, без обид. Покупатель уйдёт с хорошим впечатлением.",customerReply:"",xpReward:20},{id:"c42",text:"«Ну ладно» — и молча пробиваю",outcome:"bad",feedback:"⚠️ Молчать — нейтрально, но холодно. Короткое «хорошо» + сумма + улыбка — это сервис.",customerReply:"",xpReward:0}]}],maxXP:80},{id:"wine-to-fish",title:"Вино к рыбе на ужин",grade:2,category:"sales",difficulty:2,situation:"Покупательница выбирает вино к ужину с рыбой. Ты — продавец. Выбирай правильные реплики — от этого зависит, уйдёт ли она довольной.",customerName:"Марина",customerMood:"neutral",turns:[{id:"t1",customerLine:"Здравствуйте, хочу вино к рыбе на ужин. Что посоветуете?",choices:[{id:"c10",text:"Возьмите красное — оно универсальное, ко всему подходит",outcome:"bad",feedback:"Красное к рыбе — неправильно. Танины дают металлический привкус. Покупательница ушла неуверенной.",customerReply:"Хм, ладно... наверное попробую. Не очень уверена.",xpReward:0},{id:"c11",text:"К рыбе лучше белое сухое — Шардоне или Рислинг. Есть Шато Тамань белое, хорошее соотношение цены и качества",outcome:"great",feedback:"Правильно! Конкретный совет с брендом — покупательница уверена в выборе.",customerReply:"О, спасибо! Именно такой совет и нужен был.",xpReward:20},{id:"c12",text:"Смотрите сами, вон там весь стеллаж с вином",outcome:"bad",feedback:"Отправить покупателя «смотреть самого» — потеря продажи. Нет консультации = нет доверия.",customerReply:"Ладно... — уходит смотреть одна, выглядит растерянной.",xpReward:0}]},{id:"t2",customerLine:"А белое — оно сухое или полусладкое лучше к рыбе?",choices:[{id:"c20",text:"Лучше сухое — оно не перебивает вкус рыбы, подчёркивает его",outcome:"great",feedback:"Правильно! Чёткое объяснение почему — покупательница понимает и доверяет совету.",customerReply:"Понятно, логично! Возьму сухое.",xpReward:20},{id:"c21",text:"Полусладкое слаще, значит вкуснее — берите полусладкое",outcome:"bad",feedback:"Полусладкое к рыбе — плохая пара. Сладость заглушает вкус. Покупательница останется недовольна едой.",customerReply:"Ну ладно... — берёт полусладкое, к рыбе будет невкусно.",xpReward:0},{id:"c22",text:"Без разницы, берите любое",outcome:"bad",feedback:"«Без разницы» — потеря доверия. Продавец должен знать ответ и объяснять.",customerReply:"Хорошо... — уходит с неуверенным видом.",xpReward:0}]},{id:"t3",customerLine:"Хорошо, возьму сухое. На этикетке написано «Новый свет, Чили» — это хорошо или плохо?",choices:[{id:"c30",text:"Плохо — настоящее вино только европейское",outcome:"bad",feedback:"Неверно и снобски. Покупательница усомнилась в совете. Новый свет — полноценные вина с другим характером, не хуже.",customerReply:"Понятно... А вы уверены? Я читала что чилийское хорошее.",xpReward:0},{id:"c31",text:"Новый свет — это Чили, Аргентина, Австралия. Фруктовые, понятные вина. На этикетке пишут сорт — сразу видно что берёшь",outcome:"great",feedback:"Правильно! Объяснил концепцию, снял сомнения, покупательница уверена.",customerReply:"Ах вот оно что! Это даже удобнее. Спасибо, беру.",xpReward:20},{id:"c32",text:"Не знаю, я в географии не разбираюсь",outcome:"bad",feedback:"«Не знаю» убивает доверие. Продавец должен знать базовые вещи про категорию.",customerReply:"Жаль... — выглядит разочарованно.",xpReward:0}]},{id:"t4",customerLine:"Отлично, беру! У вас тут ещё что-нибудь к столу есть?",choices:[{id:"c40",text:"Нет, только алкоголь",outcome:"bad",feedback:"Упущена допродажа. Снеки к вину — очевидная пара, одна фраза = вторая позиция в чеке.",customerReply:"Хорошо, спасибо. — уходит, ничего не добавив.",xpReward:0},{id:"c41",text:"Есть снеки — орехи, чипсы, сырная нарезка. К белому вину хорошо идут лёгкие закуски. Вон там на стеллаже",outcome:"great",feedback:"Отлично! Допродажа сделана естественно. Покупательница уходит с тремя позициями вместо одной.",customerReply:"О, отлично! Возьму орешки и сыр, как раз не хватало.",xpReward:20},{id:"c42",text:"Ищите сами, у нас всё есть",outcome:"bad",feedback:"Снова упущена допродажа и испорчено впечатление. «Ищите сами» — не сервис.",customerReply:"Ладно... — уходит, ничего не взяв.",xpReward:0}]}],maxXP:80},{id:"lvi-gift",title:"Настойка в подарок",grade:2,category:"sales",difficulty:3,situation:"Мужчина ищет что-нибудь необычное в подарок другу. Ты — продавец. 4 обмена репликами.",customerName:"Роман",customerMood:"neutral",turns:[{id:"t1",customerLine:"Привет! Ищу что-нибудь необычное в подарок другу. Водку дарить скучно. Что посоветуете?",choices:[{id:"c10",text:"Возьмите коньяк, это всегда уместно",outcome:"bad",feedback:"Коньяк — не ЛВИ и не «необычное». Упущен шанс показать интересную категорию. Надо было уточнить предпочтения.",customerReply:"Ну коньяк... это как-то предсказуемо. Хотелось чего-то интересного.",xpReward:0},{id:"c11",text:"Есть хорошие варианты — Егермейстер, Амаретто, вермут. Что предпочитает друг — сладкое или что-то покрепче с характером?",outcome:"great",feedback:"Правильно! Показал ассортимент и сразу уточнил предпочтения — разговор пошёл в нужном направлении.",customerReply:"О, хороший вопрос! Он любит что-то с характером, не сладкое.",xpReward:20},{id:"c12",text:"У нас всё есть, смотрите на полке ЛВИ",outcome:"bad",feedback:"Без консультации покупатель потерян. ЛВИ — сложная категория, без объяснения он ничего не выберет.",customerReply:"А где эта полка? — идёт искать сам, выглядит растерянно.",xpReward:0}]},{id:"t2",customerLine:"Он любит что-нибудь с характером, не сладкое. Любит после ужина выпить рюмочку.",choices:[{id:"c20",text:"Тогда Егермейстер или Бехеровка — горькие настойки на травах, классический дижестив. Как раз для рюмочки после ужина",outcome:"great",feedback:"Отлично! Попал в запрос: горькое, с характером, для дижестива. Покупатель заинтересовался.",customerReply:"О, точно! Егермейстер — слышал про него. Расскажите подробнее.",xpReward:20},{id:"c21",text:"Тогда Бейлис — он со сливками, очень приятный",outcome:"bad",feedback:"Бейлис — сладкий сливочный ликёр. Полная противоположность запросу «с характером, не сладкое».",customerReply:"Нет-нет, Бейлис сладкий, это не то что нужно...",xpReward:0},{id:"c22",text:"Может тогда просто виски?",outcome:"bad",feedback:"Виски — не ЛВИ. Ушли от категории и не помогли с оригинальным выбором.",customerReply:"Виски у него есть, хотелось чего-то другого... — разочарован.",xpReward:0}]},{id:"t3",customerLine:"О, Егермейстер — слышал про него. А как его пьют?",choices:[{id:"c30",text:"Как хочет, так и пьёт",outcome:"bad",feedback:"«Как хочет» — не консультация. Покупатель спросил конкретно, ожидал интересного ответа.",customerReply:"Ясно... — немного разочарован ответом.",xpReward:0},{id:"c31",text:"Классика — очень холодным, прямо из морозилки, рюмкой. Можно со льдом. Некоторые делают Ягербомб — рюмку в бокал с энергетиком",outcome:"great",feedback:"Отлично! Конкретный совет + бонусный лайфхак = покупатель в восторге от подарка заранее.",customerReply:"О, вот это интересно! Про Ягербомб он точно не знал — классный подарок получится.",xpReward:20},{id:"c32",text:"Разбавляют с соком, иначе горько",outcome:"bad",feedback:"Неверно. Егермейстер пьют холодным в чистом виде или в Ягербомбе, не разбавляют соком.",customerReply:"Хм, с соком? Звучит как-то не так...",xpReward:0}]},{id:"t4",customerLine:"Отлично, беру! А что ещё взять — он любит коктейли делать дома.",choices:[{id:"c40",text:"Ничего не знаю про коктейли",outcome:"bad",feedback:"Упущена допродажа. Покупатель прямо сказал что любит коктейли — это приглашение предложить ещё.",customerReply:"Жаль... — уходит только с Егермейстером.",xpReward:0},{id:"c41",text:"Тогда возьмите ещё вермут — он отлично идёт в Мартини и Негрони. Или Амаретто — добавляют в кофе и десертные коктейли",outcome:"great",feedback:"Отлично! Допродажа через интерес покупателя. Ушёл с двумя позициями вместо одной.",customerReply:"О, про вермут не подумал! Возьму — отличный набор получится.",xpReward:20},{id:"c42",text:"Коктейли не наша тема, мы магазин, не бар",outcome:"bad",feedback:"«Не наша тема» — ошибка. Продавец должен знать базовое применение продукта и помогать с выбором.",customerReply:"Логично, ладно... — уходит ни с чем дополнительным.",xpReward:0}]}],maxXP:80},{id:"lowalc-couple",title:"Пара выбирает лёгкие напитки",grade:2,category:"sales",difficulty:2,situation:"Молодая пара выбирает напитки на вечер дома. Не хотят крепкое. 4 обмена репликами.",customerName:"Пара",customerMood:"neutral",turns:[{id:"t1",customerLine:"Привет! Хотим что-нибудь лёгкое на вечер, не крепкое. Он любит пиво, я не очень. Что посоветуете?",choices:[{id:"c10",text:"Тогда берите вино",outcome:"bad",feedback:"Вино — не слабоалкогольная категория и не закрывает запрос обоих. Пропущен шанс показать сидр и RTD.",customerReply:"Ну вино... мы хотели что-то поинтереснее, не только вино.",xpReward:0},{id:"c11",text:"Для него — пиво, для вас — сидр или RTD-коктейль в банке: мохито, джин-тоник. Лёгкое, вкусное, некрепкое",outcome:"great",feedback:"Отлично! Закрыл запрос обоих одной фразой, заинтересовал сидром. Разговор пошёл дальше.",customerReply:"О, отлично! Про сидр интересно, расскажи подробнее.",xpReward:20},{id:"c12",text:"Смотрите в холодильнике сами",outcome:"bad",feedback:"Пара с разными предпочтениями — идеальный случай для консультации. «Смотрите сами» = потерянная продажа.",customerReply:"Ладно... — уходят смотреть сами, выглядят растерянно.",xpReward:0}]},{id:"t2",customerLine:"О, сидр интересно! А он сладкий? Я не очень люблю сладкое.",choices:[{id:"c20",text:"Да, все сидры очень сладкие",outcome:"bad",feedback:"Неверно. Сидр бывает сухим. Ошибочная информация лишила покупательницу хорошего выбора.",customerReply:"Жаль, тогда не буду...",xpReward:0},{id:"c21",text:"Бывает по-разному — полусладкий и сухой. Если не любите сладкое, возьмите сухой, например Loic Raison французский, или RTD джин-тоник — он совсем не сладкий",outcome:"great",feedback:"Правильно! Дал точную информацию и конкретный вариант под запрос. Покупательница нашла своё.",customerReply:"О здорово! Тогда возьму сухой сидр или джин-тоник.",xpReward:20},{id:"c22",text:"Не знаю, смотрите на этикетке",outcome:"bad",feedback:"«Не знаю» = потеря доверия. Продавец должен знать базовые характеристики продукта.",customerReply:"Ладно... — берёт первое попавшееся, может попасть на сладкое.",xpReward:0}]},{id:"t3",customerLine:"А мне что выбрать — Хайнекен или Балтику? В чём разница?",choices:[{id:"c30",text:"Балтика дешевле, Хайнекен дороже",outcome:"bad",feedback:"Только цена — не консультация. Покупатель спросил про вкус, а не про цену.",customerReply:"Ну ясно и так... — берёт без интереса.",xpReward:0},{id:"c31",text:"Оба лагеры. Хайнекен — нидерландский, чуть горче и ароматнее, premium. Балтика №7 — российский, мягче, хорошо знакомый вкус. Что нравится больше?",outcome:"great",feedback:"Отлично! Объяснил разницу по вкусу, не по цене. Покупатель сделал осознанный выбор.",customerReply:"О, тогда Хайнекен — давно хотел попробовать нормальный!",xpReward:20},{id:"c32",text:"Один и тот же вкус, просто разные этикетки",outcome:"bad",feedback:"Неверно и обесценивает продукт. У брендов есть реальная разница во вкусе и позиционировании.",customerReply:"Серьёзно? Тогда возьму что подешевле... — разочарован.",xpReward:0}]},{id:"t4",customerLine:"Отлично, берём оба! Что к этому взять поесть?",choices:[{id:"c40",text:"Не знаю, идите в продуктовый",outcome:"bad",feedback:"Упущена очевидная допродажа. Снеки к пиву и сидру — главная пара категории.",customerReply:"Ладно... — уходят только с напитками.",xpReward:0},{id:"c41",text:"К пиву отлично — чипсы, орехи, кальмары. К сидру и джин-тонику — лёгкие снеки, орешки. Всё есть вон на том стеллаже",outcome:"great",feedback:"Идеально! Допродажа сделана, покупатели благодарны. Чек из 2 позиций стал 4.",customerReply:"Класс, возьмём орехи и чипсы! Спасибо, очень помогли.",xpReward:20},{id:"c42",text:"Ничего нет, только алкоголь продаём",outcome:"bad",feedback:"Снеки есть в магазине. Говорить «нет» когда товар есть — потеря продажи и доверия.",customerReply:"Жаль... — уходят без снеков.",xpReward:0}]}],maxXP:80},{id:"whisky-gift",title:"Виски в подарок",grade:2,category:"sales",difficulty:3,situation:"Женщина выбирает виски в подарок мужу на день рождения. Ты — продавец. 4 обмена репликами.",customerName:"Елена",customerMood:"confused",turns:[{id:"t1",customerLine:"Здравствуйте, мне нужен виски в подарок мужу. Но я совсем не разбираюсь.",choices:[{id:"c10",text:"Вот самый популярный, берите",outcome:"bad",feedback:"Без уточнения запроса — это угадайка. Покупательница не разбирается, ей нужна консультация, а не просто позиция на полке.",customerReply:"Хм, а почему именно этот?.. — смотрит растерянно.",xpReward:0},{id:"c11",text:"Хорошо, помогу! Он обычно какой виски пьёт — шотландский, ирландский? Или любой?",outcome:"great",feedback:"Правильно! Первый шаг — уточнить что нравится получателю подарка. Без этого выбор вслепую.",customerReply:"О, хороший вопрос! Он говорил что-то про шотландский. Любит с дымком.",xpReward:20},{id:"c12",text:"У нас вся полка — выбирайте сами, на любой вкус",outcome:"bad",feedback:"Человек прямо сказал «не разбираюсь» — отправить к полке самому это отказ от консультации.",customerReply:"Мне нужна помощь, я же сказала что не разбираюсь... — расстроена.",xpReward:0}]},{id:"t2",customerLine:"Не знаю... Он говорил что-то про шотландский. Любит что-то насыщенное, с дымком.",choices:[{id:"c20",text:"Тогда берите любой шотландский — они все похожи",outcome:"bad",feedback:"Шотландские виски очень разные: лёгкие, дымные, фруктовые. «Все похожи» — неверно и не помогает выбрать.",customerReply:"Нуу... может они и правда похожи? — неуверенно берёт первую попавшуюся.",xpReward:0},{id:"c21",text:"Шотландский с дымком — это айлейский стиль. Самый известный — Лафройг или Ардбег. У нас есть выдержанные односолодовые — как раз то что надо",outcome:"great",feedback:"Отлично! Назвал стиль, ориентир по вкусу и перевёл к конкретным позициям. Покупательница заинтересована и задаёт уточняющий вопрос.",customerReply:"О, звучит интересно! А чем односолодовый отличается от обычного?",xpReward:20},{id:"c22",text:"С дымком? Тогда лучше ирландский — он мягче",outcome:"bad",feedback:"Ирландский виски — как раз без дыма, он мягкий и лёгкий. Противоречит и запросу покупательницы, и предпочтению мужа.",customerReply:"Но он же сказал шотландский... — в замешательстве.",xpReward:0}]},{id:"t3",customerLine:"Окей, покажите. А чем односолодовый отличается от обычного?",choices:[{id:"c30",text:"Это сложно объяснить, лучше просто попробовать",outcome:"bad",feedback:"«Сложно объяснить» — плохой ответ. Простое объяснение повышает уверенность покупательницы и ценность подарка в её глазах.",customerReply:"Ну ладно... — уходит без понимания что берёт.",xpReward:0},{id:"c31",text:"Это виски с одной винокурни, из одного солода. Вкус более характерный, авторский. Блендед — смесь с разных заводов, ровнее и мягче. Для подарка односолодовый выглядит солиднее",outcome:"great",feedback:"Отлично! Коротко, понятно, с аргументом «для подарка солиднее». Покупательница сама пришла к решению.",customerReply:"Понятно! Тогда точно односолодовый — он же для подарка.",xpReward:20},{id:"c32",text:"Односолодовый дороже, поэтому лучше",outcome:"bad",feedback:"«Дороже = лучше» — слабый аргумент. Надо объяснять разницу во вкусе и происхождении, а не только в цене.",customerReply:"Значит просто дороже... и всё? — не очень убедительно.",xpReward:0}]},{id:"t4",customerLine:"Беру! Жаль только упаковки нет — хочется подарить красиво.",choices:[{id:"c40",text:"Да, упаковки нет, ничем не могу помочь",outcome:"bad",feedback:"Подарочный пакет и снек к виски — простая допродажа. «Ничем не могу» — упущенный чек и упущенный WOW-момент для покупательницы.",customerReply:"Жаль... — уходит без оформления, настроение чуть упало.",xpReward:0},{id:"c41",text:"У нас есть подарочные пакеты — подберём под бутылку. И можно добавить шоколад или снек — получится готовый набор",outcome:"great",feedback:"Идеально! Решила проблему упаковки и добавила допродажу. Покупательница довольна — чек вырос, клиент уходит счастливым.",customerReply:"О, отлично! Давайте пакет и шоколадку — муж будет в восторге!",xpReward:20},{id:"c42",text:"В любом канцтоварах продаётся бумага",outcome:"bad",feedback:"Отправить покупателя в другой магазин — потеря чека и плохой сервис. Подарочные пакеты — простая позиция с хорошей маржой.",customerReply:"Эм... окей, схожу потом. — немного растерялась.",xpReward:0}]}],maxXP:80},{id:"beer-unusual",title:"«Хочу пиво поинтереснее»",grade:2,category:"sales",difficulty:2,situation:"Мужчина хочет пиво — «что-нибудь интересное, не обычное». Ты — продавец. 4 обмена репликами.",customerName:"Виктор",customerMood:"neutral",turns:[{id:"t1",customerLine:"Привет. Хочу пиво — что-нибудь интересное, надоело одно и то же.",choices:[{id:"c10",text:"Возьмите Хайнекен, хорошее пиво",outcome:"bad",feedback:"Не уточнили запрос. Покупатель хочет «что-то интересное» — без уточнения вкусов не попасть в цель.",customerReply:"Хайнекен я и так знаю... хотелось чего-то нового. — немного разочарован.",xpReward:0},{id:"c11",text:"Подскажите — обычно светлое берёте или тёмное? Горечь любите?",outcome:"great",feedback:"Правильно! Два коротких вопроса — и уже понятно в каком направлении искать. Консультация началась.",customerReply:"Светлое обычно беру. Горечь нормально, но хочу другой вкус.",xpReward:20},{id:"c12",text:"Вон полка с пивом, смотрите",outcome:"bad",feedback:"Покупатель пришёл за советом, а не за навигацией. «Смотрите сами» — это не консультация.",customerReply:"Ну я и так вижу полку, хотел совет... — идёт смотреть сам, растерян.",xpReward:0}]},{id:"t2",customerLine:"Обычно светлое. Горечь нормально, но хочется чего-то с другим вкусом.",choices:[{id:"c20",text:"Тогда тёмное попробуйте — оно другое",outcome:"bad",feedback:"Покупатель сказал «светлое» — тёмное это противоположное направление. Не слушаем запрос.",customerReply:"Тёмное я не очень... — морщится.",xpReward:0},{id:"c21",text:"Тогда попробуйте нефильтрованное пшеничное — мутное, с фруктовым ароматом, без резкой горечи. Совсем другой вкус по сравнению с обычным лагером",outcome:"great",feedback:"Отлично! Попали в запрос: светлое, с характером, но другое. Покупатель заинтересовался и задаёт вопрос — разговор пошёл.",customerReply:"О, интересно! А почему оно мутное?",xpReward:20},{id:"c22",text:"Хайнекен возьмите — он получше остальных",outcome:"bad",feedback:"Хайнекен — стандартный лагер, «то же самое» для покупателя. Не отвечает на запрос «интересное».",customerReply:"Нуу, Хайнекен я знаю, это обычное... — не зацепило.",xpReward:0}]},{id:"t3",customerLine:"Мутное? А почему оно мутное, оно нормальное?",choices:[{id:"c30",text:"Да нормальное, просто такое",outcome:"bad",feedback:"«Просто такое» — не объяснение. Покупатель засомневался, а продавец не помог. Хорошее объяснение = уверенная покупка.",customerReply:"Ладно... — берёт без уверенности.",xpReward:0},{id:"c31",text:"Да, всё в порядке. Нефильтрованное не прогоняют через фильтр — в нём остаются дрожжи и белки. Отсюда мутность и более насыщенный вкус. Это не брак, это стиль",outcome:"great",feedback:"Отлично! Развеял сомнение и превратил «мутное» из минуса в плюс. Покупатель берёт с пониманием и без колебаний.",customerReply:"А, понял! Значит это фишка, не недостаток. Интересно, беру!",xpReward:20},{id:"c32",text:"Наверное срок годности, проверьте дату",outcome:"bad",feedback:"Неверно и опасно. Мутность нефильтрованного — это норма, не признак порчи. Такой ответ теряет продажу и подрывает доверие.",customerReply:"Хм, зачем тогда такое продавать... — кладёт обратно.",xpReward:0}]},{id:"t4",customerLine:"О, понял! Интересно. Беру. Больше ничего не надо.",choices:[{id:"c40",text:"Хорошо, на кассу",outcome:"bad",feedback:"Упущена простая допродажа. Снек к пиву — естественная пара, и покупатель в хорошем настроении. Идеальный момент предложить.",customerReply:"Окей... — уходит только с пивом.",xpReward:0},{id:"c41",text:"К пшеничному отлично идут чипсы или сухарики — пиво с хрустящим это классика. Взять что-нибудь?",outcome:"great",feedback:"Отлично! Логичная допродажа через гастропару. Покупатель ушёл довольный с двумя позициями вместо одной.",customerReply:"О, точно! Давайте чипсы возьму — как раз вечером хочется похрустеть.",xpReward:20},{id:"c42",text:"Может ещё одну бутылку возьмёте?",outcome:"bad",feedback:"«Возьмите ещё одну» — слабое предложение без обоснования. Лучше предложить снек — это логично и не давит.",customerReply:"Нет, одной хватит — я один дома. — немного неловко.",xpReward:0}]}],maxXP:80}];t.s(["FOUNDER_MESSAGE",0,a,"GRADES",0,e,"MODULES",0,d,"ROLEPLAY_SCENARIOS",0,n,"TRAINING_MODULES",0,o,"WOW_STORIES",0,[{id:1,authorName:"Мария Козлова",authorAvatar:"МК",authorGrade:3,title:"Постоянный покупатель запомнил моё имя",body:"Мужчина приходит каждое утро за двойным эспрессо. Сегодня сказал: «Мария, ты единственная, кто делает его правильно». Это мелочь — но именно такие моменты напоминают, почему мы здесь.",date:"25 мая 2026",hearts:14,featured:!0},{id:2,authorName:"Илья Петров",authorAvatar:"ИП",authorGrade:2,title:"Помог туристу найти подарок",body:"Пара из Казани искала что-то «московское» в подарок. Я рассказал про наш фирменный набор — они взяли три штуки и сказали, что обязательно вернутся. Оказывается, это не так сложно — просто говорить с людьми.",date:"22 мая 2026",hearts:9,featured:!1},{id:3,authorName:"Анна Смирнова",authorAvatar:"АС",authorGrade:2,title:"Вернула потерянную карту — покупатель был в слезах",body:"Покупательница забыла банковскую карту у кассы. Я нашла контакт через чек лояльности, позвонила и отложила карту. Когда она пришла — обнимала меня. Такие моменты дороже любого KPI.",date:"20 мая 2026",hearts:22,featured:!0}],"getGrade",0,function(t){return e.find(e=>e.id===t)||e[0]},"getLessonsByModule",0,function(t){return i.filter(e=>e.moduleId===t)}])}]);
+Добро пожаловать в команду.`},n=[{id:"recommend-bar",title:"Первый раз в магазине",category:"sales",difficulty:1,situation:"Покупатель стоит у полки с коктейльными наборами. Он у нас первый раз и явно не знает, что выбрать.",customerName:"Алексей",customerMood:"neutral",turns:[{id:"t1",customerLine:"А что это у вас за наборы такие? Я первый раз.",choices:[{id:"c1a",text:"«Это коктейльный набор: мини-бутылка, напиток и стакан со льдом. Вам покрепче или полегче?»",outcome:"great",feedback:"Отлично: объяснили в одну фразу и сразу спросили про вкус, а не навязали первое попавшееся.",customerReply:"Полегче, наверное. Просто посидеть вечером.",xpReward:20},{id:"c1b",text:"«Возьмите вот этот, он самый ходовой»",outcome:"good",feedback:"Хорошо, что дали конкретную рекомендацию. Но сначала стоит узнать, какую крепость он хочет.",customerReply:"А что в нём?",xpReward:12},{id:"c1c",text:"«Там всё на ценниках написано»",outcome:"bad",feedback:"Покупатель прямо попросил помощи. Такой ответ читается как безразличие — и он уходит с водой вместо набора.",customerReply:"Ладно... тогда просто воду возьму.",xpReward:0},{id:"c1d",text:"«У нас всё хорошее, не ошибётесь!»",outcome:"neutral",feedback:"Дружелюбно, но пусто. Покупатель так и не понял, что он покупает.",customerReply:"Ну окей... давайте что-нибудь среднее.",xpReward:6}]}],maxXP:20},{id:"handle-complaint",title:"Жалоба на качество",category:"conflict",difficulty:2,situation:"Покупатель возвращается с энергетиком — банка тёплая, хотя он брал её из холодильника. Слегка раздражён.",customerName:"Наталья",customerMood:"frustrated",turns:[{id:"t1",customerLine:"Извините, но она совсем тёплая. Я же из холодильника брала!",choices:[{id:"c1a",text:"«Извините — сейчас поменяю, и скажу старшему, чтобы проверили холодильник»",outcome:"great",feedback:"Идеально: закрыли и проблему покупателя, и её причину. Тёплая банка — это не одна банка, а весь холодильник.",customerReply:"Вот это по-человечески, спасибо!",xpReward:25},{id:"c1b",text:"«Странно, обычно всё холодное... давайте проверим»",outcome:"neutral",feedback:"Не спорьте с покупателем. Даже мягкое сомнение читается как обвинение.",customerReply:"Ну... надеюсь, это исключение.",xpReward:8},{id:"c1c",text:"«Может, вы её долго носили? Она быстро нагревается»",outcome:"bad",feedback:"Никогда не перекладывайте вину на покупателя. Это разрушает доверие быстрее, чем тёплая банка.",customerReply:"Вы серьёзно? Это было две минуты назад.",xpReward:0},{id:"c1d",text:"«Хотите скидку на следующую?»",outcome:"good",feedback:"Добрый жест, но сначала решите текущую проблему — замените банку.",customerReply:"Лучше просто холодную сейчас, если можно.",xpReward:15}]}],maxXP:25},{id:"product-knowledge",title:"Вопрос о составе",category:"knowledge",difficulty:2,situation:"Покупательница спрашивает о составе протеинового батончика — у неё аллергия на глютен.",customerName:"Светлана",customerMood:"confused",turns:[{id:"t1",customerLine:"Скажите, в этом батончике есть глютен? У меня аллергия.",choices:[{id:"c1a",text:"«Сейчас посмотрю состав на упаковке — одну секунду» (проверяете и называете точный ответ)",outcome:"great",feedback:"Правильно: не угадывать, а проверить. При аллергии это вопрос здоровья, а не сервиса.",customerReply:"Спасибо, что проверили! Уважаю такой подход.",xpReward:25},{id:"c1b",text:"«Кажется, там овсянка, наверное есть глютен»",outcome:"neutral",feedback:"«Кажется» и «наверное» — опасные слова при пищевой аллергии. Состав написан на упаковке, его видно за пять секунд.",customerReply:"Мне нужна точная информация, не «кажется»...",xpReward:5},{id:"c1c",text:"«Не знаю, вы лучше не рискуйте»",outcome:"good",feedback:"Честность — это плюс. Но следующий шаг: посмотреть состав или позвать того, кто знает.",customerReply:"Хорошо, а вы можете посмотреть?",xpReward:12},{id:"c1d",text:"«У нас всё свежее, проблем не будет»",outcome:"bad",feedback:"Свежесть никак не связана с аллергенами. Такой ответ безответственен и опасен.",customerReply:"Это не ответ на мой вопрос...",xpReward:0}]}],maxXP:25},{id:"upsell-natural",title:"Допродажа без давления",category:"sales",difficulty:3,situation:"Покупатель взял энергетик. Вечер пятницы, он никуда не спешит.",customerName:"Михаил",customerMood:"neutral",turns:[{id:"t1",customerLine:"HQD, пожалуйста.",choices:[{id:"c1a",text:"«Конечно! Стакан со льдом возьмёте? Со льдом он совсем по-другому пьётся»",outcome:"great",feedback:"Естественная допродажа: конкретное предложение и причина, зачем это ему. Не давит, но цепляет.",customerReply:"О, а давайте попробую.",xpReward:30},{id:"c1b",text:"«HQD и... может, ещё что-то?»",outcome:"neutral",feedback:"Слабый оффер: нет конкретики, покупатель не понимает, что ему предлагают.",customerReply:"Нет, спасибо.",xpReward:8},{id:"c1c",text:"«Хотите добавить снек или шоколадку? У нас большой выбор»",outcome:"good",feedback:"Неплохо, но «большой выбор» слабее, чем одна конкретная рекомендация.",customerReply:"Хм, а что есть?",xpReward:18},{id:"c1d",text:"«Это всё?»",outcome:"bad",feedback:"«Это всё?» — ленивый вопрос. Он закрывает разговор вместо того, чтобы что-то предложить.",customerReply:"Да, всё.",xpReward:0}]}],maxXP:30},{id:"aromatic-request",title:"Запрос «что-нибудь с вкусом»",grade:2,category:"sales",difficulty:2,situation:"Самый частый запрос в табачной зоне. Пять ситуаций — от открытого вопроса до даунселла и выбора вкуса.",customerName:"Алексей",customerMood:"neutral",turns:[{id:"t1",customerLine:"«Хочу что-нибудь с вкусом, посоветуйте что-нибудь»",choices:[{id:"c1a",text:"«Возьмите Chapman Red — самый популярный с вкусом»",outcome:"bad",feedback:"Chapman Red — популярный, но это угадывание. Покупатель мог хотеть тонкий формат или другой вкус. Сначала — вопрос.",customerReply:"",xpReward:0},{id:"c1b",text:"«Скажите — обычный формат или тонкий? И какой вкус ближе — ягодный, фруктовый или с мятой?»",outcome:"great",feedback:"Правильно. Два вопроса — формат и вкус — дают всю нужную информацию. После этого ты предложишь точно, а не наугад. Покупатель чувствует что его слушают.",customerReply:"",xpReward:20},{id:"c1c",text:"«Вот ароматические — вся полка здесь, смотрите»",outcome:"bad",feedback:"Отправить к полке без объяснений — потерянная консультация. Покупатель ушёл без уверенности что выбрал правильно.",customerReply:"",xpReward:0}]},{id:"t2",customerLine:"«Обычный, что-нибудь ягодное»",choices:[{id:"c2a",text:"«Morrison Чёрная смородина — наш бренд, стандарт, 269 ₽. Самый популярный из ягодных, берут постоянно»",outcome:"great",feedback:"Правильно. Morrison — наша марка, предлагаем первой. Называешь вкус, формат и цену. Добавляешь что это топ — это закрывает сомнения.",customerReply:"",xpReward:20},{id:"c2b",text:"«Chapman Red — вишня, 285 ₽, самый известный»",outcome:"bad",feedback:"Chapman Red тоже подходит, но Morrison предлагаешь первым — это наш бренд, маржа выше. Chapman — если Morrison не подошёл или нет в наличии.",customerReply:"",xpReward:0},{id:"c2c",text:"«Morrison или Chapman — они похожие, смотрите сами»",outcome:"bad",feedback:"Переложил выбор на покупателя. Он пришёл за советом — дай конкретный ответ, не уходи от рекомендации.",customerReply:"",xpReward:0}]},{id:"t3",customerLine:"«А подешевле есть что-нибудь с вкусом? Хочу до 200 рублей»",choices:[{id:"c3a",text:"«Дешевле ароматических нет, Morrison самые доступные у нас»",outcome:"bad",feedback:"Неверно. Chesterfield Aroma есть в наличии от 189 ₽. Сказать «дешевле нет» — значит не знать ассортимент.",customerReply:"",xpReward:0},{id:"c3b",text:"«Chesterfield Aroma — от 189 ₽, есть несколько вкусов. Лёгкие, доступные, хороший вариант для начала»",outcome:"great",feedback:"Правильно. Chesterfield Aroma — самые доступные ароматические в ассортименте, от 189 ₽. Не теряешь продажу и укладываешься в бюджет.",customerReply:"",xpReward:20},{id:"c3c",text:"«Тогда берите обычные без вкуса — там дешевле»",outcome:"bad",feedback:"Потерял покупателя полностью. Он хотел ароматические — дай альтернативу в его бюджете, а не другую категорию.",customerReply:"",xpReward:0}]},{id:"t4",customerLine:"«Ладно, возьму Morrison. Какой вкус посоветуете? Не знаю с чего начать»",choices:[{id:"c4a",text:"«Это на вкус и цвет — все разные, попробуйте что понравится»",outcome:"bad",feedback:"Уход от ответа. Покупатель прямо спросил совет — дай его. «Все разные» — это ни о чём.",customerReply:"",xpReward:0},{id:"c4b",text:"«Мне лично нравится Вишня»",outcome:"bad",feedback:"Личное мнение без обоснования. Лучше опираться на данные продаж: Чёрная смородина — топ, это объективный аргумент.",customerReply:"",xpReward:0},{id:"c4c",text:"«Чаще всего берут Чёрную смородину — топ продаж. Если не знаете с чего начать, советую её. Ещё популярны Вишня и Виноград»",outcome:"great",feedback:"Правильно. Называешь топ продаж — это конкретная, честная рекомендация. Покупатель новичок и ждёт что ты возьмёшь решение на себя. Чёрная смородина — №1, это аргумент.",customerReply:"",xpReward:20}]},{id:"t5",customerLine:"«А тонкие с вкусом есть? Я обычно слим курю, не хочу стандарт»",choices:[{id:"c5a",text:"«Morrison только стандарт, больше ничего с вкусом нет»",outcome:"bad",feedback:"Неверно. Chapman Slim есть в наличии — это ароматический в тонком формате. Сказать «нет» когда товар есть — потеря продажи.",customerReply:"",xpReward:0},{id:"c5b",text:"«Morrison в слиме нет, но есть Chapman Slim — тот же ароматический, тонкий формат. Вкусов меньше, зато привычная толщина»",outcome:"great",feedback:"Правильно. Знаешь ассортимент — Morrison только стандарт, Chapman есть в слиме. Не говоришь «нет», а предлагаешь реальную альтернативу в нужном формате.",customerReply:"",xpReward:20},{id:"c5c",text:"«Слима с вкусом у нас нет совсем»",outcome:"bad",feedback:"Неверно. Слим с вкусом есть — Chapman Slim. Нельзя говорить «нет» без проверки ассортимента.",customerReply:"",xpReward:0}]}],maxXP:100},{id:"chapman-to-morrison",title:"Chapman закончился — предложи замену",grade:2,category:"sales",difficulty:3,situation:"Три покупателя приходят за Chapman — каждый за своим вкусом. Твоя задача — предложить Morrison так, чтобы человек ушёл довольным.",customerName:"Игорь",customerMood:"neutral",turns:[{id:"t1",customerLine:"«Chapman Ред есть? Вишнёвый, обычный»",choices:[{id:"c1a",text:"«Chapman сейчас нет, возьмите лучше Marlboro Gold — тоже популярные»",outcome:"bad",feedback:"Marlboro Gold — другой формат, нет вкусов. Покупатель хотел именно вишнёвый, это не замена по сути.",customerReply:"",xpReward:0},{id:"c1b",text:"«Чапмана нет, но есть Morrison Вишня — такой же вкус, стандартный формат, чуть дешевле»",outcome:"great",feedback:"Отлично. Называешь замену, объясняешь почему — вкус совпадает, формат тот же, цена ниже. Покупатель уходит с продуктом.",customerReply:"",xpReward:20},{id:"c1c",text:"«Нет, закончился» и жду следующего»",outcome:"bad",feedback:"Молчание = потерянная продажа. Всегда предлагай альтернативу.",customerReply:"",xpReward:0}]},{id:"t2",customerLine:"«Беру Chapman Ред, но надоела вишня. Хочу что-то ягодное, поинтереснее»",choices:[{id:"c2a",text:"«Тогда попробуйте Chapman Green — там яблоко и мята, совсем другой»",outcome:"bad",feedback:"Chapman Green — совсем другое направление: мята и яблоко. Покупатель просил ягодное, а не свежее.",customerReply:"",xpReward:0},{id:"c2b",text:"«Возьмите Morrison Чёрная смородина — тот же стандартный формат что и ваш Chapman, но вкус насыщеннее, тёмная ягода»",outcome:"great",feedback:"Отлично. Человек хотел попробовать что-то новое — ты предложил конкретный вариант с объяснением вкуса. Morrison Чёрная смородина — их лидер продаж, и он точно в теме «тёмная ягода».",customerReply:"",xpReward:20},{id:"c2c",text:"«Другого ягодного у нас нет»",outcome:"bad",feedback:"Morrison Чёрная смородина стоит на полке рядом. Сказать «нет» когда товар есть — потерянная продажа.",customerReply:"",xpReward:0}]},{id:"t3",customerLine:"«Chapman Brown есть? Шоколадный»",choices:[{id:"c3a",text:"«Чапмана нет. Посмотрите Morrison Шоколад — похожий сладкий вкус, немного по-другому, но нравится кто любит Браун»",outcome:"great",feedback:"Хорошо. Честно говоришь что похоже, но не то же самое — это доверие. Покупатель сам решает и не чувствует себя обманутым.",customerReply:"",xpReward:20},{id:"c3b",text:"«Нет Брауна, возьмите Chapman Ред — тоже хороший»",outcome:"bad",feedback:"Chapman Ред — вишня, это другой вкус. Не замена для того кто хочет шоколад.",customerReply:"",xpReward:0},{id:"c3c",text:"«Нет, зайдите завтра»",outcome:"bad",feedback:"Потерянная продажа и покупатель уйдёт в другой магазин.",customerReply:"",xpReward:0}]},{id:"t4",customerLine:"«А Morrison и Chapman — в чём разница вообще? Почему Morrison дешевле?»",choices:[{id:"c4a",text:"«Morrison производится в Венгрии на современном оборудовании — не хуже по качеству, просто другое позиционирование. По вкусу с Chapman очень похожи»",outcome:"great",feedback:"Точно. Нейтральное объяснение без оценки. Morrison производится в Венгрии на современном оборудовании — это аргумент качества, а не оправдание цены.",customerReply:"",xpReward:20},{id:"c4b",text:"«Morrison хуже качеством, поэтому дешевле»",outcome:"bad",feedback:"Нельзя так говорить о товаре который продаёшь. Morrison производится в Венгрии на современном производстве — цена ниже за счёт позиционирования, не качества.",customerReply:"",xpReward:0},{id:"c4c",text:"«Не знаю, просто разные марки»",outcome:"bad",feedback:"Упущенный момент для объяснения и допродажи доверия.",customerReply:"",xpReward:0}]}],maxXP:80},{id:"alt-tobacco-request",title:"«Что у вас из альтернативного?»",grade:2,category:"knowledge",difficulty:2,situation:"Пять ситуаций — кальянный табак, сигариллы, жевательный табак. Покупатели часто сами не знают в какую категорию попадает их товар.",customerName:"Сергей",customerMood:"neutral",turns:[{id:"t1",customerLine:"«Девушка, у вас есть кальянный табак?»",choices:[{id:"c1a",text:"«Есть. Какой вкус ищете? У нас Al Fakher и Adalya — скажите что предпочитаете, подберём.»",outcome:"great",feedback:"Правильно. Ты подтвердил наличие и сразу задал уточняющий вопрос по вкусу — это сокращает выбор и помогает покупателю. Называешь конкретные марки — Al Fakher и Adalya.",customerReply:"",xpReward:20},{id:"c1b",text:"«Кальянный табак — вон там, в шкафу с альтернативным, смотрите сами.»",outcome:"bad",feedback:"Указал где стоит — но не помог выбрать. Покупатель может растеряться перед шкафом без подсказки по маркам и вкусам.",customerReply:"",xpReward:0},{id:"c1c",text:"«Кальянный? Это не обычные сигареты — убедитесь что вам нужен именно он.»",outcome:"bad",feedback:"Лишнее уточнение. Если человек спросил кальянный табак — он знает что это такое. Такой вопрос выглядит как недоверие.",customerReply:"",xpReward:0}]},{id:"t2",customerLine:"«Al Fakher есть? Какой вкус посоветуешь если первый раз?»",choices:[{id:"c2a",text:"«На вкус и цвет — все разные, смотрите этикетки.»",outcome:"bad",feedback:"Уход от ответа. Покупатель прямо спросил совет — «все разные» это ничто. Он пришёл за рекомендацией.",customerReply:"",xpReward:0},{id:"c2b",text:"«Двойное яблоко — классика для первого раза. Несложный, нейтральный, все берут. Mint тоже популярен если любите свежее.»",outcome:"great",feedback:"Правильно. Двойное яблоко — классика для новичка, это объективный аргумент, не личное мнение. Даёшь конкретику и добавляешь альтернативу (Mint). Покупатель получил ответ, а не новый вопрос.",customerReply:"",xpReward:20},{id:"c2c",text:"«Зависит что вам нравится. Фрукты, мята, ягоды?»",outcome:"bad",feedback:"Встречный вопрос уместен когда нет информации. Но здесь покупатель сказал «первый раз» — дай стартовую рекомендацию, потом уточняй.",customerReply:"",xpReward:0}]},{id:"t3",customerLine:"«А жевательный табак у вас есть? Oden's или Corvus?»",choices:[{id:"c3a",text:"«Жевательный — он у нас в шкафу с электронными, сейчас покажу.»",outcome:"bad",feedback:"Ошибка в хранении. Жевательный табак — не ЭСДН. Он хранится в шкафу с альтернативным табаком, а не с электронными сигаретами.",customerReply:"",xpReward:0},{id:"c3b",text:"«Есть, сейчас посмотрю. Это альтернативный табак — лежит в том же шкафу что и кальянный.»",outcome:"great",feedback:"Правильно. Жевательный табак — Категория 2 (Альтернативный табак), хранится вместе с кальянным и сигариллами. Ты правильно сориентировал покупателя и не перепутал с ЭСДН.",customerReply:"",xpReward:20},{id:"c3c",text:"«Жевательный это же типа снюс? Он у нас не продаётся.»",outcome:"bad",feedback:"Снюс и жевательный табак — разные вещи. Снюс запрещён, жевательный табак (Corvus, Oden's, IZI, Dzen) — разрешён и есть в продаже.",customerReply:"",xpReward:0}]},{id:"t4",customerLine:"«Что такое сигариллы вообще? Это как сигары?»",choices:[{id:"c4a",text:"«Сигарилла — это маленькая сигара: табачный лист вместо бумаги, без фильтра или с мундштуком. Вкус более плотный чем у сигареты. Если интересно попробовать — Djarum Black Mini хороший старт.»",outcome:"great",feedback:"Правильно. Ты объяснил что это, чем отличается от сигареты, и сразу предложил конкретный вариант для первого знакомства. Покупатель получил понятный ответ и точку входа.",customerReply:"",xpReward:20},{id:"c4b",text:"«Да, это как сигара, только маленькая.»",outcome:"bad",feedback:"Слишком коротко. «Маленькая сигара» — это не объяснение. Покупатель не понял главного: чем отличается от сигарет и стоит ли пробовать.",customerReply:"",xpReward:0},{id:"c4c",text:"«Вы имеете в виду тонкие сигареты? Слимы вон там.»",outcome:"bad",feedback:"Путаница в продуктах. Покупатель спросил про сигариллы, ты отправил к слимам — это другая категория. Нельзя перенаправлять без понимания запроса.",customerReply:"",xpReward:0}]},{id:"t5",customerLine:"«У вас снюс есть? Только шведский, не знаю как у вас называется»",choices:[{id:"c5a",text:"«Снюс у нас не продаётся — он запрещён. Но есть жевательный табак: Corvus, Oden's — принцип похожий, это альтернативный табак. Хотите покажу?»",outcome:"great",feedback:"Правильно. Снюс продавать нельзя — ты это сказал. Но ты не остановился на «нет», а предложил реальную альтернативу — жевательный табак с похожим принципом. Продажа сохранена.",customerReply:"",xpReward:20},{id:"c5b",text:"«Снюса нет, и вообще это незаконно.»",outcome:"bad",feedback:"Технически верно, но грубо. «Это незаконно» звучит как обвинение. Покупатель мог просто не знать разницу. Лучше объяснить и предложить что есть.",customerReply:"",xpReward:0},{id:"c5c",text:"«Есть что-то похожее в электронных — ЭСДН без дыма, вдруг подойдёт.»",outcome:"bad",feedback:"Неверная замена. ЭСДН — совсем другая категория: жидкость и пар, без табака. Человек искал жевательный продукт — не предлагай ему электронную сигарету.",customerReply:"",xpReward:0}]}],maxXP:100},{id:"esdn-advice",title:"«Посоветуйте электронку»",grade:2,category:"sales",difficulty:2,situation:"Пять ситуаций: первый раз, выбор по ёмкости, бюджет, возраст и покупатель который хочет «как у друга».",customerName:"Никита",customerMood:"neutral",turns:[{id:"t1",customerLine:"«Посоветуйте что-нибудь из электронок, не знаю с чего начать»",choices:[{id:"c1a",text:"«Вот витрина — тут всё, смотрите.»",outcome:"bad",feedback:"Витрина без объяснений не помогает — человек растеряется перед 400+ позициями. Покупатель пришёл за советом.",customerReply:"",xpReward:0},{id:"c1b",text:"«Вы раньше брали ЭСДН или первый раз?»",outcome:"great",feedback:"Правильно. Один вопрос — и ты уже знаешь отправную точку. Новичку нужен маленький формат, опытному — сразу спросить марку и объём.",customerReply:"",xpReward:20},{id:"c1c",text:"«Возьмите PLONQ 10000 — самый популярный.»",outcome:"bad",feedback:"PLONQ 10000 — хороший товар, но для первого раза может быть слишком дорого и рискованно. Сначала вопрос — потом рекомендация.",customerReply:"",xpReward:0}]},{id:"t2",customerLine:"«Первый раз. Что лучше взять?»",choices:[{id:"c2a",text:"«HQD 1200 или IZI — небольшой формат, попробовать. Если понравится — в следующий раз возьмёте большой. Цена ~900 ₽.»",outcome:"great",feedback:"Правильно. HQD и IZI — наши приоритетные марки. Для первого раза небольшой формат — 1200 затяжек, ~900 ₽. Человек не рискует большой суммой если не понравится.",customerReply:"",xpReward:20},{id:"c2b",text:"«Берите сразу IZI 10000 — выгоднее на один стик выходит.»",outcome:"bad",feedback:"Логика «выгоднее на одну затяжку» не работает для новичка — он не знает понравится ли ему вообще. Большой формат = большой риск.",customerReply:"",xpReward:0},{id:"c2c",text:"«Elf Bar популярный, берите его.»",outcome:"bad",feedback:"Elf Bar — не приоритетная марка. Для первого раза лучше предложить HQD или IZI — это наши бренды, их предлагаем первыми.",customerReply:"",xpReward:0}]},{id:"t3",customerLine:"«Хочу HQD, но дорогие они у вас. Есть что подешевле?»",choices:[{id:"c3a",text:"«Дешевле HQD у нас нет, это минимум.»",outcome:"bad",feedback:"Неверно. IZI дешевле HQD, и это наша марка. Сказать «дешевле нет» без проверки — значит потерять продажу.",customerReply:"",xpReward:0},{id:"c3b",text:"«IZI — тоже наша марка, цена немного ниже. Или скажите бюджет — подберём под него.»",outcome:"great",feedback:"Правильно. IZI — тоже наша приоритетная марка и немного доступнее HQD. Дополнительный вопрос про бюджет позволяет подобрать точнее — не угадывать.",customerReply:"",xpReward:20},{id:"c3c",text:"«Elf Bar и Lost Mary дешевле — берите один из них.»",outcome:"bad",feedback:"Elf Bar и Lost Mary — не приоритетные марки. Сначала предлагаем свои: HQD или IZI. Если и они не подходят по цене — тогда остальные.",customerReply:"",xpReward:0}]},{id:"t4",customerLine:"«Дайте вот этот» — берёт IZI с витрины, протягивает к кассе. На вид лет 16.",choices:[{id:"c4a",text:"Пробиваешь молча — раз сам взял, значит знает что делает.",outcome:"bad",feedback:"Нарушение. ЭСДН — только с 18. Продажа без проверки документа при видимом сомнении — это штраф на магазин и лично на тебя.",customerReply:"",xpReward:0},{id:"c4b",text:"«Хороший выбор. Мне нужно проверить документ — ЭСДН с 18 лет, как и алкоголь.»",outcome:"great",feedback:"Правильно. Нейтральный тон — «как и алкоголь» — снимает личное напряжение. Ты не подозреваешь покупателя, ты соблюдаешь стандарт. Документ проверен, ответственность соблюдена.",customerReply:"",xpReward:20},{id:"c4c",text:"«Вам 18 есть? Нам вообще-то нельзя продавать молодым.»",outcome:"bad",feedback:"Агрессивный тон. «Нельзя продавать молодым» — звучит как обвинение. Нейтральная формулировка работает лучше и не обижает покупателя если ему и правда 18+.",customerReply:"",xpReward:0}]},{id:"t5",customerLine:"«У друга был PLONQ с арбузом — хочу такой же. Есть?»",choices:[{id:"c5a",text:"«PLONQ Watermelon — сейчас посмотрю есть ли в наличии.»",outcome:"great",feedback:"Правильно. Покупатель знает что хочет — твоя задача найти это или честно сказать что нет. «Сейчас посмотрю» — правильная реакция: ты берёшь ответственность за поиск.",customerReply:"",xpReward:20},{id:"c5b",text:"«PLONQ не знаю, у нас много всего — смотрите на витрине.»",outcome:"bad",feedback:"Отправить к витрине без попытки найти — значит не помочь. Покупатель назвал конкретный запрос, ты должен его обработать.",customerReply:"",xpReward:0},{id:"c5c",text:"«PLONQ есть, но арбуза нет. Возьмите HQD — там тоже арбуз бывает, наша марка.»",outcome:"bad",feedback:"Тоже неплохой вариант — если PLONQ Watermelon реально нет. Но начинать нужно с поиска того что просили, а не сразу переключать на другой бренд.",customerReply:"",xpReward:0}]}],maxXP:100},{id:"sticks-device",title:"«Дайте стики для моего устройства»",grade:2,category:"knowledge",difficulty:3,situation:"Главная ошибка в этой категории — выдать не тот стик. Пять ситуаций: IQOS, IQOS ILUMA, GLO, Lil и покупатель который не знает что у него.",customerName:"Ольга",customerMood:"confused",turns:[{id:"t1",customerLine:"«Дайте стики для IQOS, пожалуйста»",choices:[{id:"c1a",text:"«Сейчас. IQOS обычный или ILUMA? Для них разные стики.»",outcome:"great",feedback:"Правильно. Один уточняющий вопрос — и ты не рискуешь выдать неверный стик. IQOS и IQOS ILUMA требуют разных стиков, это критично.",customerReply:"",xpReward:20},{id:"c1b",text:"«Вот HEETS — они для IQOS, самые популярные Purple Wave.»",outcome:"bad",feedback:"Угадывание. Если у покупателя ILUMA — HEETS ему не подойдут. Всегда уточняй модель перед тем как тянуться за товаром.",customerReply:"",xpReward:0},{id:"c1c",text:"«Стики вон там на витрине, IQOS там тоже есть.»",outcome:"bad",feedback:"Отправил к витрине без объяснений. Покупатель может взять неверный стик — и вернётся с претензией.",customerReply:"",xpReward:0}]},{id:"t2",customerLine:"«У меня IQOS ILUMA, новый. Дайте стики.»",choices:[{id:"c2a",text:"«Для ILUMA нужны TEREA — они специально для этой версии. HEETS сюда не подходят. Сейчас принесу.»",outcome:"great",feedback:"Правильно. IQOS ILUMA — новая версия с другим принципом нагрева. HEETS туда не войдут физически. TEREA — единственный вариант.",customerReply:"",xpReward:20},{id:"c2b",text:"«HEETS — вот, самые ходовые. IQOS они и есть.»",outcome:"bad",feedback:"Критическая ошибка. HEETS для ILUMA не подходят. Покупатель придёт обратно — стик не входит в устройство. Это возврат и испорченное впечатление.",customerReply:"",xpReward:0},{id:"c2c",text:"«ILUMA? Нужно уточнить у производителя, я не уверен какие стики.»",outcome:"bad",feedback:"Нельзя говорить «не уверен» в базовых вещах. TEREA для ILUMA — это то что нужно знать наизусть.",customerReply:"",xpReward:0}]},{id:"t3",customerLine:"«У меня GLO, дайте стики. Мне посоветовали взять HEETS — они лучше похоже.»",choices:[{id:"c3a",text:"«HEETS не подойдут для GLO — они только для IQOS. Для GLO нужны Neo. Если возьмёте HEETS — они просто не войдут в устройство.»",outcome:"great",feedback:"Правильно. Ты остановил ошибочную покупку и объяснил почему — HEETS физически не войдут в GLO. Это не мнение, это факт. Покупатель ушёл с правильным товаром.",customerReply:"",xpReward:20},{id:"c3b",text:"«Ну раз посоветовали HEETS — берите HEETS, они хорошие.»",outcome:"bad",feedback:"Пошёл на поводу у покупателя вместо того чтобы помочь. Он вернётся — стики не подходят. Это твоя ответственность.",customerReply:"",xpReward:0},{id:"c3c",text:"«Стики у всех устройств примерно одинаковые, разница небольшая.»",outcome:"bad",feedback:"Ложное утверждение. Стики не взаимозаменяемы — каждый тип подходит только к своему устройству. Это жёсткое правило, не рекомендация.",customerReply:"",xpReward:0}]},{id:"t4",customerLine:"«Стики нужны, но я не помню как называется моё устройство. Муж купил, он на работе.»",choices:[{id:"c4a",text:"«Берите HEETS — они самые популярные, скорее всего подойдут.»",outcome:"bad",feedback:"Угадывание. HEETS самые ходовые, но не универсальные. Если у мужа GLO — покупатель вернётся с неподходящими стиками.",customerReply:"",xpReward:0},{id:"c4b",text:"«Тогда подождите пока муж ответит — покупать вслепую опасно, стики строго под устройство.»",outcome:"bad",feedback:"Технически безопасно, но ты оставил покупателя без помощи. Фото устройства решает вопрос прямо сейчас — предложи это.",customerReply:"",xpReward:0},{id:"c4c",text:"«Покажите фото устройства если есть в телефоне — по виду скажу какие стики нужны.»",outcome:"great",feedback:"Правильно. Фото устройства — быстрое решение когда человек не помнит название. По внешнему виду IQOS, GLO и Lil хорошо различимы. Ты помог не угадывая.",customerReply:"",xpReward:20}]},{id:"t5",customerLine:"«У меня IQOS обычный. Посоветуйте вкус — беру впервые.»",choices:[{id:"c5a",text:"«Там 14 вкусов, попробуйте что нравится на вид.»",outcome:"bad",feedback:"Уход от ответа. 14 вкусов для новичка — это паралич выбора. Он пришёл за советом.",customerReply:"",xpReward:0},{id:"c5b",text:"«Purple Wave — топ продаж, фруктово-ягодный, мягкий. Для первого раза отличный выбор. Если любите ментол — Green Selection.»",outcome:"great",feedback:"Правильно. Purple Wave — объективный топ продаж, это аргумент, а не личное мнение. Добавляешь альтернативу для тех кто любит ментол. Покупатель первого раза получил конкретный ответ.",customerReply:"",xpReward:20},{id:"c5c",text:"«Все берут разное — это дело вкуса.»",outcome:"bad",feedback:"То же самое — перекладываешь решение на покупателя. Он прямо попросил порекомендовать. Дай рекомендацию.",customerReply:"",xpReward:0}]}],maxXP:100},{id:"tobacco-upsell",title:"Допродажа к табаку на кассе",grade:2,category:"sales",difficulty:2,situation:"Мужчина взял пачку сигарет. Зажигалки в руках нет. Твоя задача — уместно предложить сопутствующее и вовремя остановиться.",customerName:"Андрей",customerMood:"neutral",turns:[{id:"t1",customerLine:"Пачку Marlboro красную, пожалуйста.",choices:[{id:"c10",text:"Молча пробиваю сигареты",outcome:"bad",feedback:"❌ Молча пробить — значит упустить простую допродажу. Один вопрос ничего не стоит.",customerReply:"",xpReward:0},{id:"c11",text:"«Зажигалка нужна?»",outcome:"great",feedback:"✅ Правильно! Короткий вопрос — лучший способ. Не навязываешь — просто спрашиваешь.",customerReply:"",xpReward:20},{id:"c12",text:"«Возьмите зажигалку — у нас BIC хорошие»",outcome:"bad",feedback:"❌ Слишком напористо. Покупатель не просил рекомендацию — сначала спроси нужна ли вообще.",customerReply:"",xpReward:0}]},{id:"t2",customerLine:"Нет, зажигалка есть.",choices:[{id:"c20",text:"«А может всё-таки возьмёте про запас?»",outcome:"bad",feedback:"❌ Он уже сказал нет. Настаивать — значит раздражать. Принимаем ответ и двигаемся дальше.",customerReply:"",xpReward:0},{id:"c21",text:"Молча пробиваю, больше ничего не предлагаю",outcome:"bad",feedback:"⚠️ Можно, но упускаешь возможность. После отказа по зажигалке можно один раз предложить что-то другое — например напиток.",customerReply:"",xpReward:0},{id:"c22",text:"«Что-нибудь попить возьмёте?»",outcome:"great",feedback:"✅ Верно! Отказ по зажигалке — не отказ от всего. Один вопрос про напиток уместен.",customerReply:"",xpReward:20}]},{id:"t3",customerLine:"Да, воды возьму.",choices:[{id:"c30",text:"«Вот вода — и жвачку ещё возьмите, и снек, у нас хороший»",outcome:"bad",feedback:"❌ Слишком много сразу. Покупатель почувствует давление. Один вопрос — один товар.",customerReply:"",xpReward:0},{id:"c31",text:"Пробиваю воду и сигареты",outcome:"bad",feedback:"⚠️ Сработает, но ты упустил момент. Орбит у кассы лежит — один вопрос уместен после воды.",customerReply:"",xpReward:0},{id:"c32",text:"«Орбит к ним?» — коротко, один вопрос",outcome:"great",feedback:"✅ Один короткий вопрос — идеально. Он согласился на воду, можно предложить что-то одно ещё.",customerReply:"",xpReward:20}]},{id:"t4",customerLine:"Нет, не надо.",choices:[{id:"c40",text:"«Точно не возьмёте? У нас сегодня акция»",outcome:"bad",feedback:"❌ Давление после двух отказов — это уже раздражение. Принять «нет» — тоже навык.",customerReply:"",xpReward:0},{id:"c41",text:"«Хорошо. С вас 280 рублей.» — и улыбнуться",outcome:"great",feedback:"✅ Профессионально. Чёткое завершение, без обид. Покупатель уйдёт с хорошим впечатлением.",customerReply:"",xpReward:20},{id:"c42",text:"«Ну ладно» — и молча пробиваю",outcome:"bad",feedback:"⚠️ Молчать — нейтрально, но холодно. Короткое «хорошо» + сумма + улыбка — это сервис.",customerReply:"",xpReward:0}]}],maxXP:80},{id:"wine-to-fish",title:"Вино к рыбе на ужин",grade:2,category:"sales",difficulty:2,situation:"Покупательница выбирает вино к ужину с рыбой. Ты — продавец. Выбирай правильные реплики — от этого зависит, уйдёт ли она довольной.",customerName:"Марина",customerMood:"neutral",turns:[{id:"t1",customerLine:"Здравствуйте, хочу вино к рыбе на ужин. Что посоветуете?",choices:[{id:"c10",text:"Возьмите красное — оно универсальное, ко всему подходит",outcome:"bad",feedback:"Красное к рыбе — неправильно. Танины дают металлический привкус. Покупательница ушла неуверенной.",customerReply:"Хм, ладно... наверное попробую. Не очень уверена.",xpReward:0},{id:"c11",text:"К рыбе лучше белое сухое — Шардоне или Рислинг. Есть Шато Тамань белое, хорошее соотношение цены и качества",outcome:"great",feedback:"Правильно! Конкретный совет с брендом — покупательница уверена в выборе.",customerReply:"О, спасибо! Именно такой совет и нужен был.",xpReward:20},{id:"c12",text:"Смотрите сами, вон там весь стеллаж с вином",outcome:"bad",feedback:"Отправить покупателя «смотреть самого» — потеря продажи. Нет консультации = нет доверия.",customerReply:"Ладно... — уходит смотреть одна, выглядит растерянной.",xpReward:0}]},{id:"t2",customerLine:"А белое — оно сухое или полусладкое лучше к рыбе?",choices:[{id:"c20",text:"Лучше сухое — оно не перебивает вкус рыбы, подчёркивает его",outcome:"great",feedback:"Правильно! Чёткое объяснение почему — покупательница понимает и доверяет совету.",customerReply:"Понятно, логично! Возьму сухое.",xpReward:20},{id:"c21",text:"Полусладкое слаще, значит вкуснее — берите полусладкое",outcome:"bad",feedback:"Полусладкое к рыбе — плохая пара. Сладость заглушает вкус. Покупательница останется недовольна едой.",customerReply:"Ну ладно... — берёт полусладкое, к рыбе будет невкусно.",xpReward:0},{id:"c22",text:"Без разницы, берите любое",outcome:"bad",feedback:"«Без разницы» — потеря доверия. Продавец должен знать ответ и объяснять.",customerReply:"Хорошо... — уходит с неуверенным видом.",xpReward:0}]},{id:"t3",customerLine:"Хорошо, возьму сухое. На этикетке написано «Новый свет, Чили» — это хорошо или плохо?",choices:[{id:"c30",text:"Плохо — настоящее вино только европейское",outcome:"bad",feedback:"Неверно и снобски. Покупательница усомнилась в совете. Новый свет — полноценные вина с другим характером, не хуже.",customerReply:"Понятно... А вы уверены? Я читала что чилийское хорошее.",xpReward:0},{id:"c31",text:"Новый свет — это Чили, Аргентина, Австралия. Фруктовые, понятные вина. На этикетке пишут сорт — сразу видно что берёшь",outcome:"great",feedback:"Правильно! Объяснил концепцию, снял сомнения, покупательница уверена.",customerReply:"Ах вот оно что! Это даже удобнее. Спасибо, беру.",xpReward:20},{id:"c32",text:"Не знаю, я в географии не разбираюсь",outcome:"bad",feedback:"«Не знаю» убивает доверие. Продавец должен знать базовые вещи про категорию.",customerReply:"Жаль... — выглядит разочарованно.",xpReward:0}]},{id:"t4",customerLine:"Отлично, беру! У вас тут ещё что-нибудь к столу есть?",choices:[{id:"c40",text:"Нет, только алкоголь",outcome:"bad",feedback:"Упущена допродажа. Снеки к вину — очевидная пара, одна фраза = вторая позиция в чеке.",customerReply:"Хорошо, спасибо. — уходит, ничего не добавив.",xpReward:0},{id:"c41",text:"Есть снеки — орехи, чипсы, сырная нарезка. К белому вину хорошо идут лёгкие закуски. Вон там на стеллаже",outcome:"great",feedback:"Отлично! Допродажа сделана естественно. Покупательница уходит с тремя позициями вместо одной.",customerReply:"О, отлично! Возьму орешки и сыр, как раз не хватало.",xpReward:20},{id:"c42",text:"Ищите сами, у нас всё есть",outcome:"bad",feedback:"Снова упущена допродажа и испорчено впечатление. «Ищите сами» — не сервис.",customerReply:"Ладно... — уходит, ничего не взяв.",xpReward:0}]}],maxXP:80},{id:"lvi-gift",title:"Настойка в подарок",grade:2,category:"sales",difficulty:3,situation:"Мужчина ищет что-нибудь необычное в подарок другу. Ты — продавец. 4 обмена репликами.",customerName:"Роман",customerMood:"neutral",turns:[{id:"t1",customerLine:"Привет! Ищу что-нибудь необычное в подарок другу. Водку дарить скучно. Что посоветуете?",choices:[{id:"c10",text:"Возьмите коньяк, это всегда уместно",outcome:"bad",feedback:"Коньяк — не ЛВИ и не «необычное». Упущен шанс показать интересную категорию. Надо было уточнить предпочтения.",customerReply:"Ну коньяк... это как-то предсказуемо. Хотелось чего-то интересного.",xpReward:0},{id:"c11",text:"Есть хорошие варианты — Егермейстер, Амаретто, вермут. Что предпочитает друг — сладкое или что-то покрепче с характером?",outcome:"great",feedback:"Правильно! Показал ассортимент и сразу уточнил предпочтения — разговор пошёл в нужном направлении.",customerReply:"О, хороший вопрос! Он любит что-то с характером, не сладкое.",xpReward:20},{id:"c12",text:"У нас всё есть, смотрите на полке ЛВИ",outcome:"bad",feedback:"Без консультации покупатель потерян. ЛВИ — сложная категория, без объяснения он ничего не выберет.",customerReply:"А где эта полка? — идёт искать сам, выглядит растерянно.",xpReward:0}]},{id:"t2",customerLine:"Он любит что-нибудь с характером, не сладкое. Любит после ужина выпить рюмочку.",choices:[{id:"c20",text:"Тогда Егермейстер или Бехеровка — горькие настойки на травах, классический дижестив. Как раз для рюмочки после ужина",outcome:"great",feedback:"Отлично! Попал в запрос: горькое, с характером, для дижестива. Покупатель заинтересовался.",customerReply:"О, точно! Егермейстер — слышал про него. Расскажите подробнее.",xpReward:20},{id:"c21",text:"Тогда Бейлис — он со сливками, очень приятный",outcome:"bad",feedback:"Бейлис — сладкий сливочный ликёр. Полная противоположность запросу «с характером, не сладкое».",customerReply:"Нет-нет, Бейлис сладкий, это не то что нужно...",xpReward:0},{id:"c22",text:"Может тогда просто виски?",outcome:"bad",feedback:"Виски — не ЛВИ. Ушли от категории и не помогли с оригинальным выбором.",customerReply:"Виски у него есть, хотелось чего-то другого... — разочарован.",xpReward:0}]},{id:"t3",customerLine:"О, Егермейстер — слышал про него. А как его пьют?",choices:[{id:"c30",text:"Как хочет, так и пьёт",outcome:"bad",feedback:"«Как хочет» — не консультация. Покупатель спросил конкретно, ожидал интересного ответа.",customerReply:"Ясно... — немного разочарован ответом.",xpReward:0},{id:"c31",text:"Классика — очень холодным, прямо из морозилки, рюмкой. Можно со льдом. Некоторые делают Ягербомб — рюмку в бокал с энергетиком",outcome:"great",feedback:"Отлично! Конкретный совет + бонусный лайфхак = покупатель в восторге от подарка заранее.",customerReply:"О, вот это интересно! Про Ягербомб он точно не знал — классный подарок получится.",xpReward:20},{id:"c32",text:"Разбавляют с соком, иначе горько",outcome:"bad",feedback:"Неверно. Егермейстер пьют холодным в чистом виде или в Ягербомбе, не разбавляют соком.",customerReply:"Хм, с соком? Звучит как-то не так...",xpReward:0}]},{id:"t4",customerLine:"Отлично, беру! А что ещё взять — он любит коктейли делать дома.",choices:[{id:"c40",text:"Ничего не знаю про коктейли",outcome:"bad",feedback:"Упущена допродажа. Покупатель прямо сказал что любит коктейли — это приглашение предложить ещё.",customerReply:"Жаль... — уходит только с Егермейстером.",xpReward:0},{id:"c41",text:"Тогда возьмите ещё вермут — он отлично идёт в Мартини и Негрони. Или Амаретто — добавляют в кофе и десертные коктейли",outcome:"great",feedback:"Отлично! Допродажа через интерес покупателя. Ушёл с двумя позициями вместо одной.",customerReply:"О, про вермут не подумал! Возьму — отличный набор получится.",xpReward:20},{id:"c42",text:"Коктейли не наша тема, мы магазин, не бар",outcome:"bad",feedback:"«Не наша тема» — ошибка. Продавец должен знать базовое применение продукта и помогать с выбором.",customerReply:"Логично, ладно... — уходит ни с чем дополнительным.",xpReward:0}]}],maxXP:80},{id:"lowalc-couple",title:"Пара выбирает лёгкие напитки",grade:2,category:"sales",difficulty:2,situation:"Молодая пара выбирает напитки на вечер дома. Не хотят крепкое. 4 обмена репликами.",customerName:"Пара",customerMood:"neutral",turns:[{id:"t1",customerLine:"Привет! Хотим что-нибудь лёгкое на вечер, не крепкое. Он любит пиво, я не очень. Что посоветуете?",choices:[{id:"c10",text:"Тогда берите вино",outcome:"bad",feedback:"Вино — не слабоалкогольная категория и не закрывает запрос обоих. Пропущен шанс показать сидр и RTD.",customerReply:"Ну вино... мы хотели что-то поинтереснее, не только вино.",xpReward:0},{id:"c11",text:"Для него — пиво, для вас — сидр или RTD-коктейль в банке: мохито, джин-тоник. Лёгкое, вкусное, некрепкое",outcome:"great",feedback:"Отлично! Закрыл запрос обоих одной фразой, заинтересовал сидром. Разговор пошёл дальше.",customerReply:"О, отлично! Про сидр интересно, расскажи подробнее.",xpReward:20},{id:"c12",text:"Смотрите в холодильнике сами",outcome:"bad",feedback:"Пара с разными предпочтениями — идеальный случай для консультации. «Смотрите сами» = потерянная продажа.",customerReply:"Ладно... — уходят смотреть сами, выглядят растерянно.",xpReward:0}]},{id:"t2",customerLine:"О, сидр интересно! А он сладкий? Я не очень люблю сладкое.",choices:[{id:"c20",text:"Да, все сидры очень сладкие",outcome:"bad",feedback:"Неверно. Сидр бывает сухим. Ошибочная информация лишила покупательницу хорошего выбора.",customerReply:"Жаль, тогда не буду...",xpReward:0},{id:"c21",text:"Бывает по-разному — полусладкий и сухой. Если не любите сладкое, возьмите сухой, например Loic Raison французский, или RTD джин-тоник — он совсем не сладкий",outcome:"great",feedback:"Правильно! Дал точную информацию и конкретный вариант под запрос. Покупательница нашла своё.",customerReply:"О здорово! Тогда возьму сухой сидр или джин-тоник.",xpReward:20},{id:"c22",text:"Не знаю, смотрите на этикетке",outcome:"bad",feedback:"«Не знаю» = потеря доверия. Продавец должен знать базовые характеристики продукта.",customerReply:"Ладно... — берёт первое попавшееся, может попасть на сладкое.",xpReward:0}]},{id:"t3",customerLine:"А мне что выбрать — Хайнекен или Балтику? В чём разница?",choices:[{id:"c30",text:"Балтика дешевле, Хайнекен дороже",outcome:"bad",feedback:"Только цена — не консультация. Покупатель спросил про вкус, а не про цену.",customerReply:"Ну ясно и так... — берёт без интереса.",xpReward:0},{id:"c31",text:"Оба лагеры. Хайнекен — нидерландский, чуть горче и ароматнее, premium. Балтика №7 — российский, мягче, хорошо знакомый вкус. Что нравится больше?",outcome:"great",feedback:"Отлично! Объяснил разницу по вкусу, не по цене. Покупатель сделал осознанный выбор.",customerReply:"О, тогда Хайнекен — давно хотел попробовать нормальный!",xpReward:20},{id:"c32",text:"Один и тот же вкус, просто разные этикетки",outcome:"bad",feedback:"Неверно и обесценивает продукт. У брендов есть реальная разница во вкусе и позиционировании.",customerReply:"Серьёзно? Тогда возьму что подешевле... — разочарован.",xpReward:0}]},{id:"t4",customerLine:"Отлично, берём оба! Что к этому взять поесть?",choices:[{id:"c40",text:"Не знаю, идите в продуктовый",outcome:"bad",feedback:"Упущена очевидная допродажа. Снеки к пиву и сидру — главная пара категории.",customerReply:"Ладно... — уходят только с напитками.",xpReward:0},{id:"c41",text:"К пиву отлично — чипсы, орехи, кальмары. К сидру и джин-тонику — лёгкие снеки, орешки. Всё есть вон на том стеллаже",outcome:"great",feedback:"Идеально! Допродажа сделана, покупатели благодарны. Чек из 2 позиций стал 4.",customerReply:"Класс, возьмём орехи и чипсы! Спасибо, очень помогли.",xpReward:20},{id:"c42",text:"Ничего нет, только алкоголь продаём",outcome:"bad",feedback:"Снеки есть в магазине. Говорить «нет» когда товар есть — потеря продажи и доверия.",customerReply:"Жаль... — уходят без снеков.",xpReward:0}]}],maxXP:80},{id:"whisky-gift",title:"Виски в подарок",grade:2,category:"sales",difficulty:3,situation:"Женщина выбирает виски в подарок мужу на день рождения. Ты — продавец. 4 обмена репликами.",customerName:"Елена",customerMood:"confused",turns:[{id:"t1",customerLine:"Здравствуйте, мне нужен виски в подарок мужу. Но я совсем не разбираюсь.",choices:[{id:"c10",text:"Вот самый популярный, берите",outcome:"bad",feedback:"Без уточнения запроса — это угадайка. Покупательница не разбирается, ей нужна консультация, а не просто позиция на полке.",customerReply:"Хм, а почему именно этот?.. — смотрит растерянно.",xpReward:0},{id:"c11",text:"Хорошо, помогу! Он обычно какой виски пьёт — шотландский, ирландский? Или любой?",outcome:"great",feedback:"Правильно! Первый шаг — уточнить что нравится получателю подарка. Без этого выбор вслепую.",customerReply:"О, хороший вопрос! Он говорил что-то про шотландский. Любит с дымком.",xpReward:20},{id:"c12",text:"У нас вся полка — выбирайте сами, на любой вкус",outcome:"bad",feedback:"Человек прямо сказал «не разбираюсь» — отправить к полке самому это отказ от консультации.",customerReply:"Мне нужна помощь, я же сказала что не разбираюсь... — расстроена.",xpReward:0}]},{id:"t2",customerLine:"Не знаю... Он говорил что-то про шотландский. Любит что-то насыщенное, с дымком.",choices:[{id:"c20",text:"Тогда берите любой шотландский — они все похожи",outcome:"bad",feedback:"Шотландские виски очень разные: лёгкие, дымные, фруктовые. «Все похожи» — неверно и не помогает выбрать.",customerReply:"Нуу... может они и правда похожи? — неуверенно берёт первую попавшуюся.",xpReward:0},{id:"c21",text:"Шотландский с дымком — это айлейский стиль. Самый известный — Лафройг или Ардбег. У нас есть выдержанные односолодовые — как раз то что надо",outcome:"great",feedback:"Отлично! Назвал стиль, ориентир по вкусу и перевёл к конкретным позициям. Покупательница заинтересована и задаёт уточняющий вопрос.",customerReply:"О, звучит интересно! А чем односолодовый отличается от обычного?",xpReward:20},{id:"c22",text:"С дымком? Тогда лучше ирландский — он мягче",outcome:"bad",feedback:"Ирландский виски — как раз без дыма, он мягкий и лёгкий. Противоречит и запросу покупательницы, и предпочтению мужа.",customerReply:"Но он же сказал шотландский... — в замешательстве.",xpReward:0}]},{id:"t3",customerLine:"Окей, покажите. А чем односолодовый отличается от обычного?",choices:[{id:"c30",text:"Это сложно объяснить, лучше просто попробовать",outcome:"bad",feedback:"«Сложно объяснить» — плохой ответ. Простое объяснение повышает уверенность покупательницы и ценность подарка в её глазах.",customerReply:"Ну ладно... — уходит без понимания что берёт.",xpReward:0},{id:"c31",text:"Это виски с одной винокурни, из одного солода. Вкус более характерный, авторский. Блендед — смесь с разных заводов, ровнее и мягче. Для подарка односолодовый выглядит солиднее",outcome:"great",feedback:"Отлично! Коротко, понятно, с аргументом «для подарка солиднее». Покупательница сама пришла к решению.",customerReply:"Понятно! Тогда точно односолодовый — он же для подарка.",xpReward:20},{id:"c32",text:"Односолодовый дороже, поэтому лучше",outcome:"bad",feedback:"«Дороже = лучше» — слабый аргумент. Надо объяснять разницу во вкусе и происхождении, а не только в цене.",customerReply:"Значит просто дороже... и всё? — не очень убедительно.",xpReward:0}]},{id:"t4",customerLine:"Беру! Жаль только упаковки нет — хочется подарить красиво.",choices:[{id:"c40",text:"Да, упаковки нет, ничем не могу помочь",outcome:"bad",feedback:"Подарочный пакет и снек к виски — простая допродажа. «Ничем не могу» — упущенный чек и упущенный WOW-момент для покупательницы.",customerReply:"Жаль... — уходит без оформления, настроение чуть упало.",xpReward:0},{id:"c41",text:"У нас есть подарочные пакеты — подберём под бутылку. И можно добавить шоколад или снек — получится готовый набор",outcome:"great",feedback:"Идеально! Решила проблему упаковки и добавила допродажу. Покупательница довольна — чек вырос, клиент уходит счастливым.",customerReply:"О, отлично! Давайте пакет и шоколадку — муж будет в восторге!",xpReward:20},{id:"c42",text:"В любом канцтоварах продаётся бумага",outcome:"bad",feedback:"Отправить покупателя в другой магазин — потеря чека и плохой сервис. Подарочные пакеты — простая позиция с хорошей маржой.",customerReply:"Эм... окей, схожу потом. — немного растерялась.",xpReward:0}]}],maxXP:80},{id:"beer-unusual",title:"«Хочу пиво поинтереснее»",grade:2,category:"sales",difficulty:2,situation:"Мужчина хочет пиво — «что-нибудь интересное, не обычное». Ты — продавец. 4 обмена репликами.",customerName:"Виктор",customerMood:"neutral",turns:[{id:"t1",customerLine:"Привет. Хочу пиво — что-нибудь интересное, надоело одно и то же.",choices:[{id:"c10",text:"Возьмите Хайнекен, хорошее пиво",outcome:"bad",feedback:"Не уточнили запрос. Покупатель хочет «что-то интересное» — без уточнения вкусов не попасть в цель.",customerReply:"Хайнекен я и так знаю... хотелось чего-то нового. — немного разочарован.",xpReward:0},{id:"c11",text:"Подскажите — обычно светлое берёте или тёмное? Горечь любите?",outcome:"great",feedback:"Правильно! Два коротких вопроса — и уже понятно в каком направлении искать. Консультация началась.",customerReply:"Светлое обычно беру. Горечь нормально, но хочу другой вкус.",xpReward:20},{id:"c12",text:"Вон полка с пивом, смотрите",outcome:"bad",feedback:"Покупатель пришёл за советом, а не за навигацией. «Смотрите сами» — это не консультация.",customerReply:"Ну я и так вижу полку, хотел совет... — идёт смотреть сам, растерян.",xpReward:0}]},{id:"t2",customerLine:"Обычно светлое. Горечь нормально, но хочется чего-то с другим вкусом.",choices:[{id:"c20",text:"Тогда тёмное попробуйте — оно другое",outcome:"bad",feedback:"Покупатель сказал «светлое» — тёмное это противоположное направление. Не слушаем запрос.",customerReply:"Тёмное я не очень... — морщится.",xpReward:0},{id:"c21",text:"Тогда попробуйте нефильтрованное пшеничное — мутное, с фруктовым ароматом, без резкой горечи. Совсем другой вкус по сравнению с обычным лагером",outcome:"great",feedback:"Отлично! Попали в запрос: светлое, с характером, но другое. Покупатель заинтересовался и задаёт вопрос — разговор пошёл.",customerReply:"О, интересно! А почему оно мутное?",xpReward:20},{id:"c22",text:"Хайнекен возьмите — он получше остальных",outcome:"bad",feedback:"Хайнекен — стандартный лагер, «то же самое» для покупателя. Не отвечает на запрос «интересное».",customerReply:"Нуу, Хайнекен я знаю, это обычное... — не зацепило.",xpReward:0}]},{id:"t3",customerLine:"Мутное? А почему оно мутное, оно нормальное?",choices:[{id:"c30",text:"Да нормальное, просто такое",outcome:"bad",feedback:"«Просто такое» — не объяснение. Покупатель засомневался, а продавец не помог. Хорошее объяснение = уверенная покупка.",customerReply:"Ладно... — берёт без уверенности.",xpReward:0},{id:"c31",text:"Да, всё в порядке. Нефильтрованное не прогоняют через фильтр — в нём остаются дрожжи и белки. Отсюда мутность и более насыщенный вкус. Это не брак, это стиль",outcome:"great",feedback:"Отлично! Развеял сомнение и превратил «мутное» из минуса в плюс. Покупатель берёт с пониманием и без колебаний.",customerReply:"А, понял! Значит это фишка, не недостаток. Интересно, беру!",xpReward:20},{id:"c32",text:"Наверное срок годности, проверьте дату",outcome:"bad",feedback:"Неверно и опасно. Мутность нефильтрованного — это норма, не признак порчи. Такой ответ теряет продажу и подрывает доверие.",customerReply:"Хм, зачем тогда такое продавать... — кладёт обратно.",xpReward:0}]},{id:"t4",customerLine:"О, понял! Интересно. Беру. Больше ничего не надо.",choices:[{id:"c40",text:"Хорошо, на кассу",outcome:"bad",feedback:"Упущена простая допродажа. Снек к пиву — естественная пара, и покупатель в хорошем настроении. Идеальный момент предложить.",customerReply:"Окей... — уходит только с пивом.",xpReward:0},{id:"c41",text:"К пшеничному отлично идут чипсы или сухарики — пиво с хрустящим это классика. Взять что-нибудь?",outcome:"great",feedback:"Отлично! Логичная допродажа через гастропару. Покупатель ушёл довольный с двумя позициями вместо одной.",customerReply:"О, точно! Давайте чипсы возьму — как раз вечером хочется похрустеть.",xpReward:20},{id:"c42",text:"Может ещё одну бутылку возьмёте?",outcome:"bad",feedback:"«Возьмите ещё одну» — слабое предложение без обоснования. Лучше предложить снек — это логично и не давит.",customerReply:"Нет, одной хватит — я один дома. — немного неловко.",xpReward:0}]}],maxXP:80}];t.s(["FOUNDER_MESSAGE",0,a,"GRADES",0,e,"MODULES",0,o,"ROLEPLAY_SCENARIOS",0,n,"TRAINING_MODULES",0,d,"WOW_STORIES",0,[{id:1,authorName:"Мария Козлова",authorAvatar:"МК",authorGrade:3,title:"Постоянный покупатель запомнил моё имя",body:"Мужчина приходит каждое утро за двойным эспрессо. Сегодня сказал: «Мария, ты единственная, кто делает его правильно». Это мелочь — но именно такие моменты напоминают, почему мы здесь.",date:"25 мая 2026",hearts:14,featured:!0},{id:2,authorName:"Илья Петров",authorAvatar:"ИП",authorGrade:2,title:"Помог туристу найти подарок",body:"Пара из Казани искала что-то «московское» в подарок. Я рассказал про наш фирменный набор — они взяли три штуки и сказали, что обязательно вернутся. Оказывается, это не так сложно — просто говорить с людьми.",date:"22 мая 2026",hearts:9,featured:!1},{id:3,authorName:"Анна Смирнова",authorAvatar:"АС",authorGrade:2,title:"Вернула потерянную карту — покупатель был в слезах",body:"Покупательница забыла банковскую карту у кассы. Я нашла контакт через чек лояльности, позвонила и отложила карту. Когда она пришла — обнимала меня. Такие моменты дороже любого KPI.",date:"20 мая 2026",hearts:22,featured:!0}],"getGrade",0,function(t){return e.find(e=>e.id===t)||e[0]},"getLessonsByModule",0,function(t){return i.filter(e=>e.moduleId===t)}])}]);
